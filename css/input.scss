@@ -1,5 +1,6 @@
-@import "bourbon/bourbon.scss";
-@import "neat/neat.scss";
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "saffron/saffron";
 
 /* For testing only  - Leroi Dejesa */
 body {margin: 0px;}
@@ -16,44 +17,58 @@ body {margin: 0px;}
 }
 /* End for testing */
 
+body {
+  font-family: "Luminari", fantasy, sans-serif;
+  color: #eee;
+  font-size: 3em;
+}
 
 // @media screen and (min-width: 321px);
 
 // begin Bourbon + Neat sorcery
-#main {
+.main {
     @include outer-container();
     background-color: #aaa;
 }
-#top-row {
+.top-row {
     @include span-columns(12);
 }
-#mid-row {
+.mid-row {
     @include span-columns(12);
 }
-#end-row {
+.end-row {
     @include span-columns(12);
 }
 
-@mixin gimme-content {
-  * html {
-    @content
-  }
-}
 
 // automatic creation of nine divs
 $collist: 'maroon', 'red', 'orange', 'gold', 'wheat', 'greenyellow','lime','green','teal';
 @each $color in $collist {
-  #item-#{$color} {
-  text-align: center;
-  background-color: #{$color};
+  .item-#{$color} {
+  background-image: url('../img/#{$color}.jpg');
+  background-position: center;
+  background-size: auto;
   height: 200px;
+        position: relative;
   @include span-columns(4 of 12);
   }
+  .item-#{$color}::after {
+        position: absolute;
+  content: "#{$color}";
+  color: #222;
+  background-color: #{$color};
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 50%;
+  z-index: 2;
+  }
 }
-#item-wheat {
+.item-wheat {
   position: relative;
 }
-#item-wheat p {
+.item-wheat p {
 position: absolute;
 color: blue;
 top: 10%;
