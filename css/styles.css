@@ -2412,25 +2412,20 @@ html {
     -webkit-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
-/* For testing only  - Leroi Dejesa */
-body {
-  margin: 0px; }
-
-*:not(body):not(html) {
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px dashed white;
-  background-color: #bbb; }
+  margin: 0;
+  padding: 0; }
 
-.column {
-  min-height: 100px;
-  min-width: 50%;
-  float: left; }
-
-/* End for testing */
 body {
   font-family: "Luminari", fantasy, sans-serif;
   color: #eee;
-  font-size: 3em; }
+  font-size: 2em;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.9), 2px -2px 3px rgba(255, 255, 255, 0.9), -2px 2px 3px rgba(255, 255, 255, 0.9), -2px -2px 3px rgba(255, 255, 255, 0.9); }
 
 .main {
   max-width: 1200px;
@@ -2484,11 +2479,11 @@ body {
   content: "maroon";
   color: #222;
   background-color: maroon;
-  opacity: 0.7;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 50%;
+  right: 25%;
   z-index: 2; }
 
 .item-red {
@@ -2509,11 +2504,11 @@ body {
   content: "red";
   color: #222;
   background-color: red;
-  opacity: 0.7;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 50%;
+  right: 25%;
   z-index: 2; }
 
 .item-orange {
@@ -2534,11 +2529,11 @@ body {
   content: "orange";
   color: #222;
   background-color: orange;
-  opacity: 0.7;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 50%;
+  right: 25%;
   z-index: 2; }
 
 .item-gold {
@@ -2559,11 +2554,11 @@ body {
   content: "gold";
   color: #222;
   background-color: gold;
-  opacity: 0.7;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 50%;
+  right: 25%;
   z-index: 2; }
 
 .item-wheat {
@@ -2584,11 +2579,11 @@ body {
   content: "wheat";
   color: #222;
   background-color: wheat;
-  opacity: 0.7;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 50%;
+  right: 25%;
   z-index: 2; }
 
 .item-greenyellow {
@@ -2609,11 +2604,11 @@ body {
   content: "greenyellow";
   color: #222;
   background-color: greenyellow;
-  opacity: 0.7;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 50%;
+  right: 25%;
   z-index: 2; }
 
 .item-lime {
@@ -2634,11 +2629,11 @@ body {
   content: "lime";
   color: #222;
   background-color: lime;
-  opacity: 0.7;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 50%;
+  right: 25%;
   z-index: 2; }
 
 .item-green {
@@ -2659,11 +2654,11 @@ body {
   content: "green";
   color: #222;
   background-color: green;
-  opacity: 0.7;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 50%;
+  right: 25%;
   z-index: 2; }
 
 .item-teal {
@@ -2684,11 +2679,11 @@ body {
   content: "teal";
   color: #222;
   background-color: teal;
-  opacity: 0.7;
+  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 50%;
+  right: 25%;
   z-index: 2; }
 
 .item-wheat {
@@ -2700,5 +2695,12 @@ body {
   top: 10%;
   margin-left: 10%;
   font-family: 'Luminari'; }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 3em; } }
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 4em; } }
 
 /*# sourceMappingURL=styles.css.map */
