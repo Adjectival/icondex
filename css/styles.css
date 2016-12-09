@@ -1,0 +1,165 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* For testing only  - Leroi Dejesa */
+body {
+  margin: 0px; }
+
+*:not(body):not(html) {
+  box-sizing: border-box;
+  border: 1px dashed white;
+  background-color: #bbb; }
+
+.column {
+  min-height: 100px;
+  min-width: 50%;
+  float: left; }
+
+/* End for testing */
+#main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #aaa; }
+  #main::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+#top-row {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #top-row:last-child {
+    margin-right: 0; }
+
+#mid-row {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #mid-row:last-child {
+    margin-right: 0; }
+
+#end-row {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #end-row:last-child {
+    margin-right: 0; }
+
+#item-maroon {
+  text-align: center;
+  background-color: maroon;
+  height: 200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #item-maroon:last-child {
+    margin-right: 0; }
+
+#item-red {
+  text-align: center;
+  background-color: red;
+  height: 200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #item-red:last-child {
+    margin-right: 0; }
+
+#item-orange {
+  text-align: center;
+  background-color: orange;
+  height: 200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #item-orange:last-child {
+    margin-right: 0; }
+
+#item-gold {
+  text-align: center;
+  background-color: gold;
+  height: 200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #item-gold:last-child {
+    margin-right: 0; }
+
+#item-wheat {
+  text-align: center;
+  background-color: wheat;
+  height: 200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #item-wheat:last-child {
+    margin-right: 0; }
+
+#item-greenyellow {
+  text-align: center;
+  background-color: greenyellow;
+  height: 200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #item-greenyellow:last-child {
+    margin-right: 0; }
+
+#item-lime {
+  text-align: center;
+  background-color: lime;
+  height: 200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #item-lime:last-child {
+    margin-right: 0; }
+
+#item-green {
+  text-align: center;
+  background-color: green;
+  height: 200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #item-green:last-child {
+    margin-right: 0; }
+
+#item-teal {
+  text-align: center;
+  background-color: teal;
+  height: 200px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #item-teal:last-child {
+    margin-right: 0; }
+
+#item-wheat {
+  position: relative; }
+
+#item-wheat p {
+  position: absolute;
+  color: blue;
+  top: 10%;
+  margin-left: 10%;
+  font-family: 'Luminari'; }
+
+/*# sourceMappingURL=styles.css.map */

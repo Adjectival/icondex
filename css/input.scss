@@ -1,0 +1,62 @@
+@import "bourbon/bourbon.scss";
+@import "neat/neat.scss";
+
+/* For testing only  - Leroi Dejesa */
+body {margin: 0px;}
+*:not(body):not(html) {
+  box-sizing: border-box;
+  border: 1px dashed white;
+  background-color: #bbb;
+
+}
+.column {
+  min-height: 100px;
+  min-width: 50%;
+  float: left;
+}
+/* End for testing */
+
+
+// @media screen and (min-width: 321px);
+
+// begin Bourbon + Neat sorcery
+#main {
+    @include outer-container();
+    background-color: #aaa;
+}
+#top-row {
+    @include span-columns(12);
+}
+#mid-row {
+    @include span-columns(12);
+}
+#end-row {
+    @include span-columns(12);
+}
+
+@mixin gimme-content {
+  * html {
+    @content
+  }
+}
+
+// automatic creation of nine divs
+$collist: 'maroon', 'red', 'orange', 'gold', 'wheat', 'greenyellow','lime','green','teal';
+@each $color in $collist {
+  #item-#{$color} {
+  text-align: center;
+  background-color: #{$color};
+  height: 200px;
+  @include span-columns(4 of 12);
+  }
+}
+#item-wheat {
+  position: relative;
+}
+#item-wheat p {
+position: absolute;
+color: blue;
+top: 10%;
+margin-left: 10%;
+font-family: 'Luminari';
+}
