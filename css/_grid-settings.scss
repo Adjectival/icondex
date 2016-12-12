@@ -1,0 +1,13 @@
+@import "neat/neat-helpers";
+
+// viewports
+$Laptop-size: 1024px;
+$Tablet-size: 768px;
+$Lmobile-size: 425px;
+$Smobile-size: 320px;
+
+// breakpoints
+$Laptop: new-breakpoint(max-width $Laptop-size 8);
+$Tablet: new-breakpoint(max-width $Tablet-size 6);
+$Lmobile: new-breakpoint(max-width $Lmobile-size 3);
+$Smobile: new-breakpoint(max-width $Smobile-size 1);
