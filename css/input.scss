@@ -2,7 +2,6 @@
 @import "neat/neat";
 @import "saffron/saffron";
 
-
 *,
 *::before,
 *::after {
@@ -12,8 +11,7 @@
   margin: 0;
   padding:0;
 }
-
-
+// base
 body {
   font-family: "Luminari", fantasy, sans-serif;
   color: #eee;
@@ -24,64 +22,10 @@ body {
   -2px -2px 3px rgba(255,255,255,0.9),
   ;
 }
-// }
-// @media screen and (max-width: 768px) {
-//   body {
-//     font-size: 3.5em;
-// }
-// begin Bourbon + Neat sorcery
-.main {
-    @include outer-container();
-    background-color: #aaa;
-}
-.top-row {
-    @include span-columns(12);
-}
-.mid-row {
-    @include span-columns(12);
-}
-.end-row {
-    @include span-columns(12);
-}
 
+// layout
 
-// automatic creation of nine divs
-$collist: 'maroon', 'red', 'orange', 'gold', 'wheat', 'greenyellow','lime','green','teal';
-@each $color in $collist {
-  .item-#{$color} {
-  background-image: url('../img/#{$color}.jpg');
-  background-position: center;
-  background-size: auto;
-  height: 200px;
-        position: relative;
-  @include span-columns(4 of 12);
-  }
-  .item-#{$color}::after {
-        position: absolute;
-        // @include flip();
-  content: "#{$color}";
-  color: #222;
-  background-color: #{$color};
-  opacity: 0.6;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 25%;
-  z-index: 2;
-  }
-}
-.item-wheat {
-  position: relative;
-}
-.item-wheat p {
-position: absolute;
-color: blue;
-top: 10%;
-margin-left: 10%;
-font-family: 'Luminari';
-}
-//end media queries
-
+// Media queries & responsive vars
 @media screen and (max-width: 768px) {
   body {
     font-size: 3em;
@@ -90,5 +34,51 @@ font-family: 'Luminari';
 @media screen and (max-width: 1024px) {
   body {
     font-size: 4em;
+  }
+}
+
+.main {
+    @include outer-container();
+    background-color: #aaa;
+}
+.top-row, .mid-row, .end-row {
+    @include span-columns(12);
+}
+
+// modules
+
+// begin Bourbon + Neat sorcery
+// automatic creation of dozen divs
+$collist: 'maroon', 'red', 'orange', 'gold', 'wheat', 'greenyellow','lime','green','teal','cornflowerblue','mediumslateblue', 'indigo';
+@each $color in $collist {
+
+  .item-#{$color} {
+    // animation from Saffron on interaction
+    &:hover { @include bounce(); }
+    &:active { @include pulsate(); }
+  background-image: url('../img/#{$color}.jpg');
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 5em;
+        position: relative;
+  @include span-columns(4 of 12);
+  }
+// random experiment
+
+  // chromatic overlay & color name
+  .item-#{$color}::after {
+        position: absolute;
+  background-color: #{$color};
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  content: "~#{$color}";
+  color: #222;
+  // random vertical position for color name
+  line-height: random(150)*2 + random(150) + px;
   }
 }
