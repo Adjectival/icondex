@@ -35,17 +35,23 @@ body {
     background-color: #999;
 }
 .row {
+}
+.responsive {
   @include media($Smobile) {
-    @include span-columns(12);
+    @include span-columns(12 of 12);
+    // border: 5px dotted tomato;
   }
   @include media($Lmobile) {
-    @include span-columns(6);
+    @include span-columns(6 of 12);
+    // border: 5px dotted teal;
   }
   @include media($Tablet) {
-    @include span-columns(4);
+    @include span-columns(4 of 12);
+    // border: 5px dotted white;
   }
   @include media($Laptop) {
-    @include span-columns(3);
+    @include span-columns(4 of 12);
+    // border: 5px dotted white;
   }
 }
 
@@ -66,10 +72,9 @@ $collist: 'maroon', 'red', 'orange', 'gold', 'wheat', 'greenyellow','lime','gree
   background-repeat: no-repeat;
   height: 5em;
         position: relative;
-  // width: auto;
-  // max-width: 320px;
-  @include span-columns(4);
-  }
+
+
+}
 
   // chromatic overlay & color name
   .item-#{$color}::after {

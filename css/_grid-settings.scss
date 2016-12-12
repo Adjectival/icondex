@@ -7,7 +7,7 @@ $Lmobile-size: 425px;
 $Smobile-size: 320px;
 
 // breakpoints
-$Laptop: new-breakpoint(max-width $Laptop-size 8);
-$Tablet: new-breakpoint(max-width $Tablet-size 6);
-$Lmobile: new-breakpoint(max-width $Lmobile-size 3);
-$Smobile: new-breakpoint(max-width $Smobile-size 1);
+$Smobile: new-breakpoint(max-width $Lmobile-size 12);
+$Lmobile: new-breakpoint(min-width $Lmobile-size max-width $Tablet-size 12);
+$Tablet: new-breakpoint(min-width $Tablet-size max-width $Laptop-size 12);
+$Laptop: new-breakpoint(min-width $Laptop-size max-width 1920px 12);
