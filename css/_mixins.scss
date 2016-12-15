@@ -1,0 +1,38 @@
+@mixin deal-sass_cards {
+  // begin Bourbon + Neat sorcery
+  // automatic creation of dozen divs
+  $collist: 'maroon', 'red', 'orange', 'gold', 'wheat', 'greenyellow','lime','green','teal','cornflowerblue','mediumslateblue', 'indigo';
+  @each $color in $collist {
+
+    .item-#{$color} {
+      // animation from Saffron on interaction
+      &:hover { @include bounce(); }
+      &:active { @include pulsate(); }
+    background-image: url('../img/#{$color}.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 5em;
+          position: relative;
+
+
+  }
+
+    // chromatic overlay & color name
+    .item-#{$color}::after {
+          position: absolute;
+    background-color: #{$color};
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    content: "~#{$color}";
+    color: black;
+    // random vertical position for color name
+    line-height: random(200) + 100 + px;
+    }
+  }
+
+}

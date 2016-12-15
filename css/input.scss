@@ -2,6 +2,7 @@
 @import "grid-settings";
 @import "neat/neat";
 @import "saffron/saffron";
+@import "mixins";
 // media queries
 @import "Smobile";
 @import "Lmobile";
@@ -21,11 +22,11 @@
 body {
   font-family: "Luminari", fantasy, sans-serif;
   font-size: 2em;
-  text-shadow: 2px 2px 3px rgba(255,255,255,0.9),
-  2px -2px 3px rgba(255,255,255,0.9),
-  -2px 2px 3px rgba(255,255,255,0.9),
-  -2px -2px 3px rgba(255,255,255,0.9),
-  ;
+  // text-shadow: 2px 2px 3px rgba(255,255,255,0.9),
+  // 2px -2px 3px rgba(255,255,255,0.9),
+  // -2px 2px 3px rgba(255,255,255,0.9),
+  // -2px -2px 3px rgba(255,255,255,0.9),
+  // ;
 }
 
 // layout
@@ -34,9 +35,8 @@ body {
     @include outer-container();
     background-color: #999;
 }
+
 .row {
-}
-.responsive {
   @include media($Smobile) {
     @include span-columns(12 of 12);
     // border: 5px dotted tomato;
@@ -50,45 +50,8 @@ body {
     // border: 5px dotted white;
   }
   @include media($Laptop) {
-    @include span-columns(4 of 12);
+    @include span-columns(3 of 12);
     // border: 5px dotted white;
   }
 }
-
-// modules
-
-// begin Bourbon + Neat sorcery
-// automatic creation of dozen divs
-$collist: 'maroon', 'red', 'orange', 'gold', 'wheat', 'greenyellow','lime','green','teal','cornflowerblue','mediumslateblue', 'indigo';
-@each $color in $collist {
-
-  .item-#{$color} {
-    // animation from Saffron on interaction
-    &:hover { @include bounce(); }
-    &:active { @include pulsate(); }
-  background-image: url('../img/#{$color}.jpg');
-  background-position: center;
-  background-size: auto;
-  background-repeat: no-repeat;
-  height: 5em;
-        position: relative;
-
-
-}
-
-  // chromatic overlay & color name
-  .item-#{$color}::after {
-        position: absolute;
-  background-color: #{$color};
-  opacity: 0.6;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 2;
-  content: "~#{$color}";
-  color: black;
-  // random vertical position for color name
-  line-height: random(200) + 100 + px;
-  }
-}
+@include deal-sass_cards;

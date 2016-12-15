@@ -2435,8 +2435,7 @@ html {
 
 body {
   font-family: "Luminari", fantasy, sans-serif;
-  font-size: 2em;
-  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.9), 2px -2px 3px rgba(255, 255, 255, 0.9), -2px 2px 3px rgba(255, 255, 255, 0.9), -2px -2px 3px rgba(255, 255, 255, 0.9); }
+  font-size: 2em; }
 
 .main {
   max-width: 1200px;
@@ -2449,36 +2448,36 @@ body {
     display: block; }
 
 @media screen and (max-width: 425px) {
-  .responsive {
+  .row {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    .responsive:last-child {
+    .row:last-child {
       margin-right: 0; } }
 @media screen and (min-width: 425px) and (max-width: 768px) {
-  .responsive {
+  .row {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%; }
-    .responsive:last-child {
+    .row:last-child {
       margin-right: 0; } }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .responsive {
+  .row {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%; }
-    .responsive:last-child {
+    .row:last-child {
       margin-right: 0; } }
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
-  .responsive {
+  .row {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%; }
-    .responsive:last-child {
+    width: 23.23176%; }
+    .row:last-child {
       margin-right: 0; } }
 
 .item-maroon {
@@ -2506,7 +2505,7 @@ body {
   z-index: 2;
   content: "~maroon";
   color: black;
-  line-height: 194px; }
+  line-height: 176px; }
 
 .item-red {
   background-image: url("../img/red.jpg");
@@ -2533,7 +2532,7 @@ body {
   z-index: 2;
   content: "~red";
   color: black;
-  line-height: 113px; }
+  line-height: 127px; }
 
 .item-orange {
   background-image: url("../img/orange.jpg");
@@ -2560,7 +2559,7 @@ body {
   z-index: 2;
   content: "~orange";
   color: black;
-  line-height: 115px; }
+  line-height: 112px; }
 
 .item-gold {
   background-image: url("../img/gold.jpg");
@@ -2587,7 +2586,7 @@ body {
   z-index: 2;
   content: "~gold";
   color: black;
-  line-height: 270px; }
+  line-height: 295px; }
 
 .item-wheat {
   background-image: url("../img/wheat.jpg");
@@ -2614,7 +2613,7 @@ body {
   z-index: 2;
   content: "~wheat";
   color: black;
-  line-height: 192px; }
+  line-height: 102px; }
 
 .item-greenyellow {
   background-image: url("../img/greenyellow.jpg");
@@ -2641,7 +2640,7 @@ body {
   z-index: 2;
   content: "~greenyellow";
   color: black;
-  line-height: 300px; }
+  line-height: 196px; }
 
 .item-lime {
   background-image: url("../img/lime.jpg");
@@ -2668,7 +2667,7 @@ body {
   z-index: 2;
   content: "~lime";
   color: black;
-  line-height: 215px; }
+  line-height: 135px; }
 
 .item-green {
   background-image: url("../img/green.jpg");
@@ -2695,7 +2694,7 @@ body {
   z-index: 2;
   content: "~green";
   color: black;
-  line-height: 260px; }
+  line-height: 110px; }
 
 .item-teal {
   background-image: url("../img/teal.jpg");
@@ -2722,7 +2721,7 @@ body {
   z-index: 2;
   content: "~teal";
   color: black;
-  line-height: 270px; }
+  line-height: 107px; }
 
 .item-cornflowerblue {
   background-image: url("../img/cornflowerblue.jpg");
@@ -2749,7 +2748,7 @@ body {
   z-index: 2;
   content: "~cornflowerblue";
   color: black;
-  line-height: 169px; }
+  line-height: 107px; }
 
 .item-mediumslateblue {
   background-image: url("../img/mediumslateblue.jpg");
@@ -2776,7 +2775,7 @@ body {
   z-index: 2;
   content: "~mediumslateblue";
   color: black;
-  line-height: 267px; }
+  line-height: 244px; }
 
 .item-indigo {
   background-image: url("../img/indigo.jpg");
@@ -2803,6 +2802,6 @@ body {
   z-index: 2;
   content: "~indigo";
   color: black;
-  line-height: 215px; }
+  line-height: 157px; }
 
 /*# sourceMappingURL=styles.css.map */
