@@ -2451,14 +2451,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-maroon:hover {
+  .item-maroon:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-maroon:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-maroon::after {
   position: absolute;
@@ -2471,8 +2472,7 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~maroon";
-  color: black;
-  line-height: 169px; }
+  color: black; }
 
 .item-red {
   background-image: url("../img/red.jpg");
@@ -2481,14 +2481,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-red:hover {
+  .item-red:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-red:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-red::after {
   position: absolute;
@@ -2501,8 +2502,7 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~red";
-  color: black;
-  line-height: 128px; }
+  color: black; }
 
 .item-orange {
   background-image: url("../img/orange.jpg");
@@ -2511,14 +2511,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-orange:hover {
+  .item-orange:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-orange:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-orange::after {
   position: absolute;
@@ -2531,8 +2532,7 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~orange";
-  color: black;
-  line-height: 190px; }
+  color: black; }
 
 .item-gold {
   background-image: url("../img/gold.jpg");
@@ -2541,14 +2541,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-gold:hover {
+  .item-gold:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-gold:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-gold::after {
   position: absolute;
@@ -2561,8 +2562,7 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~gold";
-  color: black;
-  line-height: 190px; }
+  color: black; }
 
 .item-wheat {
   background-image: url("../img/wheat.jpg");
@@ -2571,14 +2571,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-wheat:hover {
+  .item-wheat:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-wheat:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-wheat::after {
   position: absolute;
@@ -2591,8 +2592,7 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~wheat";
-  color: black;
-  line-height: 269px; }
+  color: black; }
 
 .item-greenyellow {
   background-image: url("../img/greenyellow.jpg");
@@ -2601,14 +2601,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-greenyellow:hover {
+  .item-greenyellow:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-greenyellow:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-greenyellow::after {
   position: absolute;
@@ -2621,8 +2622,7 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~greenyellow";
-  color: black;
-  line-height: 208px; }
+  color: black; }
 
 .item-lime {
   background-image: url("../img/lime.jpg");
@@ -2631,14 +2631,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-lime:hover {
+  .item-lime:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-lime:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-lime::after {
   position: absolute;
@@ -2651,8 +2652,7 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~lime";
-  color: black;
-  line-height: 286px; }
+  color: black; }
 
 .item-green {
   background-image: url("../img/green.jpg");
@@ -2661,14 +2661,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-green:hover {
+  .item-green:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-green:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-green::after {
   position: absolute;
@@ -2681,8 +2682,7 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~green";
-  color: black;
-  line-height: 107px; }
+  color: black; }
 
 .item-teal {
   background-image: url("../img/teal.jpg");
@@ -2691,14 +2691,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-teal:hover {
+  .item-teal:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-teal:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-teal::after {
   position: absolute;
@@ -2711,8 +2712,7 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~teal";
-  color: black;
-  line-height: 113px; }
+  color: black; }
 
 .item-cornflowerblue {
   background-image: url("../img/cornflowerblue.jpg");
@@ -2721,14 +2721,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-cornflowerblue:hover {
+  .item-cornflowerblue:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-cornflowerblue:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-cornflowerblue::after {
   position: absolute;
@@ -2741,8 +2742,7 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~cornflowerblue";
-  color: black;
-  line-height: 194px; }
+  color: black; }
 
 .item-mediumslateblue {
   background-image: url("../img/mediumslateblue.jpg");
@@ -2751,14 +2751,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-mediumslateblue:hover {
+  .item-mediumslateblue:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-mediumslateblue:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-mediumslateblue::after {
   position: absolute;
@@ -2771,8 +2772,7 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~mediumslateblue";
-  color: black;
-  line-height: 227px; }
+  color: black; }
 
 .item-indigo {
   background-image: url("../img/indigo.jpg");
@@ -2781,14 +2781,15 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 40em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
   border-radius: 10px;
   position: relative; }
-  .item-indigo:hover {
+  .item-indigo:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  .item-indigo:active {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
 
 .item-indigo::after {
   position: absolute;
@@ -2801,7 +2802,6 @@ body {
   border-radius: 10px;
   z-index: 2;
   content: "~indigo";
-  color: black;
-  line-height: 182px; }
+  color: black; }
 
 /*# sourceMappingURL=styles.css.map */

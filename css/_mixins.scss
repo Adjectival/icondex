@@ -1,6 +1,12 @@
 @mixin edge-rounder {
   border-radius: 10px;
 }
+@mixin card-cutter {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
+}
 
 @mixin deal-sass_cards {
   // begin Bourbon + Neat sorcery
@@ -10,14 +16,15 @@
 
     .item-#{$color} {
       // animation from Saffron on interaction
-      &:hover { @include bounce(); }
-      &:active { @include pulsate(); }
+      // &:hover { @include enlarge(); }
+      &:active { @include bounce(); }
     background-image: url('../img/#{$color}.jpg');
     background-position: center;
     background-size: 100vw;
     background-repeat: no-repeat;
     width: 100%;
     height: 40em;
+    @include card-cutter;
     @include edge-rounder;
       position: relative;
   }
@@ -31,12 +38,11 @@
     left: 0;
     bottom: 0;
     right: 0;
+    // @include card-cutter;
     @include edge-rounder;
     z-index: 2;
     content: "~#{$color}";
     color: black;
-    // random vertical position for color name
-    line-height: random(200) + 100 + px;
     }
   }
 
