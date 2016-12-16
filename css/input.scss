@@ -1,12 +1,8 @@
 @import "bourbon/bourbon";
-@import "neat/neat";
-@import "grid-settings";
 @import "saffron/saffron";
+@import "variables";
+@import "media-queries";
 @import "mixins";
-// media queries
-@import "Mobile";
-@import "Tablet";
-@import "Laptop";
 
 *,
 *::before,
@@ -31,22 +27,14 @@ body {
 
 // layout
 
-div {
-  // display: inline-block;
-}
-
 .main {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  // @include outer-container();
-  // @include span-columns(12);
-  background-color: #999;
+  background-color: white;
 }
-.responsive {
-    width: 200px;
-    // flex-grow: 1;
-    margin: auto;
-    // width: 16.6vw;
-    // max-width: 8.25%;
+
+.inverse-text {
+  color: white;
 }
 @include deal-sass_cards;
