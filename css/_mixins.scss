@@ -20,6 +20,11 @@
   @include text-glow(black);
 }
 
+@mixin tinycarder {
+  font-size: 0.5em;
+}
+
+
 @mixin deal-sass_cards {
   // automatic population of dozen divs
   @each $color in $collist {
@@ -29,15 +34,19 @@
       // &:active { @include bounce(); }
     background-image: url('../img/#{$color}.jpg');
     background-position: center;
-    background-size: 100vw;
+    background-size: cover;
     background-repeat: no-repeat;
       @if ($color == "maroon" or $color == "mediumslateblue" or $color == "indigo") {
         @include white-caption;
       }
+      @if ($color == "greenyellow" or $color == "mediumslateblue" or $color == "cornflowerblue") {
+        @include tinycarder;
+      }
+
     width: 100%;
-    height: 40em;
-    // @include card-cutter;
-    // @include edge-rounder;
+    height: 20em;
+    @include card-cutter;
+    @include edge-rounder;
       position: relative;
     }
 

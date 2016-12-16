@@ -2407,20 +2407,21 @@
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
 @media (max-width: 424px) {
-  [class*='card-'] {
+  .cards > div {
     width: 100%;
     max-height: 60vh;
     display: block; } }
-@media (max-width: 1023px) {
-  [class*='card-'] {
+@media (min-width: 425px) {
+  .cards > div {
     width: 37%;
-    max-height: 40vh;
-    display: inline; } }
-@media (max-width: 4000px) {
-  [class*='card-'] {
+    max-height: 34vh;
+    display: flex; } }
+@media (min-width: 768px) {
+  .cards > div {
     width: 22%;
     max-height: 30vh;
     display: inline; } }
+
 *,
 *::before,
 *::after {
@@ -2432,32 +2433,33 @@
 
 body {
   font-family: monospace, sans-serif;
-  font-size: 5em;
+  font-size: 3em;
   color: #000;
   text-shadow: 2px 2px 3px white, 2px -2px 3px white, -2px 2px 3px white, -2px -2px 3px white; }
 
-.outermost {
+.flexboxed, .outermost, .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
-  .outermost h2 {
-    text-shadow: 2px 2px 3px orange, 2px -2px 3px orange, -2px 2px 3px orange, -2px -2px 3px orange; }
+
+.outermost h2 {
+  text-shadow: 2px 2px 3px orange, 2px -2px 3px orange, -2px 2px 3px orange, -2px -2px 3px orange; }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vw;
-  justify-content: space-around; }
+  width: 100vw; }
 
 .card-maroon {
   background-image: url("../img/maroon.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
   text-shadow: 2px 2px 3px black, 2px -2px 3px black, -2px 2px 3px black, -2px -2px 3px black;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-maroon::after {
@@ -2475,10 +2477,13 @@ body {
 .card-red {
   background-image: url("../img/red.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-red::after {
@@ -2496,10 +2501,13 @@ body {
 .card-orange {
   background-image: url("../img/orange.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-orange::after {
@@ -2517,10 +2525,13 @@ body {
 .card-gold {
   background-image: url("../img/gold.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-gold::after {
@@ -2538,10 +2549,13 @@ body {
 .card-wheat {
   background-image: url("../img/wheat.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-wheat::after {
@@ -2559,10 +2573,14 @@ body {
 .card-greenyellow {
   background-image: url("../img/greenyellow.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
+  font-size: 0.5em;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-greenyellow::after {
@@ -2580,10 +2598,13 @@ body {
 .card-lime {
   background-image: url("../img/lime.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-lime::after {
@@ -2601,10 +2622,13 @@ body {
 .card-green {
   background-image: url("../img/green.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-green::after {
@@ -2622,10 +2646,13 @@ body {
 .card-teal {
   background-image: url("../img/teal.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-teal::after {
@@ -2643,10 +2670,14 @@ body {
 .card-cornflowerblue {
   background-image: url("../img/cornflowerblue.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
+  font-size: 0.5em;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-cornflowerblue::after {
@@ -2664,12 +2695,16 @@ body {
 .card-mediumslateblue {
   background-image: url("../img/mediumslateblue.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
   text-shadow: 2px 2px 3px black, 2px -2px 3px black, -2px 2px 3px black, -2px -2px 3px black;
+  font-size: 0.5em;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-mediumslateblue::after {
@@ -2687,12 +2722,15 @@ body {
 .card-indigo {
   background-image: url("../img/indigo.jpg");
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
   text-shadow: 2px 2px 3px black, 2px -2px 3px black, -2px 2px 3px black, -2px -2px 3px black;
   width: 100%;
-  height: 40em;
+  height: 20em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
 
 .card-indigo::after {

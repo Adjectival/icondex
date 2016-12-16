@@ -16,27 +16,29 @@
 // base
 body {
   font-family: monospace, sans-serif;
-  font-size: 5em;
+  font-size: 3em;
   color: #000;
   @include text-glow(white);
 }
 
 // layout
-.outermost {
+.flexboxed {
   display: flex;
   flex-wrap: wrap;
-  // width: 100vw;
   justify-content: space-around;
+
+}
+
+.outermost {
+  @extend .flexboxed;
   h2 {
     @include text-glow(orange);
   }
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
+  @extend .flexboxed;
   width:100vw;
-  justify-content: space-around;
 }
 
 @include deal-sass_cards;
