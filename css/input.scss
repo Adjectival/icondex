@@ -28,7 +28,7 @@ body {
   // width: 100vw;
   justify-content: space-around;
   h2 {
-    @include text-glow(red);
+    @include text-glow(orange);
   }
 }
 

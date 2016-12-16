@@ -2406,17 +2406,17 @@
     -webkit-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
-@media (max-width: 320px) {
+@media (max-width: 424px) {
   [class*='card-'] {
     width: 100%;
     max-height: 60vh;
     display: block; } }
-@media (max-width: 425px) {
+@media (max-width: 1023px) {
   [class*='card-'] {
     width: 37%;
     max-height: 40vh;
     display: inline; } }
-@media (max-width: 1024px) {
+@media (max-width: 4000px) {
   [class*='card-'] {
     width: 22%;
     max-height: 30vh;
@@ -2431,7 +2431,7 @@
   padding: 0; }
 
 body {
-  font-family: "Aref Ruqaa", monospace, sans-serif;
+  font-family: monospace, sans-serif;
   font-size: 5em;
   color: #000;
   text-shadow: 2px 2px 3px white, 2px -2px 3px white, -2px 2px 3px white, -2px -2px 3px white; }
@@ -2441,7 +2441,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around; }
   .outermost h2 {
-    text-shadow: 2px 2px 3px red, 2px -2px 3px red, -2px 2px 3px red, -2px -2px 3px red; }
+    text-shadow: 2px 2px 3px orange, 2px -2px 3px orange, -2px 2px 3px orange, -2px -2px 3px orange; }
 
 .cards {
   display: flex;

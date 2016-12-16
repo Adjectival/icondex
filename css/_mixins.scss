@@ -15,8 +15,6 @@
   margin-top: 0.2em;
 }
 
-// $collist: 'maroon', 'red', 'orange', 'gold', 'wheat', 'greenyellow','lime','green','teal','cornflowerblue','mediumslateblue', 'indigo';
-
 @mixin white-caption {
   color: white;
   @include text-glow(black);
