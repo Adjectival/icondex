@@ -1,7 +1,8 @@
 @import "bourbon/bourbon";
+@import "neat/neat";
 @import "saffron/saffron";
 @import "variables";
-@import "media-queries";
+// @import "media-queries";
 @import "mixins";
 
 *,
@@ -13,35 +14,33 @@
   margin: 0;
   padding:0;
 }
+
 // base
+.flexboxed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 body {
   font-family: monospace, sans-serif;
   font-size: 3em;
   color: #000;
   @include text-glow(white);
+  @extend .flexboxed;
 }
 
 // layout
-.flexboxed {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-}
-
-.outermost {
+.header {
   @extend .flexboxed;
-  .header {
-    @extend .flexboxed;
-    width: 100%;
-    @include linear-gradient(to right, maroon, cornflowerblue);
-    h2 { @include text-glow(orange); }
-  }
+  width: 100%;
+  @include linear-gradient(to right, maroon, cornflowerblue);
+  h2 { @include text-glow(orange); }
 }
-
+.NEATrow { @include outer-container();}
 .cards {
   @extend .flexboxed;
-  width:100vw;
+  width: 100%;
+  @include span-columns(6);
 }
 
 @include deal-sass_cards;

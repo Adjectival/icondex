@@ -7,12 +7,21 @@
   -2px -2px 3px $color
   ;
 }
-@mixin edge-rounder {
+@mixin edge-rounder { border-radius: 0.5em; }
+@mixin card-spacer {
   border-radius: 0.5em;
-}
-@mixin card-cutter {
-  margin-left: 0.1em;
   margin-top: 0.2em;
+}
+@mixin card-sizer {
+  @media (min-width: 320px) and (max-width: 599px){
+    @include span-columns(6 of 6);
+  }
+  @media (min-width: 600px) and (max-width: 999px) {
+    @include span-columns(3 of 6);
+  }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    @include span-columns(2 of 6);
+  }
 }
 
 @mixin white-caption {
@@ -45,7 +54,16 @@
 
     width: 100%;
     height: 20em;
-    @include card-cutter;
+    @media (min-width: 320px) and (max-width: 599px){
+      @include span-columns(6 of 6);
+    }
+    @media (min-width: 600px) and (max-width: 999px) {
+      @include span-columns(3 of 6);
+    }
+    @media (min-width: 1000px) and (max-width: 3999px) {
+      @include span-columns(2 of 6);
+    }
+    @include card-spacer;
     @include edge-rounder;
       position: relative;
     }

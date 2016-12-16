@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -2406,22 +2412,6 @@
     -webkit-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
-@media (max-width: 424px) {
-  .cards > div {
-    width: 100%;
-    max-height: 60vh;
-    display: block; } }
-@media (min-width: 425px) {
-  .cards > div {
-    width: 37%;
-    max-height: 34vh;
-    display: flex; } }
-@media (min-width: 768px) {
-  .cards > div {
-    width: 22%;
-    max-height: 30vh;
-    display: inline; } }
-
 *,
 *::before,
 *::after {
@@ -2431,27 +2421,42 @@
   margin: 0;
   padding: 0; }
 
+.flexboxed, body, .header, .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
 body {
   font-family: monospace, sans-serif;
   font-size: 3em;
   color: #000;
   text-shadow: 2px 2px 3px white, 2px -2px 3px white, -2px 2px 3px white, -2px -2px 3px white; }
 
-.flexboxed, .outermost, .outermost .header, .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-
-.outermost .header {
+.header {
   width: 100%;
   background-color: maroon;
   background-image: -webkit-linear-gradient(left, maroon, cornflowerblue);
   background-image: linear-gradient(to right,maroon, cornflowerblue); }
-  .outermost .header h2 {
+  .header h2 {
     text-shadow: 2px 2px 3px orange, 2px -2px 3px orange, -2px 2px 3px orange, -2px -2px 3px orange; }
 
+.NEATrow {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .NEATrow::after {
+    clear: both;
+    content: "";
+    display: block; }
+
 .cards {
-  width: 100vw; }
+  width: 100%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .cards:last-child {
+    margin-right: 0; }
 
 .card-maroon {
   background-image: url("../img/maroon.jpg");
@@ -2462,7 +2467,7 @@ body {
   text-shadow: 2px 2px 3px black, 2px -2px 3px black, -2px 2px 3px black, -2px -2px 3px black;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2472,6 +2477,30 @@ body {
   .card-maroon:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-maroon {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-maroon:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-maroon {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-maroon:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-maroon {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-maroon:last-child {
+        margin-right: 0; } }
 
 .card-maroon::after {
   position: absolute;
@@ -2492,7 +2521,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2502,6 +2531,30 @@ body {
   .card-red:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-red {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-red:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-red {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-red:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-red {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-red:last-child {
+        margin-right: 0; } }
 
 .card-red::after {
   position: absolute;
@@ -2522,7 +2575,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2532,6 +2585,30 @@ body {
   .card-orange:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-orange {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-orange:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-orange {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-orange:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-orange {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-orange:last-child {
+        margin-right: 0; } }
 
 .card-orange::after {
   position: absolute;
@@ -2552,7 +2629,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2562,6 +2639,30 @@ body {
   .card-gold:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-gold {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-gold:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-gold {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-gold:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-gold {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-gold:last-child {
+        margin-right: 0; } }
 
 .card-gold::after {
   position: absolute;
@@ -2582,7 +2683,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2592,6 +2693,30 @@ body {
   .card-wheat:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-wheat {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-wheat:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-wheat {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-wheat:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-wheat {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-wheat:last-child {
+        margin-right: 0; } }
 
 .card-wheat::after {
   position: absolute;
@@ -2613,7 +2738,7 @@ body {
   font-size: 0.5em;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2623,6 +2748,30 @@ body {
   .card-greenyellow:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-greenyellow {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-greenyellow:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-greenyellow {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-greenyellow:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-greenyellow {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-greenyellow:last-child {
+        margin-right: 0; } }
 
 .card-greenyellow::after {
   position: absolute;
@@ -2643,7 +2792,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2653,6 +2802,30 @@ body {
   .card-lime:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-lime {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-lime:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-lime {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-lime:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-lime {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-lime:last-child {
+        margin-right: 0; } }
 
 .card-lime::after {
   position: absolute;
@@ -2673,7 +2846,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2683,6 +2856,30 @@ body {
   .card-green:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-green {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-green:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-green {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-green:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-green {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-green:last-child {
+        margin-right: 0; } }
 
 .card-green::after {
   position: absolute;
@@ -2703,7 +2900,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2713,6 +2910,30 @@ body {
   .card-teal:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-teal {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-teal:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-teal {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-teal:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-teal {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-teal:last-child {
+        margin-right: 0; } }
 
 .card-teal::after {
   position: absolute;
@@ -2734,7 +2955,7 @@ body {
   font-size: 0.5em;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2744,6 +2965,30 @@ body {
   .card-cornflowerblue:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-cornflowerblue {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-cornflowerblue:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-cornflowerblue {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-cornflowerblue:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-cornflowerblue {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-cornflowerblue:last-child {
+        margin-right: 0; } }
 
 .card-cornflowerblue::after {
   position: absolute;
@@ -2767,7 +3012,7 @@ body {
   font-size: 0.5em;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2777,6 +3022,30 @@ body {
   .card-mediumslateblue:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-mediumslateblue {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-mediumslateblue:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-mediumslateblue {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-mediumslateblue:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-mediumslateblue {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-mediumslateblue:last-child {
+        margin-right: 0; } }
 
 .card-mediumslateblue::after {
   position: absolute;
@@ -2799,7 +3068,7 @@ body {
   text-shadow: 2px 2px 3px black, 2px -2px 3px black, -2px 2px 3px black, -2px -2px 3px black;
   width: 100%;
   height: 20em;
-  margin-left: 0.1em;
+  border-radius: 0.5em;
   margin-top: 0.2em;
   border-radius: 0.5em;
   position: relative; }
@@ -2809,6 +3078,30 @@ body {
   .card-indigo:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
+  @media (min-width: 320px) and (max-width: 599px) {
+    .card-indigo {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      .card-indigo:last-child {
+        margin-right: 0; } }
+  @media (min-width: 600px) and (max-width: 999px) {
+    .card-indigo {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .card-indigo:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1000px) and (max-width: 3999px) {
+    .card-indigo {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 30.11389%; }
+      .card-indigo:last-child {
+        margin-right: 0; } }
 
 .card-indigo::after {
   position: absolute;
