@@ -15,7 +15,7 @@
 }
 // base
 body {
-  font-family: "Aref Ruqaa", monospace, sans-serif;
+  font-family: monospace, sans-serif;
   font-size: 5em;
   color: #000;
   @include text-glow(white);
