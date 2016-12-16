@@ -2433,7 +2433,8 @@
 
 body {
   font-family: "Luminari", fantasy, sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+  color: #000; }
 
 .main {
   display: flex;
@@ -2452,27 +2453,33 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-maroon:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-maroon:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-maroon:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-maroon::after {
   position: absolute;
+  opacity: 0.4;
   background-color: maroon;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~maroon";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 .item-red {
   background-image: url("../img/red.jpg");
@@ -2482,27 +2489,33 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-red:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-red:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-red:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-red::after {
   position: absolute;
+  opacity: 0.4;
   background-color: red;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~red";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 .item-orange {
   background-image: url("../img/orange.jpg");
@@ -2512,27 +2525,33 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-orange:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-orange:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-orange:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-orange::after {
   position: absolute;
+  opacity: 0.4;
   background-color: orange;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~orange";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 .item-gold {
   background-image: url("../img/gold.jpg");
@@ -2542,27 +2561,33 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-gold:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-gold:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-gold:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-gold::after {
   position: absolute;
+  opacity: 0.4;
   background-color: gold;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~gold";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 .item-wheat {
   background-image: url("../img/wheat.jpg");
@@ -2572,27 +2597,33 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-wheat:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-wheat:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-wheat:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-wheat::after {
   position: absolute;
+  opacity: 0.4;
   background-color: wheat;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~wheat";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 .item-greenyellow {
   background-image: url("../img/greenyellow.jpg");
@@ -2602,27 +2633,33 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-greenyellow:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-greenyellow:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-greenyellow:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-greenyellow::after {
   position: absolute;
+  opacity: 0.4;
   background-color: greenyellow;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~greenyellow";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 .item-lime {
   background-image: url("../img/lime.jpg");
@@ -2632,27 +2669,33 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-lime:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-lime:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-lime:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-lime::after {
   position: absolute;
+  opacity: 0.4;
   background-color: lime;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~lime";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 .item-green {
   background-image: url("../img/green.jpg");
@@ -2662,27 +2705,33 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-green:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-green:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-green:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-green::after {
   position: absolute;
+  opacity: 0.4;
   background-color: green;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~green";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 .item-teal {
   background-image: url("../img/teal.jpg");
@@ -2692,27 +2741,33 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-teal:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-teal:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-teal:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-teal::after {
   position: absolute;
+  opacity: 0.4;
   background-color: teal;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~teal";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 .item-cornflowerblue {
   background-image: url("../img/cornflowerblue.jpg");
@@ -2722,27 +2777,33 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-cornflowerblue:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-cornflowerblue:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-cornflowerblue:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-cornflowerblue::after {
   position: absolute;
+  opacity: 0.4;
   background-color: cornflowerblue;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~cornflowerblue";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 .item-mediumslateblue {
   background-image: url("../img/mediumslateblue.jpg");
@@ -2752,27 +2813,33 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-mediumslateblue:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-mediumslateblue:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-mediumslateblue:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-mediumslateblue::after {
   position: absolute;
+  opacity: 0.4;
   background-color: mediumslateblue;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~mediumslateblue";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 .item-indigo {
   background-image: url("../img/indigo.jpg");
@@ -2782,26 +2849,32 @@ body {
   width: 100%;
   height: 40em;
   margin-left: 0.2em;
-  margin-right: 0.2em;
   margin-top: 0.1em;
   margin-bottom: 0.3em;
-  border-radius: 10px;
+  border-radius: 1em;
   position: relative; }
+  .item-indigo:hover {
+    -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
+    transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835); }
+    .item-indigo:hover:hover {
+      -webkit-transform: translateY(-1em) scale(1.15);
+      -ms-transform: translateY(-1em) scale(1.15);
+      transform: translateY(-1em) scale(1.15); }
   .item-indigo:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
 .item-indigo::after {
   position: absolute;
+  opacity: 0.4;
   background-color: indigo;
-  opacity: 0.6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 10px;
   z-index: 2;
   content: "~indigo";
-  color: black; }
+  border-radius: 1em;
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */
