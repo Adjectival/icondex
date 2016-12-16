@@ -19,22 +19,24 @@ body {
   font-size: 5em;
   color: #000;
   @include text-glow(white);
+}
+
+// layout
+.outermost {
+  display: flex;
+  flex-wrap: wrap;
+  // width: 100vw;
+  justify-content: space-around;
   h2 {
-    align-self: center;
+    @include text-glow(red);
   }
 }
 
-
-// layout
-
-.main {
+.cards {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-  background-color: white;
+  width:100vw;
+  justify-content: space-around;
 }
 
-.inverse-text {
-  color: white;
-}
 @include deal-sass_cards;
