@@ -2432,9 +2432,12 @@
   padding: 0; }
 
 body {
-  font-family: "Aref Ruqaa", fantasy, sans-serif;
+  font-family: "Aref Ruqaa", monospace, sans-serif;
   font-size: 5em;
-  color: #000; }
+  color: #000;
+  text-shadow: 2px 2px 3px white, 2px -2px 3px white, -2px 2px 3px white, -2px -2px 3px white; }
+  body h2 {
+    align-self: center; }
 
 .main {
   display: flex;
@@ -2450,12 +2453,13 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
+  color: white;
+  text-shadow: 2px 2px 3px black, 2px -2px 3px black, -2px 2px 3px black, -2px -2px 3px black;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-maroon:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2470,28 +2474,26 @@ body {
 
 .item-maroon::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: maroon;
+  content: "~maroon";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~maroon";
-  border-radius: 0.5em;
-  color: white; }
+  border-radius: 0.5em; }
 
 .item-red {
   background-image: url("../img/red.jpg");
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-red:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2506,14 +2508,14 @@ body {
 
 .item-red::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: red;
+  content: "~red";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~red";
   border-radius: 0.5em; }
 
 .item-orange {
@@ -2521,12 +2523,11 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-orange:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2541,14 +2542,14 @@ body {
 
 .item-orange::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: orange;
+  content: "~orange";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~orange";
   border-radius: 0.5em; }
 
 .item-gold {
@@ -2556,12 +2557,11 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-gold:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2576,14 +2576,14 @@ body {
 
 .item-gold::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: gold;
+  content: "~gold";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~gold";
   border-radius: 0.5em; }
 
 .item-wheat {
@@ -2591,12 +2591,11 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-wheat:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2611,14 +2610,14 @@ body {
 
 .item-wheat::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: wheat;
+  content: "~wheat";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~wheat";
   border-radius: 0.5em; }
 
 .item-greenyellow {
@@ -2626,12 +2625,11 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-greenyellow:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2646,14 +2644,14 @@ body {
 
 .item-greenyellow::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: greenyellow;
+  content: "~greenyellow";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~greenyellow";
   border-radius: 0.5em; }
 
 .item-lime {
@@ -2661,12 +2659,11 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-lime:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2681,14 +2678,14 @@ body {
 
 .item-lime::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: lime;
+  content: "~lime";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~lime";
   border-radius: 0.5em; }
 
 .item-green {
@@ -2696,12 +2693,11 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-green:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2716,14 +2712,14 @@ body {
 
 .item-green::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: green;
+  content: "~green";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~green";
   border-radius: 0.5em; }
 
 .item-teal {
@@ -2731,12 +2727,11 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-teal:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2751,14 +2746,14 @@ body {
 
 .item-teal::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: teal;
+  content: "~teal";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~teal";
   border-radius: 0.5em; }
 
 .item-cornflowerblue {
@@ -2766,12 +2761,11 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-cornflowerblue:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2786,14 +2780,14 @@ body {
 
 .item-cornflowerblue::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: cornflowerblue;
+  content: "~cornflowerblue";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~cornflowerblue";
   border-radius: 0.5em; }
 
 .item-mediumslateblue {
@@ -2801,12 +2795,13 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
+  color: white;
+  text-shadow: 2px 2px 3px black, 2px -2px 3px black, -2px 2px 3px black, -2px -2px 3px black;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-mediumslateblue:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2821,28 +2816,28 @@ body {
 
 .item-mediumslateblue::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: mediumslateblue;
+  content: "~mediumslateblue";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~mediumslateblue";
-  border-radius: 0.5em;
-  color: white; }
+  border-radius: 0.5em; }
 
 .item-indigo {
   background-image: url("../img/indigo.jpg");
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  margin-left: 0.1em;
-  margin-top: 0.05em;
-  margin-bottom: 0.15em;
-  border-radius: 0.5em;
+  color: white;
+  text-shadow: 2px 2px 3px black, 2px -2px 3px black, -2px 2px 3px black, -2px -2px 3px black;
   width: 100%;
   height: 40em;
+  margin-left: 0.1em;
+  margin-top: 0.2em;
+  border-radius: 0.5em;
   position: relative; }
   .item-indigo:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2857,15 +2852,14 @@ body {
 
 .item-indigo::after {
   position: absolute;
-  opacity: 0.4;
+  opacity: 0.55;
   background-color: indigo;
+  content: "~indigo";
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 2;
-  content: "~indigo";
-  border-radius: 0.5em;
-  color: white; }
+  border-radius: 0.5em; }
 
 /*# sourceMappingURL=styles.css.map */

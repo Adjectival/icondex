@@ -15,14 +15,13 @@
 }
 // base
 body {
-  font-family: "Aref Ruqaa", fantasy, sans-serif;
+  font-family: "Aref Ruqaa", monospace, sans-serif;
   font-size: 5em;
   color: #000;
-  // text-shadow: 2px 2px 3px rgba(255,255,255,0.9),
-  // 2px -2px 3px rgba(255,255,255,0.9),
-  // -2px 2px 3px rgba(255,255,255,0.9),
-  // -2px -2px 3px rgba(255,255,255,0.9),
-  // ;
+  @include text-glow(white);
+  h2 {
+    align-self: center;
+  }
 }
 
 
