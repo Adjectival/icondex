@@ -30,8 +30,8 @@
   @each $color in $collist {
 
     .card-#{$color} {
-      // &:hover { @include enlarge(); }
-      // &:active { @include bounce(); }
+      &:hover { @include pulsate(); }
+      &:active { @include bounce(); }
     background-image: url('../img/#{$color}.jpg');
     background-position: center;
     background-size: cover;

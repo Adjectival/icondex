@@ -31,8 +31,11 @@ body {
 
 .outermost {
   @extend .flexboxed;
-  h2 {
-    @include text-glow(orange);
+  .header {
+    @extend .flexboxed;
+    width: 100%;
+    @include linear-gradient(to right, maroon, cornflowerblue);
+    h2 { @include text-glow(orange); }
   }
 }
 
