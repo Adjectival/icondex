@@ -12,10 +12,32 @@
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
+    width: 100%;
     height: 5em;
           position: relative;
 
 
+    // @include media($Mobile) {
+    //   @include span-columns(12 of 12);
+    //   // border: 5px dotted tomato;
+    // }
+    // @include media($Tablet) {
+    //   @include span-columns(6 of 12);
+    //   // border: 5px dotted white;
+    // }
+    // @include media($Laptop) {
+    //   @include span-columns(4 of 12);
+    //   // border: 5px dotted white;
+    // }
+    @media (max-width: 425px){
+      // @include span-columns(12 of 12);
+    }
+    @media (max-width: 1440px){
+      // @include span-columns(4 of 12);
+    }
+    @media (max-width: 4000px){
+      // @include span-columns(1 of 12);
+    }
   }
 
     // chromatic overlay & color name

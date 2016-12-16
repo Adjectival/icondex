@@ -1,9 +1,9 @@
-@include media($Laptop) {
+@include media($Mobile) {
   body {
-    background-color: #000;
+    background-color: #777;
   }
   .responsive {
-      width: 50px;
+      width: 500px;
       // flex-grow: 1;
       margin: auto;
       // width: 16.6vw;

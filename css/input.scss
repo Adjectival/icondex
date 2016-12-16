@@ -1,11 +1,10 @@
 @import "bourbon/bourbon";
-@import "grid-settings";
 @import "neat/neat";
+@import "grid-settings";
 @import "saffron/saffron";
 @import "mixins";
 // media queries
-@import "Smobile";
-@import "Lmobile";
+@import "Mobile";
 @import "Tablet";
 @import "Laptop";
 
@@ -29,29 +28,25 @@ body {
   // ;
 }
 
+
 // layout
 
-.main {
-    @include outer-container();
-    background-color: #999;
+div {
+  // display: inline-block;
 }
 
-.row {
-  @include media($Smobile) {
-    @include span-columns(12 of 12);
-    // border: 5px dotted tomato;
-  }
-  @include media($Lmobile) {
-    @include span-columns(6 of 12);
-    // border: 5px dotted teal;
-  }
-  @include media($Tablet) {
-    @include span-columns(4 of 12);
-    // border: 5px dotted white;
-  }
-  @include media($Laptop) {
-    @include span-columns(3 of 12);
-    // border: 5px dotted white;
-  }
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  // @include outer-container();
+  // @include span-columns(12);
+  background-color: #999;
+}
+.responsive {
+    width: 200px;
+    // flex-grow: 1;
+    margin: auto;
+    // width: 16.6vw;
+    // max-width: 8.25%;
 }
 @include deal-sass_cards;

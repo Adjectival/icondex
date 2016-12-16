@@ -3,11 +3,9 @@
 // viewports
 $Laptop-size: 1024px;
 $Tablet-size: 768px;
-$Lmobile-size: 425px;
-$Smobile-size: 320px;
+$Mobile-size: 425px;
 
 // breakpoints
-$Smobile: new-breakpoint(max-width $Lmobile-size 12);
-$Lmobile: new-breakpoint(min-width $Lmobile-size max-width $Tablet-size 12);
-$Tablet: new-breakpoint(min-width $Tablet-size max-width $Laptop-size 12);
-$Laptop: new-breakpoint(min-width $Laptop-size max-width 1920px 12);
+$Mobile: new-breakpoint(max-width $Mobile-size 12);
+$Tablet: new-breakpoint(min-width $Tablet-size max-width $Laptop-size 6);
+$Laptop: new-breakpoint(min-width $Laptop-size max-width 4000px 4);

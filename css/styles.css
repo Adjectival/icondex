@@ -2414,16 +2414,25 @@ html {
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
 @media screen and (max-width: 425px) {
   body {
-    background-color: #999; } }
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  body {
-    background-color: #777; } }
+    background-color: #777; }
+
+  .responsive {
+    width: 500px;
+    margin: auto; } }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
-    background-color: #444; } }
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    background-color: #444; }
+
+  .responsive {
+    width: 200px;
+    margin: auto; } }
+@media screen and (min-width: 1024px) and (max-width: 4000px) {
   body {
-    background-color: #000; } }
+    background-color: #000; }
+
+  .responsive {
+    width: 50px;
+    margin: auto; } }
 *,
 *::before,
 *::after {
@@ -2438,53 +2447,20 @@ body {
   font-size: 2em; }
 
 .main {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
   background-color: #999; }
-  .main::after {
-    clear: both;
-    content: "";
-    display: block; }
 
-@media screen and (max-width: 425px) {
-  .row {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    .row:last-child {
-      margin-right: 0; } }
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  .row {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .row:last-child {
-      margin-right: 0; } }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .row {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
-    .row:last-child {
-      margin-right: 0; } }
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
-  .row {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
-    .row:last-child {
-      margin-right: 0; } }
+.responsive {
+  width: 200px;
+  margin: auto; }
 
 .item-maroon {
   background-image: url("../img/maroon.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-maroon:hover {
@@ -2505,13 +2481,14 @@ body {
   z-index: 2;
   content: "~maroon";
   color: black;
-  line-height: 176px; }
+  line-height: 231px; }
 
 .item-red {
   background-image: url("../img/red.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-red:hover {
@@ -2532,13 +2509,14 @@ body {
   z-index: 2;
   content: "~red";
   color: black;
-  line-height: 127px; }
+  line-height: 182px; }
 
 .item-orange {
   background-image: url("../img/orange.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-orange:hover {
@@ -2559,13 +2537,14 @@ body {
   z-index: 2;
   content: "~orange";
   color: black;
-  line-height: 112px; }
+  line-height: 127px; }
 
 .item-gold {
   background-image: url("../img/gold.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-gold:hover {
@@ -2586,13 +2565,14 @@ body {
   z-index: 2;
   content: "~gold";
   color: black;
-  line-height: 295px; }
+  line-height: 231px; }
 
 .item-wheat {
   background-image: url("../img/wheat.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-wheat:hover {
@@ -2613,13 +2593,14 @@ body {
   z-index: 2;
   content: "~wheat";
   color: black;
-  line-height: 102px; }
+  line-height: 120px; }
 
 .item-greenyellow {
   background-image: url("../img/greenyellow.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-greenyellow:hover {
@@ -2640,13 +2621,14 @@ body {
   z-index: 2;
   content: "~greenyellow";
   color: black;
-  line-height: 196px; }
+  line-height: 256px; }
 
 .item-lime {
   background-image: url("../img/lime.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-lime:hover {
@@ -2667,13 +2649,14 @@ body {
   z-index: 2;
   content: "~lime";
   color: black;
-  line-height: 135px; }
+  line-height: 241px; }
 
 .item-green {
   background-image: url("../img/green.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-green:hover {
@@ -2694,13 +2677,14 @@ body {
   z-index: 2;
   content: "~green";
   color: black;
-  line-height: 110px; }
+  line-height: 286px; }
 
 .item-teal {
   background-image: url("../img/teal.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-teal:hover {
@@ -2721,13 +2705,14 @@ body {
   z-index: 2;
   content: "~teal";
   color: black;
-  line-height: 107px; }
+  line-height: 274px; }
 
 .item-cornflowerblue {
   background-image: url("../img/cornflowerblue.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-cornflowerblue:hover {
@@ -2748,13 +2733,14 @@ body {
   z-index: 2;
   content: "~cornflowerblue";
   color: black;
-  line-height: 107px; }
+  line-height: 196px; }
 
 .item-mediumslateblue {
   background-image: url("../img/mediumslateblue.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-mediumslateblue:hover {
@@ -2775,13 +2761,14 @@ body {
   z-index: 2;
   content: "~mediumslateblue";
   color: black;
-  line-height: 244px; }
+  line-height: 149px; }
 
 .item-indigo {
   background-image: url("../img/indigo.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  width: 100%;
   height: 5em;
   position: relative; }
   .item-indigo:hover {
@@ -2802,6 +2789,6 @@ body {
   z-index: 2;
   content: "~indigo";
   color: black;
-  line-height: 157px; }
+  line-height: 283px; }
 
 /*# sourceMappingURL=styles.css.map */
