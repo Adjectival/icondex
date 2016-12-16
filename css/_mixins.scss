@@ -1,39 +1,36 @@
 @mixin edge-rounder {
-  border-radius: 1em;
+  border-radius: 0.5em;
 }
 @mixin card-cutter {
-  margin-left: 0.2em;
+  margin-left: 0.1em;
   // margin-right: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
 }
 
 $collist: 'maroon', 'red', 'orange', 'gold', 'wheat', 'greenyellow','lime','green','teal','cornflowerblue','mediumslateblue', 'indigo';
 
-@mixin white-caption {
-  color: white;
-}
+@mixin white-caption { color: white; }
 
 @mixin deal-sass_cards {
   // automatic creation of dozen divs
   @each $color in $collist {
 
+
     .item-#{$color} {
-      // bg img w animation from Saffron on interaction
       &:hover { @include enlarge(); }
       &:active { @include bounce(); }
     background-image: url('../img/#{$color}.jpg');
     background-position: center;
     background-size: 100vw;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 40em;
     @include card-cutter;
     @include edge-rounder;
+    width: 100%;
+    height: 40em;
       position: relative;
-  }
+    }
 
-    // chromatic overlay & color name
     .item-#{$color}::after {
       position: absolute;
     opacity: 0.4;
@@ -45,7 +42,7 @@ $collist: 'maroon', 'red', 'orange', 'gold', 'wheat', 'greenyellow','lime','gree
     z-index: 2;
     content: "~#{$color}";
     @include edge-rounder;
-      @if #{$color} == ('maroon' or 'mediumslateblue' or 'indigo') {
+      @if ($color == "maroon" or $color == "mediumslateblue" or $color == "indigo") {
         @include white-caption;
       }
     }

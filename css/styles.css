@@ -2432,8 +2432,8 @@
   padding: 0; }
 
 body {
-  font-family: "Luminari", fantasy, sans-serif;
-  font-size: 2em;
+  font-family: "Aref Ruqaa", fantasy, sans-serif;
+  font-size: 5em;
   color: #000; }
 
 .main {
@@ -2450,12 +2450,12 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-maroon:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2478,7 +2478,7 @@ body {
   right: 0;
   z-index: 2;
   content: "~maroon";
-  border-radius: 1em;
+  border-radius: 0.5em;
   color: white; }
 
 .item-red {
@@ -2486,12 +2486,12 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-red:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2514,20 +2514,19 @@ body {
   right: 0;
   z-index: 2;
   content: "~red";
-  border-radius: 1em;
-  color: white; }
+  border-radius: 0.5em; }
 
 .item-orange {
   background-image: url("../img/orange.jpg");
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-orange:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2550,20 +2549,19 @@ body {
   right: 0;
   z-index: 2;
   content: "~orange";
-  border-radius: 1em;
-  color: white; }
+  border-radius: 0.5em; }
 
 .item-gold {
   background-image: url("../img/gold.jpg");
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-gold:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2586,20 +2584,19 @@ body {
   right: 0;
   z-index: 2;
   content: "~gold";
-  border-radius: 1em;
-  color: white; }
+  border-radius: 0.5em; }
 
 .item-wheat {
   background-image: url("../img/wheat.jpg");
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-wheat:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2622,20 +2619,19 @@ body {
   right: 0;
   z-index: 2;
   content: "~wheat";
-  border-radius: 1em;
-  color: white; }
+  border-radius: 0.5em; }
 
 .item-greenyellow {
   background-image: url("../img/greenyellow.jpg");
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-greenyellow:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2658,20 +2654,19 @@ body {
   right: 0;
   z-index: 2;
   content: "~greenyellow";
-  border-radius: 1em;
-  color: white; }
+  border-radius: 0.5em; }
 
 .item-lime {
   background-image: url("../img/lime.jpg");
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-lime:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2694,20 +2689,19 @@ body {
   right: 0;
   z-index: 2;
   content: "~lime";
-  border-radius: 1em;
-  color: white; }
+  border-radius: 0.5em; }
 
 .item-green {
   background-image: url("../img/green.jpg");
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-green:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2730,20 +2724,19 @@ body {
   right: 0;
   z-index: 2;
   content: "~green";
-  border-radius: 1em;
-  color: white; }
+  border-radius: 0.5em; }
 
 .item-teal {
   background-image: url("../img/teal.jpg");
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-teal:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2766,20 +2759,19 @@ body {
   right: 0;
   z-index: 2;
   content: "~teal";
-  border-radius: 1em;
-  color: white; }
+  border-radius: 0.5em; }
 
 .item-cornflowerblue {
   background-image: url("../img/cornflowerblue.jpg");
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-cornflowerblue:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2802,20 +2794,19 @@ body {
   right: 0;
   z-index: 2;
   content: "~cornflowerblue";
-  border-radius: 1em;
-  color: white; }
+  border-radius: 0.5em; }
 
 .item-mediumslateblue {
   background-image: url("../img/mediumslateblue.jpg");
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-mediumslateblue:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2838,7 +2829,7 @@ body {
   right: 0;
   z-index: 2;
   content: "~mediumslateblue";
-  border-radius: 1em;
+  border-radius: 0.5em;
   color: white; }
 
 .item-indigo {
@@ -2846,12 +2837,12 @@ body {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+  margin-left: 0.1em;
+  margin-top: 0.05em;
+  margin-bottom: 0.15em;
+  border-radius: 0.5em;
   width: 100%;
   height: 40em;
-  margin-left: 0.2em;
-  margin-top: 0.1em;
-  margin-bottom: 0.3em;
-  border-radius: 1em;
   position: relative; }
   .item-indigo:hover {
     -webkit-transition: all 0.5s 0s cubic-bezier(1, -0.6, 0.595, 0.835);
@@ -2874,7 +2865,7 @@ body {
   right: 0;
   z-index: 2;
   content: "~indigo";
-  border-radius: 1em;
+  border-radius: 0.5em;
   color: white; }
 
 /*# sourceMappingURL=styles.css.map */
