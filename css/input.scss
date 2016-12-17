@@ -32,15 +32,38 @@ body {
 // layout
 .header {
   @extend .flexboxed;
-  width: 100%;
+  width: 100vw;
   @include linear-gradient(to right, maroon, cornflowerblue);
   h2 { @include text-glow(orange); }
 }
-.NEATrow { @include outer-container();}
+
 .cards {
   @extend .flexboxed;
-  width: 100%;
-  @include span-columns(6);
+  width: 100vw;
+  @include outer-container();
+  @include span-columns(12);
+  // @include linear-gradient(to top #ccc, #aaa, #888);
+}
+.res {
+  @media screen and (max-width: 768px) {
+    @include span-columns(12 of 12);
+  }
+  @media screen and (max-width: 1024px) {
+    @include span-columns(3 of 12);
+  }
+}
+#first-row {
+  @include span-columns(12);
+}
+#second-row {
+  @include span-columns(12);
+}
+#third-row {
+  @include span-columns(12);
+}
+#fourth-row {
+  @include span-columns(12);
 }
 
+// fill the HTML divs
 @include deal-sass_cards;

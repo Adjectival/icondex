@@ -12,17 +12,17 @@
   border-radius: 0.5em;
   margin-top: 0.2em;
 }
-@mixin card-sizer {
-  @media (min-width: 320px) and (max-width: 599px){
-    @include span-columns(6 of 6);
-  }
-  @media (min-width: 600px) and (max-width: 999px) {
-    @include span-columns(3 of 6);
-  }
-  @media (min-width: 1000px) and (max-width: 3999px) {
-    @include span-columns(2 of 6);
-  }
-}
+// @mixin card-sizer {
+//   @media (min-width: 320px) and (max-width: 599px){
+//     @include span-columns(12 of 12);
+//   }
+//   @media (min-width: 600px) and (max-width: 999px) {
+//     @include span-columns(6 of 12);
+//   }
+//   @media (min-width: 1000px) and (max-width: 3999px) {
+//     @include span-columns(3 of 12);
+//   }
+// }
 
 @mixin white-caption {
   color: white;
@@ -42,8 +42,8 @@
       &:hover { @include pulsate(); }
       &:active { @include bounce(); }
     background-image: url('../img/#{$color}.jpg');
-    background-position: center;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
       @if ($color == "maroon" or $color == "mediumslateblue" or $color == "indigo") {
         @include white-caption;
@@ -52,17 +52,9 @@
         @include tinycarder;
       }
 
-    width: 100%;
+    width: 120px;
     height: 20em;
-    @media (min-width: 320px) and (max-width: 599px){
-      @include span-columns(6 of 6);
-    }
-    @media (min-width: 600px) and (max-width: 999px) {
-      @include span-columns(3 of 6);
-    }
-    @media (min-width: 1000px) and (max-width: 3999px) {
-      @include span-columns(2 of 6);
-    }
+    @include span-columns(4 of 12);
     @include card-spacer;
     @include edge-rounder;
       position: relative;
