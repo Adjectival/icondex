@@ -1,9 +1,9 @@
 @import "bourbon/bourbon";
+@import "variables";
+@import "grid-settings";
+@import "mixins";
 @import "neat/neat";
 @import "saffron/saffron";
-@import "variables";
-// @import "media-queries";
-@import "mixins";
 
 *,
 *::before,
@@ -16,54 +16,33 @@
 }
 
 // base
-.flexboxed {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 body {
   font-family: monospace, sans-serif;
   font-size: 3em;
   color: #000;
   @include text-glow(white);
-  @extend .flexboxed;
 }
 
 // layout
+.flexboxed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .header {
   @extend .flexboxed;
   width: 100vw;
   @include linear-gradient(to right, maroon, cornflowerblue);
   h2 { @include text-glow(orange); }
 }
-
 .cards {
   @extend .flexboxed;
   width: 100vw;
   @include outer-container();
   @include span-columns(12);
-  // @include linear-gradient(to top #ccc, #aaa, #888);
 }
-.res {
-  @media screen and (max-width: 768px) {
-    @include span-columns(12 of 12);
-  }
-  @media screen and (max-width: 1024px) {
-    @include span-columns(3 of 12);
-  }
-}
-#first-row {
-  @include span-columns(12);
-}
-#second-row {
-  @include span-columns(12);
-}
-#third-row {
-  @include span-columns(12);
-}
-#fourth-row {
-  @include span-columns(12);
-}
+
 
 // fill the HTML divs
 @include deal-sass_cards;
