@@ -1,0 +1,31 @@
+@mixin card($color) {
+  .card-#{$color} {
+    &:hover { @include pulsate(); }
+    &:active { @include bounce(); }
+  background-image: url('../img/#{$color}.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 20em;
+  @include whitetext-rule(#{$color});
+  @include longname-rule(#{$color});
+  @include column-trick;
+  @include card-spacer(1);
+    position: relative;
+  }
+
+  .card-#{$color}::after {
+    position: absolute;
+  opacity: 0.55;
+  background-color: #{$color};
+  content: "~#{$color}";
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  @include overlay-edge-rounder;
+  }
+}

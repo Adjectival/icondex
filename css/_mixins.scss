@@ -1,5 +1,7 @@
 @import "variables";
+@import "card";
 
+// Neat media queries, buggy on Mobile
 @mixin column-trick {
   @include media($mobile) {
     @include span-columns(12 of 12);
@@ -12,6 +14,7 @@
   }
 }
 
+// font styling of card & h2 text
 @mixin text-glow($color) {
   text-shadow: 2px 2px 3px $color,
   2px -2px 3px $color,
@@ -20,11 +23,6 @@
   ;
 }
 
-@mixin edge-rounder { border-radius: 0.5em; }
-@mixin card-spacer {
-  border-radius: 0.5em;
-  margin-top: 0.2em;
-}
 @mixin white-caption {
   color: white;
   @include text-glow(black);
@@ -33,51 +31,4 @@
   @if ($color == "maroon" or $color == "mediumslateblue" or $color == "indigo") {
     @include white-caption;
   }
-}
-
-@mixin tinycarder {
-  font-size: 0.5em;
-}
-@mixin longname-rule($color) {
-  @if ($color == "greenyellow" or $color == "mediumslateblue" or $color == "cornflowerblue") {
-    @include tinycarder;
-  }
-}
-
-@mixin deal-sass_cards {
-  // automatic population of dozen divs
-  @each $color in $collist {
-
-    .card-#{$color} {
-      &:hover { @include pulsate(); }
-      &:active { @include bounce(); }
-    background-image: url('../img/#{$color}.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 120px;
-    height: 20em;
-    @include whitetext-rule(#{$color});
-    @include longname-rule(#{$color});
-    @include column-trick;
-    @include card-spacer;
-    @include edge-rounder;
-      position: relative;
-    }
-
-    .card-#{$color}::after {
-      position: absolute;
-    opacity: 0.55;
-    background-color: #{$color};
-    content: "~#{$color}";
-
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 2;
-    @include edge-rounder;
-    }
-  }
-
 }
