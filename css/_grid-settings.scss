@@ -8,8 +8,7 @@
 .cards {
   @extend .flexboxed;
   width: 100%;
-
-  @include outer-container();
+  @include outer-container(100%);
   @include span-columns(12);
 
   @include background-image(linear-gradient(to bottom, maroon, cornflowerblue, lighten(#999, 40%)));
