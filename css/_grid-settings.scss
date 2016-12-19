@@ -2,13 +2,17 @@
 @import "neat/neat-helpers";
 @import "neat/neat";
 
-$visual-grid: true;
+// for dev
+// $visual-grid: true;
 
 .cards {
   @extend .flexboxed;
-  width: 100vw;
+  width: 100%;
+
   @include outer-container();
   @include span-columns(12);
+
+  @include background-image(linear-gradient(to bottom, maroon, cornflowerblue, lighten(#999, 40%)));
 }
 
 // mqueries

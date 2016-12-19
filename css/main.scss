@@ -34,10 +34,12 @@ body {
 .header {
   width: 100vw;
   display: flex;
-  justify-content: center;
-  @include linear-gradient(to right, maroon, cornflowerblue);
+  justify-content: space-around;
+  align-items: center;
+  @include radial-gradient(circle at 50% 100%, maroon, cornflowerblue);
   h2 {
     @include text-glow(orange);
+    padding: 3vw;
   }
 }
 

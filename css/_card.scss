@@ -39,7 +39,7 @@
   .card-#{$color}::after {
     position: absolute;
   opacity: 0.55;
-  background-color: #{$color};
+  @include background-image(linear-gradient(to bottom, #{$color}, #{$color}, darken(#777, 70%)));
   content: "~#{$color}";
 
   top: 0;
