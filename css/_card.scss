@@ -6,8 +6,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 120px;
   height: 20em;
+  width: 100%;
   @include whitetext-rule(#{$color});
   @include longname-rule(#{$color});
   @include column-trick;
@@ -27,5 +27,28 @@
   right: 0;
   z-index: 2;
   @include overlay-edge-rounder;
+  }
+}
+
+@mixin overlay-edge-rounder { border-radius: 0.5em; }
+@mixin card-spacer($ratio) {
+  border-radius: 0.5em*($ratio);
+  margin-top: 0.2em*($ratio);
+}
+
+@mixin tinycarder {
+  font-size: 0.5em;
+  @include card-spacer(6);
+}
+@mixin longname-rule($color) {
+  @if ($color == "greenyellow" or $color == "mediumslateblue" or $color == "cornflowerblue") {
+    @include tinycarder;
+  }
+}
+
+@mixin deal-sass_cards {
+  // automatic population of dozen divs
+  @each $color in $collist {
+    @include card($color);
   }
 }
