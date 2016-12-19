@@ -2,17 +2,20 @@
 @import "card";
 
 // Neat media queries, buggy on Mobile
-@mixin column-trick {
-  @include media($mobile) {
-    @include span-columns(12 of 12);
-  }
-  @include media($tablet) {
-    @include span-columns(4 of 12);
-  }
-  @include media($laptop) {
-    @include span-columns(3 of 12);
-  }
-}
+// @mixin column-trick {
+  // @include media($mobile) {
+  //
+  //   // @include span-columns(12 of 12);
+  // }
+  // @include media($tablet) {
+  //
+  //   // @include span-columns(4 of 12);
+  // }
+  // @include media($laptop) {
+  //
+  //   // @include span-columns(3 of 12);
+  // }
+// }
 
 // font styling of card & h2 text
 @mixin text-glow($color) {

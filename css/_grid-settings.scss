@@ -1,8 +1,18 @@
 @import "bourbon/bourbon";
 @import "neat/neat-helpers";
+@import "neat/neat";
 
 $visual-grid: true;
 
-$mobile: new-breakpoint(min-width 240px and max-width 480px 12);
-$tablet: new-breakpoint(min-width 768px 12);
-$laptop: new-breakpoint(min-width 1280px 12);
+.cards {
+  @extend .flexboxed;
+  width: 100vw;
+  @include outer-container();
+  @include span-columns(12);
+}
+
+// mqueries
+$mobile: new-breakpoint(max-width 480px);
+$tablet: new-breakpoint(min-width 800px);
+$laptop: new-breakpoint(min-width 1024px);
+$desktop: new-breakpoint(min-width 1280px);

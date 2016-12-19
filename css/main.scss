@@ -32,18 +32,14 @@ body {
 }
 
 .header {
-  @extend .flexboxed;
   width: 100vw;
+  display: flex;
+  justify-content: center;
   @include linear-gradient(to right, maroon, cornflowerblue);
-  h2 { @include text-glow(orange); }
+  h2 {
+    @include text-glow(orange);
+  }
 }
-.cards {
-  @extend .flexboxed;
-  width: 100vw;
-  @include outer-container();
-  @include span-columns(12);
-}
-
 
 // fill the HTML divs
 @include deal-sass_cards;
