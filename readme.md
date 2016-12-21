@@ -3,7 +3,7 @@
 ## _some cards dealt with modern CSS_
 ### by _Alexander Jacks_
 
-![screenshot](/screenshot.png)
+![screenshot](/img/screenshot.png)
 ### Description
 Here are some cards. They are generated along these specifications.
 
