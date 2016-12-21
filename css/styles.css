@@ -2509,11 +2509,75 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: -webkit-radial-gradient(50% 100%, circle, maroon, cornflowerblue);
-  background-image: radial-gradient(  circle at 50% 100%, maroon, cornflowerblue); }
+  background-image: -webkit-radial-gradient(50% 100%, circle, maroon, olive, cornflowerblue);
+  background-image: radial-gradient(  circle at 50% 100%, maroon, olive, cornflowerblue); }
   .header h2 {
     text-shadow: 2px 2px 3px orange, 2px -2px 3px orange, -2px 2px 3px orange, -2px -2px 3px orange;
     padding: 3vw; }
+
+.card-rosybrown {
+  background-image: url("../img/rosybrown.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20em;
+  width: 100%;
+  min-height: 35vh;
+  max-height: 60vh;
+  border-radius: 2vw;
+  margin-top: 3vw;
+  position: relative; }
+  .card-rosybrown:hover {
+    -webkit-animation: pulsate 3 1.5s 0s none;
+    animation: pulsate 3 1.5s 0s none; }
+  .card-rosybrown:active {
+    -webkit-animation: bounce 1 1s 0s none;
+    animation: bounce 1 1s 0s none; }
+  @media screen and (max-width: 480px) {
+    .card-rosybrown {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .card-rosybrown:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 800px) {
+    .card-rosybrown {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .card-rosybrown:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-rosybrown {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-rosybrown:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-rosybrown {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-rosybrown:last-child {
+        margin-right: 0; } }
+
+.card-rosybrown::after {
+  position: absolute;
+  opacity: 0.55;
+  background-image: -webkit-linear-gradient( top , rosybrown, rosybrown, black);
+  background-image: linear-gradient(to bottom, rosybrown, rosybrown, black);
+  content: "~rosybrown";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  border-radius: 2vw; }
 
 .card-maroon {
   background-image: url("../img/maroon.jpg");
@@ -2894,6 +2958,70 @@ body {
   background-image: -webkit-linear-gradient( top , wheat, wheat, black);
   background-image: linear-gradient(to bottom, wheat, wheat, black);
   content: "~wheat";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  border-radius: 2vw; }
+
+.card-olive {
+  background-image: url("../img/olive.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20em;
+  width: 100%;
+  min-height: 35vh;
+  max-height: 60vh;
+  border-radius: 2vw;
+  margin-top: 3vw;
+  position: relative; }
+  .card-olive:hover {
+    -webkit-animation: pulsate 3 1.5s 0s none;
+    animation: pulsate 3 1.5s 0s none; }
+  .card-olive:active {
+    -webkit-animation: bounce 1 1s 0s none;
+    animation: bounce 1 1s 0s none; }
+  @media screen and (max-width: 480px) {
+    .card-olive {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .card-olive:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 800px) {
+    .card-olive {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .card-olive:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-olive {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-olive:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-olive {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-olive:last-child {
+        margin-right: 0; } }
+
+.card-olive::after {
+  position: absolute;
+  opacity: 0.55;
+  background-image: -webkit-linear-gradient( top , olive, olive, black);
+  background-image: linear-gradient(to bottom, olive, olive, black);
+  content: "~olive";
   top: 0;
   left: 0;
   bottom: 0;
@@ -3483,6 +3611,70 @@ body {
   background-image: -webkit-linear-gradient( top , blueviolet, blueviolet, black);
   background-image: linear-gradient(to bottom, blueviolet, blueviolet, black);
   content: "~blueviolet";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  border-radius: 2vw; }
+
+.card-thistle {
+  background-image: url("../img/thistle.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20em;
+  width: 100%;
+  min-height: 35vh;
+  max-height: 60vh;
+  border-radius: 2vw;
+  margin-top: 3vw;
+  position: relative; }
+  .card-thistle:hover {
+    -webkit-animation: pulsate 3 1.5s 0s none;
+    animation: pulsate 3 1.5s 0s none; }
+  .card-thistle:active {
+    -webkit-animation: bounce 1 1s 0s none;
+    animation: bounce 1 1s 0s none; }
+  @media screen and (max-width: 480px) {
+    .card-thistle {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .card-thistle:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 800px) {
+    .card-thistle {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .card-thistle:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-thistle {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-thistle:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-thistle {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-thistle:last-child {
+        margin-right: 0; } }
+
+.card-thistle::after {
+  position: absolute;
+  opacity: 0.55;
+  background-image: -webkit-linear-gradient( top , thistle, thistle, black);
+  background-image: linear-gradient(to bottom, thistle, thistle, black);
+  content: "~thistle";
   top: 0;
   left: 0;
   bottom: 0;
