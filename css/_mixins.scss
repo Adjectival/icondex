@@ -1,22 +1,6 @@
 @import "variables";
 @import "card";
 
-// Neat media queries, buggy on Mobile
-// @mixin column-trick {
-  // @include media($mobile) {
-  //
-  //   // @include span-columns(12 of 12);
-  // }
-  // @include media($tablet) {
-  //
-  //   // @include span-columns(4 of 12);
-  // }
-  // @include media($laptop) {
-  //
-  //   // @include span-columns(3 of 12);
-  // }
-// }
-
 // font styling of card & h2 text
 @mixin text-glow($color) {
   text-shadow: 2px 2px 3px $color,
