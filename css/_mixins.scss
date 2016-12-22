@@ -15,7 +15,7 @@
   @include text-glow(black);
 }
 @mixin whitetext-rule($color) {
-  @if ($color == "maroon" or $color == "mediumslateblue" or $color == "indigo") {
-    @include white-caption;
-  }
+  // @if ($color == "maroon" or $color == "mediumslateblue" or $color == "indigo") {
+  //   @include white-caption;
+  // }
 }

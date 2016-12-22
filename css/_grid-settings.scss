@@ -12,7 +12,7 @@
   @include outer-container(100%);
   @include span-columns(12);
 
-  @include background-image(linear-gradient(to bottom, maroon, wheat, cornflowerblue, lighten(#999, 40%)));
+  @include background-image(linear-gradient(to bottom, orangered, wheat, aquamarine, lighten(#999, 40%)));
 }
 
 // responsive

@@ -2,11 +2,11 @@
 @import "neat/neat-helpers";
 @import "grid-settings";
 
-@mixin card($color) {
-  .card-#{$color} {
+@mixin card($name) {
+  .card-$name {
     &:hover { @include pulsate(); }
     &:active { @include bounce(); }
-  background-image: url('../img/#{$color}.jpg');
+  background-image: url(http://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,22 +20,19 @@
 
 
   // font and edge
-  @include whitetext-rule(#{$color});
-  @include longname-rule(#{$color});
+  @include whitetext-rule(#{$name});
+  @include longname-rule(#{$name});
   @include card-spacer;
     position: relative;
   }
 
-  .card-#{$color}::after {
+  .card-#{$name}::after {
     position: absolute;
   opacity: 0.55;
-  @include background-image(linear-gradient(to bottom, #{$color}, #{$color}, darken(#777, 70%)));
-  content: "~#{$color}";
+  @include background-image(linear-gradient(to bottom, blue, aquamarine, darken(#777, 70%)));
+  content: "~#{$name}";
 
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  top: 0; left: 0; bottom: 0; right: 0;
   z-index: 2;
   @include overlay-edge-rounder;
   }
@@ -53,8 +50,8 @@
   font-size: 0.8em;
   @include card-spacer;
 }
-@mixin longname-rule($color) {
-  @if ($color == "greenyellow" or $color == "cornflowerblue") {
+@mixin longname-rule($name) {
+  @if ($name == "greenyellow" or $name == "cornflowerblue") {
     @include tinycarder;
   }
 }
@@ -64,4 +61,14 @@
   @each $color in $collist {
     @include card($color);
   }
+}
+@mixin deal-fish_cards {
+  // automatic population of fish cards
+  @each $name in $fishnames {
+    @include card($name);
+    @each $pic in $fishpics {
+      @include card($pic);
+    }
+  }
+
 }
