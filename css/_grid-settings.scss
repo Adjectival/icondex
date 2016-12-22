@@ -5,16 +5,33 @@
 // for dev
 // $visual-grid: true;
 
+// container
 .cards {
   @extend .flexboxed;
   width: 100%;
   @include outer-container(100%);
   @include span-columns(12);
 
-  @include background-image(linear-gradient(to bottom, maroon, cornflowerblue, lighten(#999, 40%)));
+  @include background-image(linear-gradient(to bottom, maroon, wheat, cornflowerblue, lighten(#999, 40%)));
 }
 
-// mqueries
+// responsive
+@mixin card-sizing {
+  @include media($mobile) {
+    @include span-columns(12 of 12);
+  }
+  @include media($tablet) {
+    @include span-columns(5 of 12);
+  }
+  @include media($laptop) {
+    @include span-columns(3 of 12);
+  }
+  @include media($desktop) {
+    @include span-columns(2 of 12);
+  }
+}
+
+// @include media(queries)
 $mobile: new-breakpoint(max-width 480px);
 $tablet: new-breakpoint(min-width 800px);
 $laptop: new-breakpoint(min-width 1024px);

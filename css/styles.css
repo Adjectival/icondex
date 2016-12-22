@@ -13,8 +13,8 @@ html {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background-image: -webkit-linear-gradient( top , maroon, cornflowerblue, white);
-  background-image: linear-gradient(to bottom, maroon, cornflowerblue, white); }
+  background-image: -webkit-linear-gradient( top , maroon, wheat, cornflowerblue, white);
+  background-image: linear-gradient(to bottom, maroon, wheat, cornflowerblue, white); }
   .cards::after {
     clear: both;
     content: "";
@@ -37,8 +37,8 @@ html {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background-image: -webkit-linear-gradient( top , maroon, cornflowerblue, white);
-  background-image: linear-gradient(to bottom, maroon, cornflowerblue, white); }
+  background-image: -webkit-linear-gradient( top , maroon, wheat, cornflowerblue, white);
+  background-image: linear-gradient(to bottom, maroon, wheat, cornflowerblue, white); }
   .cards::after {
     clear: both;
     content: "";
@@ -2475,8 +2475,8 @@ html {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background-image: -webkit-linear-gradient( top , maroon, cornflowerblue, white);
-  background-image: linear-gradient(to bottom, maroon, cornflowerblue, white); }
+  background-image: -webkit-linear-gradient( top , maroon, wheat, cornflowerblue, white);
+  background-image: linear-gradient(to bottom, maroon, wheat, cornflowerblue, white); }
   .cards::after {
     clear: both;
     content: "";
@@ -2521,7 +2521,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
@@ -2579,13 +2579,77 @@ body {
   z-index: 2;
   border-radius: 2vw; }
 
+.card-chocolate {
+  background-image: url("../img/chocolate.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20em;
+  width: 97%;
+  min-height: 35vh;
+  max-height: 60vh;
+  border-radius: 2vw;
+  margin-top: 3vw;
+  position: relative; }
+  .card-chocolate:hover {
+    -webkit-animation: pulsate 3 1.5s 0s none;
+    animation: pulsate 3 1.5s 0s none; }
+  .card-chocolate:active {
+    -webkit-animation: bounce 1 1s 0s none;
+    animation: bounce 1 1s 0s none; }
+  @media screen and (max-width: 480px) {
+    .card-chocolate {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .card-chocolate:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 800px) {
+    .card-chocolate {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .card-chocolate:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-chocolate {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-chocolate:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-chocolate {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-chocolate:last-child {
+        margin-right: 0; } }
+
+.card-chocolate::after {
+  position: absolute;
+  opacity: 0.55;
+  background-image: -webkit-linear-gradient( top , chocolate, chocolate, black);
+  background-image: linear-gradient(to bottom, chocolate, chocolate, black);
+  content: "~chocolate";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  border-radius: 2vw; }
+
 .card-maroon {
   background-image: url("../img/maroon.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   color: white;
@@ -2645,77 +2709,13 @@ body {
   z-index: 2;
   border-radius: 2vw; }
 
-.card-red {
-  background-image: url("../img/red.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 20em;
-  width: 100%;
-  min-height: 35vh;
-  max-height: 60vh;
-  border-radius: 2vw;
-  margin-top: 3vw;
-  position: relative; }
-  .card-red:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
-  .card-red:active {
-    -webkit-animation: bounce 1 1s 0s none;
-    animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
-    .card-red {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .card-red:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 800px) {
-    .card-red {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 40.29137%; }
-      .card-red:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 1024px) {
-    .card-red {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-red:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 1280px) {
-    .card-red {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-red:last-child {
-        margin-right: 0; } }
-
-.card-red::after {
-  position: absolute;
-  opacity: 0.55;
-  background-image: -webkit-linear-gradient( top , red, red, black);
-  background-image: linear-gradient(to bottom, red, red, black);
-  content: "~red";
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 2;
-  border-radius: 2vw; }
-
 .card-coral {
   background-image: url("../img/coral.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
@@ -2773,63 +2773,63 @@ body {
   z-index: 2;
   border-radius: 2vw; }
 
-.card-orange {
-  background-image: url("../img/orange.jpg");
+.card-orangered {
+  background-image: url("../img/orangered.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
   margin-top: 3vw;
   position: relative; }
-  .card-orange:hover {
+  .card-orangered:hover {
     -webkit-animation: pulsate 3 1.5s 0s none;
     animation: pulsate 3 1.5s 0s none; }
-  .card-orange:active {
+  .card-orangered:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
   @media screen and (max-width: 480px) {
-    .card-orange {
+    .card-orangered {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 100%; }
-      .card-orange:last-child {
+      .card-orangered:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 800px) {
-    .card-orange {
+    .card-orangered {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 40.29137%; }
-      .card-orange:last-child {
+      .card-orangered:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-orange {
+    .card-orangered {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-orange:last-child {
+      .card-orangered:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-orange {
+    .card-orangered {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-orange:last-child {
+      .card-orangered:last-child {
         margin-right: 0; } }
 
-.card-orange::after {
+.card-orangered::after {
   position: absolute;
   opacity: 0.55;
-  background-image: -webkit-linear-gradient( top , orange, orange, black);
-  background-image: linear-gradient(to bottom, orange, orange, black);
-  content: "~orange";
+  background-image: -webkit-linear-gradient( top , orangered, orangered, black);
+  background-image: linear-gradient(to bottom, orangered, orangered, black);
+  content: "~orangered";
   top: 0;
   left: 0;
   bottom: 0;
@@ -2843,7 +2843,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
@@ -2907,7 +2907,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
@@ -2971,7 +2971,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
@@ -3035,7 +3035,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   font-size: 0.5em;
@@ -3102,7 +3102,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
@@ -3160,63 +3160,63 @@ body {
   z-index: 2;
   border-radius: 2vw; }
 
-.card-green {
-  background-image: url("../img/green.jpg");
+.card-forestgreen {
+  background-image: url("../img/forestgreen.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
   margin-top: 3vw;
   position: relative; }
-  .card-green:hover {
+  .card-forestgreen:hover {
     -webkit-animation: pulsate 3 1.5s 0s none;
     animation: pulsate 3 1.5s 0s none; }
-  .card-green:active {
+  .card-forestgreen:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
   @media screen and (max-width: 480px) {
-    .card-green {
+    .card-forestgreen {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 100%; }
-      .card-green:last-child {
+      .card-forestgreen:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 800px) {
-    .card-green {
+    .card-forestgreen {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 40.29137%; }
-      .card-green:last-child {
+      .card-forestgreen:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-green {
+    .card-forestgreen {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-green:last-child {
+      .card-forestgreen:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-green {
+    .card-forestgreen {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-green:last-child {
+      .card-forestgreen:last-child {
         margin-right: 0; } }
 
-.card-green::after {
+.card-forestgreen::after {
   position: absolute;
   opacity: 0.55;
-  background-image: -webkit-linear-gradient( top , green, green, black);
-  background-image: linear-gradient(to bottom, green, green, black);
-  content: "~green";
+  background-image: -webkit-linear-gradient( top , forestgreen, forestgreen, black);
+  background-image: linear-gradient(to bottom, forestgreen, forestgreen, black);
+  content: "~forestgreen";
   top: 0;
   left: 0;
   bottom: 0;
@@ -3230,7 +3230,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
@@ -3294,7 +3294,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
@@ -3358,7 +3358,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   font-size: 0.5em;
@@ -3419,68 +3419,127 @@ body {
   z-index: 2;
   border-radius: 2vw; }
 
-.card-mediumslateblue {
-  background-image: url("../img/mediumslateblue.jpg");
+.card-mediumblue {
+  background-image: url("../img/mediumblue.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
-  color: white;
-  text-shadow: 2px 2px 3px black, 2px -2px 3px black, -2px 2px 3px black, -2px -2px 3px black;
-  font-size: 0.5em;
-  border-radius: 2vw;
-  margin-top: 3vw;
   border-radius: 2vw;
   margin-top: 3vw;
   position: relative; }
-  .card-mediumslateblue:hover {
+  .card-mediumblue:hover {
     -webkit-animation: pulsate 3 1.5s 0s none;
     animation: pulsate 3 1.5s 0s none; }
-  .card-mediumslateblue:active {
+  .card-mediumblue:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
   @media screen and (max-width: 480px) {
-    .card-mediumslateblue {
+    .card-mediumblue {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 100%; }
-      .card-mediumslateblue:last-child {
+      .card-mediumblue:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 800px) {
-    .card-mediumslateblue {
+    .card-mediumblue {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 40.29137%; }
-      .card-mediumslateblue:last-child {
+      .card-mediumblue:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-mediumslateblue {
+    .card-mediumblue {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-mediumslateblue:last-child {
+      .card-mediumblue:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-mediumslateblue {
+    .card-mediumblue {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-mediumslateblue:last-child {
+      .card-mediumblue:last-child {
         margin-right: 0; } }
 
-.card-mediumslateblue::after {
+.card-mediumblue::after {
   position: absolute;
   opacity: 0.55;
-  background-image: -webkit-linear-gradient( top , mediumslateblue, mediumslateblue, black);
-  background-image: linear-gradient(to bottom, mediumslateblue, mediumslateblue, black);
-  content: "~mediumslateblue";
+  background-image: -webkit-linear-gradient( top , mediumblue, mediumblue, black);
+  background-image: linear-gradient(to bottom, mediumblue, mediumblue, black);
+  content: "~mediumblue";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  border-radius: 2vw; }
+
+.card-midnightblue {
+  background-image: url("../img/midnightblue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20em;
+  width: 97%;
+  min-height: 35vh;
+  max-height: 60vh;
+  border-radius: 2vw;
+  margin-top: 3vw;
+  position: relative; }
+  .card-midnightblue:hover {
+    -webkit-animation: pulsate 3 1.5s 0s none;
+    animation: pulsate 3 1.5s 0s none; }
+  .card-midnightblue:active {
+    -webkit-animation: bounce 1 1s 0s none;
+    animation: bounce 1 1s 0s none; }
+  @media screen and (max-width: 480px) {
+    .card-midnightblue {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .card-midnightblue:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 800px) {
+    .card-midnightblue {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .card-midnightblue:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-midnightblue {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-midnightblue:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-midnightblue {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-midnightblue:last-child {
+        margin-right: 0; } }
+
+.card-midnightblue::after {
+  position: absolute;
+  opacity: 0.55;
+  background-image: -webkit-linear-gradient( top , midnightblue, midnightblue, black);
+  background-image: linear-gradient(to bottom, midnightblue, midnightblue, black);
+  content: "~midnightblue";
   top: 0;
   left: 0;
   bottom: 0;
@@ -3494,7 +3553,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   color: white;
@@ -3560,7 +3619,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
@@ -3624,7 +3683,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 20em;
-  width: 100%;
+  width: 97%;
   min-height: 35vh;
   max-height: 60vh;
   border-radius: 2vw;
@@ -3675,6 +3734,70 @@ body {
   background-image: -webkit-linear-gradient( top , thistle, thistle, black);
   background-image: linear-gradient(to bottom, thistle, thistle, black);
   content: "~thistle";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  border-radius: 2vw; }
+
+.card-honeydew {
+  background-image: url("../img/honeydew.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20em;
+  width: 97%;
+  min-height: 35vh;
+  max-height: 60vh;
+  border-radius: 2vw;
+  margin-top: 3vw;
+  position: relative; }
+  .card-honeydew:hover {
+    -webkit-animation: pulsate 3 1.5s 0s none;
+    animation: pulsate 3 1.5s 0s none; }
+  .card-honeydew:active {
+    -webkit-animation: bounce 1 1s 0s none;
+    animation: bounce 1 1s 0s none; }
+  @media screen and (max-width: 480px) {
+    .card-honeydew {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .card-honeydew:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 800px) {
+    .card-honeydew {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .card-honeydew:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-honeydew {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-honeydew:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-honeydew {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-honeydew:last-child {
+        margin-right: 0; } }
+
+.card-honeydew::after {
+  position: absolute;
+  opacity: 0.55;
+  background-image: -webkit-linear-gradient( top , honeydew, honeydew, black);
+  background-image: linear-gradient(to bottom, honeydew, honeydew, black);
+  content: "~honeydew";
   top: 0;
   left: 0;
   bottom: 0;
