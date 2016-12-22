@@ -2533,9 +2533,9 @@ body {
   width: 97%;
   min-height: 50vh;
   max-height: 60vh;
-  border: 3px dotted #000;
+  border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/e0/Salmon.png); }
-  @media screen and (max-width: 535px) {
+  @media screen and (max-width: 425px) {
     .card-salmon {
       float: left;
       display: block;
@@ -2583,9 +2583,9 @@ body {
   width: 97%;
   min-height: 50vh;
   max-height: 60vh;
-  border: 3px dotted #000;
+  border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png); }
-  @media screen and (max-width: 535px) {
+  @media screen and (max-width: 425px) {
     .card-catfish {
       float: left;
       display: block;
@@ -2633,9 +2633,9 @@ body {
   width: 97%;
   min-height: 50vh;
   max-height: 60vh;
-  border: 3px dotted #000;
+  border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/f/f2/Red_Mullet.png); }
-  @media screen and (max-width: 535px) {
+  @media screen and (max-width: 425px) {
     .card-redmullet {
       float: left;
       display: block;
@@ -2683,9 +2683,9 @@ body {
   width: 97%;
   min-height: 50vh;
   max-height: 60vh;
-  border: 3px dotted #000;
+  border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/9/91/Eel.png); }
-  @media screen and (max-width: 535px) {
+  @media screen and (max-width: 425px) {
     .card-eel {
       float: left;
       display: block;
@@ -2733,9 +2733,9 @@ body {
   width: 97%;
   min-height: 50vh;
   max-height: 60vh;
-  border: 3px dotted #000;
+  border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/4/42/Sturgeon.png); }
-  @media screen and (max-width: 535px) {
+  @media screen and (max-width: 425px) {
     .card-sturgeon {
       float: left;
       display: block;
@@ -2783,9 +2783,9 @@ body {
   width: 97%;
   min-height: 50vh;
   max-height: 60vh;
-  border: 3px dotted #000;
+  border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/7/73/Tilapia.png); }
-  @media screen and (max-width: 535px) {
+  @media screen and (max-width: 425px) {
     .card-tilapia {
       float: left;
       display: block;
@@ -2833,9 +2833,9 @@ body {
   width: 97%;
   min-height: 50vh;
   max-height: 60vh;
-  border: 3px dotted #000;
+  border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/e1/Albacore.png); }
-  @media screen and (max-width: 535px) {
+  @media screen and (max-width: 425px) {
     .card-albacore {
       float: left;
       display: block;
@@ -2883,9 +2883,9 @@ body {
   width: 97%;
   min-height: 50vh;
   max-height: 60vh;
-  border: 3px dotted #000;
+  border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/ef/Shad.png); }
-  @media screen and (max-width: 535px) {
+  @media screen and (max-width: 425px) {
     .card-shad {
       float: left;
       display: block;
@@ -2933,9 +2933,9 @@ body {
   width: 97%;
   min-height: 50vh;
   max-height: 60vh;
-  border: 3px dotted #000;
+  border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/b/bd/Chub.png); }
-  @media screen and (max-width: 535px) {
+  @media screen and (max-width: 425px) {
     .card-chub {
       float: left;
       display: block;
@@ -2983,9 +2983,9 @@ body {
   width: 97%;
   min-height: 50vh;
   max-height: 60vh;
-  border: 3px dotted #000;
+  border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png); }
-  @media screen and (max-width: 535px) {
+  @media screen and (max-width: 425px) {
     .card-octopus {
       float: left;
       display: block;

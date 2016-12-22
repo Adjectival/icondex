@@ -53,6 +53,12 @@ $(document).ready(function(){
 
   });
 
+  $("#names_tog").click(function(){
+    $("span").toggle();
+
+
+  });
+
 
 
 });

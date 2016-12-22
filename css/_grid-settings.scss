@@ -32,7 +32,7 @@
 }
 
 // @include media(queries)
-$mobile: new-breakpoint(max-width 535px);
+$mobile: new-breakpoint(max-width 425px);
 $tablet: new-breakpoint(min-width 800px);
 $laptop: new-breakpoint(min-width 1024px);
 $desktop: new-breakpoint(min-width 1280px);
