@@ -3,16 +3,18 @@
 @import "grid-settings";
 
 @mixin card() {
-// @include card-sizing;
+@include card-sizing;
     &:hover { @include pulsate(); }
     &:active { @include bounce(); }
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: inline-block;
   height: 20em;
   width: 97%;
   min-height: 35vh;
   max-height: 50vh;
+  border: 3px dotted #000;
 }
 
 @mixin salmon {
@@ -77,6 +79,7 @@
     background-image: url(http://stardewvalleywiki.com/mediawiki/images/6/63/Crab.png);
   }
 }
+
 @mixin dealfish {
   @include salmon;
   @include catfish;
