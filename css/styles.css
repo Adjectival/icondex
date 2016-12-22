@@ -2515,6 +2515,15 @@ body {
     text-shadow: 2px 2px 3px blue, 2px -2px 3px blue, -2px 2px 3px blue, -2px -2px 3px blue;
     padding: 3vw; }
 
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-shadow: 2px 2px 3px gold, 2px -2px 3px gold, -2px 2px 3px gold, -2px -2px 3px gold;
+  padding: 3vw; }
+  .buttons div img {
+    min-width: 10vw; }
+
 .card-salmon {
   background-size: cover;
   background-repeat: no-repeat;
@@ -2965,7 +2974,7 @@ body {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 
-.card-crab {
+.card-octopus {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2975,43 +2984,43 @@ body {
   min-height: 50vh;
   max-height: 60vh;
   border: 3px dotted #000;
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/6/63/Crab.png); }
+  background-image: url(http://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png); }
   @media screen and (max-width: 535px) {
-    .card-crab {
+    .card-octopus {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 100%; }
-      .card-crab:last-child {
+      .card-octopus:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 800px) {
-    .card-crab {
+    .card-octopus {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 40.29137%; }
-      .card-crab:last-child {
+      .card-octopus:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-crab {
+    .card-octopus {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-crab:last-child {
+      .card-octopus:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-crab {
+    .card-octopus {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-crab:last-child {
+      .card-octopus:last-child {
         margin-right: 0; } }
-  .card-crab:hover {
+  .card-octopus:hover {
     -webkit-animation: pulsate 3 1.5s 0s none;
     animation: pulsate 3 1.5s 0s none; }
-  .card-crab:active {
+  .card-octopus:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
 

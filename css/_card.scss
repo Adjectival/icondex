@@ -73,10 +73,10 @@
     background-image: url(http://stardewvalleywiki.com/mediawiki/images/b/bd/Chub.png);
   }
 }
-@mixin crab {
-  .card-crab {
+@mixin octopus {
+  .card-octopus {
     @include card;
-    background-image: url(http://stardewvalleywiki.com/mediawiki/images/6/63/Crab.png);
+    background-image: url(http://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png);
   }
 }
 
@@ -90,5 +90,5 @@
   @include albacore;
   @include shad;
   @include chub;
-  @include crab;
+  @include octopus;
 }

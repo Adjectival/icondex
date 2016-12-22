@@ -43,5 +43,16 @@ body {
   }
 }
 
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  @include text-glow(gold);
+  padding: 3vw;
+  div img {
+    min-width: 10vw;
+  }
+}
+
 // fill the HTML divs
 @include dealfish;
