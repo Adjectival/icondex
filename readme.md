@@ -1,31 +1,22 @@
 
-# Sass Cards v1.0 :confused::black_joker::punch:
-## _some cards dealt with modern CSS_
+# Icondex v0.5 :fish::ballot_box_with_check::ideograph_advantage:
+## _a project to navigate data without menus_
 ### by _Alexander Jacks_
 
-![screenshot](/img/screenshot.png)
+<!-- ![screenshot](/img/screenshot.png) -->
 ### Description
-Here are some cards. They are generated along these specifications.
+The goal is to have a webapp that looks good on any screen and offers a way to sort through data using only icons. Much user config needs to happen at this point, yet with time it will approach a "drag in your data" situation and the app will handle most of the icon assignment intelligently.
 
-* Create a responsive layout of cards with varying colors and transparent background images. It should be responsive at at least one breakpoint.
-* Use Sass to make your code as DRY, organized, and reusable as possible.
-* Stylesheets are organized using partials and easy to understand
-* Nesting is no more than four levels deep
-* Variables are used effectively
-* At least one use of a Sass color function
-* At least one use of @extend
-* At least one Bourbon @mixin, function, or add-on
-* At least one @mixin of your own
-* Page is responsive (at least one breakpoint) using Sass-style media queries and/or the Neat grid
+The demo sorts through fishing opportunities in a video game, based upon place, time of year, and time of day.
 
 ## Setup
-1. Visit [here](https://adjectival.github.io/sass_cards/) to view the site.
+1. Visit [here](https://adjectival.github.io/icondex/) to view the site.
 
 ## Known Issues
 None at this time.
 
 ## Technologies Used
-- Development: CSS3, Sass with Bourbon & Neat
+- Development: CSS3 compiled with Sass, Bourbon served Neat with a pinch of Saffron
 - Design: Sketch
 - Testing: Atom, Chrome
 
@@ -34,7 +25,7 @@ _Contact alexd (dot) jacks (at) gmail (dot) com with questions regarding this so
 Check out some of these resources to understand the technologies:_
 - _learnhowtoprogram.com_
 - _www.sketchapp.com_
-- _freecodecamp.com_
+- _thesassway.com_
 - _w3schools.com_
 
 ### Legal

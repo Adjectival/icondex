@@ -2,11 +2,28 @@
 @import "neat/neat-helpers";
 @import "grid-settings";
 
-@mixin card($color) {
-  .card-#{$color} {
+
+
+  // responsive
+
+@mixin card() {
+  // @include card-sizing;
+  .card-catfish {
     &:hover { @include pulsate(); }
     &:active { @include bounce(); }
-  background-image: url('../img/#{$color}.jpg');
+  background-image: url(http://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20em;
+  width: 97%;
+  min-height: 35vh;
+  max-height: 50vh;
+  }
+  .card-salmon {
+    &:hover { @include pulsate(); }
+    &:active { @include bounce(); }
+  background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/e0/Salmon.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,54 +31,5 @@
   width: 97%;
   min-height: 35vh;
   max-height: 60vh;
-
-  // responsive
-  @include card-sizing;
-
-
-  // font and edge
-  @include whitetext-rule(#{$color});
-  @include longname-rule(#{$color});
-  @include card-spacer;
-    position: relative;
-  }
-
-  .card-#{$color}::after {
-    position: absolute;
-  opacity: 0.55;
-  @include background-image(linear-gradient(to bottom, #{$color}, #{$color}, darken(#777, 70%)));
-  content: "~#{$color}";
-
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 2;
-  @include overlay-edge-rounder;
-  }
-}
-// space cards in divs
-@mixin overlay-edge-rounder {
-  border-radius: 2vw;
-}
-@mixin card-spacer {
-  border-radius: 2vw;
-  margin-top: 3vw;
-}
-// handle long color names
-@mixin tinycarder {
-  font-size: 0.8em;
-  @include card-spacer;
-}
-@mixin longname-rule($color) {
-  @if ($color == "greenyellow" or $color == "cornflowerblue") {
-    @include tinycarder;
-  }
-}
-
-@mixin deal-sass_cards {
-  // automatic population of dozen divs
-  @each $color in $collist {
-    @include card($color);
   }
 }
