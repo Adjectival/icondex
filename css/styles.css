@@ -2533,7 +2533,7 @@ body {
   .card-rosybrown:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-rosybrown {
       float: left;
       display: block;
@@ -2597,7 +2597,7 @@ body {
   .card-chocolate:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-chocolate {
       float: left;
       display: block;
@@ -2663,7 +2663,7 @@ body {
   .card-maroon:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-maroon {
       float: left;
       display: block;
@@ -2727,7 +2727,7 @@ body {
   .card-coral:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-coral {
       float: left;
       display: block;
@@ -2791,7 +2791,7 @@ body {
   .card-orangered:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-orangered {
       float: left;
       display: block;
@@ -2855,7 +2855,7 @@ body {
   .card-gold:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-gold {
       float: left;
       display: block;
@@ -2919,7 +2919,7 @@ body {
   .card-wheat:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-wheat {
       float: left;
       display: block;
@@ -2983,7 +2983,7 @@ body {
   .card-olive:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-olive {
       float: left;
       display: block;
@@ -3038,7 +3038,7 @@ body {
   width: 97%;
   min-height: 35vh;
   max-height: 60vh;
-  font-size: 0.5em;
+  font-size: 0.8em;
   border-radius: 2vw;
   margin-top: 3vw;
   border-radius: 2vw;
@@ -3050,7 +3050,7 @@ body {
   .card-greenyellow:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-greenyellow {
       float: left;
       display: block;
@@ -3114,7 +3114,7 @@ body {
   .card-lime:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-lime {
       float: left;
       display: block;
@@ -3178,7 +3178,7 @@ body {
   .card-forestgreen:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-forestgreen {
       float: left;
       display: block;
@@ -3242,7 +3242,7 @@ body {
   .card-aquamarine:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-aquamarine {
       float: left;
       display: block;
@@ -3306,7 +3306,7 @@ body {
   .card-teal:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-teal {
       float: left;
       display: block;
@@ -3361,7 +3361,7 @@ body {
   width: 97%;
   min-height: 35vh;
   max-height: 60vh;
-  font-size: 0.5em;
+  font-size: 0.8em;
   border-radius: 2vw;
   margin-top: 3vw;
   border-radius: 2vw;
@@ -3373,7 +3373,7 @@ body {
   .card-cornflowerblue:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-cornflowerblue {
       float: left;
       display: block;
@@ -3437,7 +3437,7 @@ body {
   .card-mediumblue:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-mediumblue {
       float: left;
       display: block;
@@ -3501,7 +3501,7 @@ body {
   .card-midnightblue:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-midnightblue {
       float: left;
       display: block;
@@ -3567,7 +3567,7 @@ body {
   .card-indigo:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-indigo {
       float: left;
       display: block;
@@ -3631,7 +3631,7 @@ body {
   .card-blueviolet:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-blueviolet {
       float: left;
       display: block;
@@ -3695,7 +3695,7 @@ body {
   .card-thistle:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-thistle {
       float: left;
       display: block;
@@ -3759,7 +3759,7 @@ body {
   .card-honeydew:active {
     -webkit-animation: bounce 1 1s 0s none;
     animation: bounce 1 1s 0s none; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 535px) {
     .card-honeydew {
       float: left;
       display: block;
