@@ -2,16 +2,10 @@
 @import "neat/neat-helpers";
 @import "grid-settings";
 
-
-
-  // responsive
-
 @mixin card() {
-  // @include card-sizing;
-  .card-catfish {
+// @include card-sizing;
     &:hover { @include pulsate(); }
     &:active { @include bounce(); }
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -19,17 +13,79 @@
   width: 97%;
   min-height: 35vh;
   max-height: 50vh;
-  }
+}
+
+@mixin salmon {
   .card-salmon {
-    &:hover { @include pulsate(); }
-    &:active { @include bounce(); }
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/e0/Salmon.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 20em;
-  width: 97%;
-  min-height: 35vh;
-  max-height: 60vh;
+    @include card;
+    background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/e0/Salmon.png);
   }
+}
+
+@mixin catfish {
+  .card-catfish {
+    @include card;
+    background-image: url(http://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png);
+  }
+}
+
+@mixin redmullet {
+  .card-redmullet {
+    @include card;
+    background-image: url(http://stardewvalleywiki.com/mediawiki/images/f/f2/Red_Mullet.png);
+  }
+}
+@mixin eel {
+  .card-eel {
+    @include card;
+    background-image: url(http://stardewvalleywiki.com/mediawiki/images/9/91/Eel.png);
+  }
+}
+@mixin sturgeon {
+  .card-sturgeon {
+    @include card;
+    background-image: url(http://stardewvalleywiki.com/mediawiki/images/4/42/Sturgeon.png);
+  }
+}
+@mixin tilapia {
+  .card-tilapia {
+    @include card;
+    background-image: url(http://stardewvalleywiki.com/mediawiki/images/7/73/Tilapia.png);
+  }
+}
+@mixin albacore {
+  .card-albacore {
+    @include card;
+    background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/e1/Albacore.png);
+  }
+}
+@mixin shad {
+  .card-shad {
+    @include card;
+    background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/ef/Shad.png);
+  }
+}
+@mixin chub {
+  .card-chub {
+    @include card;
+    background-image: url(http://stardewvalleywiki.com/mediawiki/images/b/bd/Chub.png);
+  }
+}
+@mixin crab {
+  .card-crab {
+    @include card;
+    background-image: url(http://stardewvalleywiki.com/mediawiki/images/6/63/Crab.png);
+  }
+}
+@mixin dealfish {
+  @include salmon;
+  @include catfish;
+  @include redmullet;
+  @include eel;
+  @include sturgeon;
+  @include tilapia;
+  @include albacore;
+  @include shad;
+  @include chub;
+  @include crab;
 }
