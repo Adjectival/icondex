@@ -1,19 +1,13 @@
-@import "bourbon/bourbon";
-@import "neat/neat-helpers";
-@import "grid-settings";
-
 @mixin card() {
 @include card-sizing;
-    &:hover { @include pulsate(); }
-    &:active { @include bounce(); }
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 20em;
+  height: 10em;
   width: 97%;
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 20vh;
+  max-height: 40vh;
   border: 4px dotted #000;
 }
 

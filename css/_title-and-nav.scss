@@ -1,0 +1,27 @@
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @include radial-gradient(circle at 50% 100%, maroon, olive, cornflowerblue);
+  h2 {
+    @include text-glow(blue);
+    padding: 2.5vw;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  @include text-glow(gold);
+  padding: 3vw;
+  div img {
+    min-width: 10vw;
+  }
+  div {
+    display: inline-block;
+    &:hover { @include pulsate(); }
+    &:active { @include bounce(); }
+  }
+}

@@ -4,6 +4,7 @@
 @import "mixins";
 @import "neat/neat";
 @import "saffron/saffron";
+@import "title-and-nav";
 @import "card";
 
 *,
@@ -19,7 +20,7 @@
 // base
 body {
   font-family: monospace, sans-serif;
-  font-size: 3em;
+  font-size: 1.7em;
   color: #000;
   @include text-glow(white);
 }
@@ -31,28 +32,6 @@ body {
   justify-content: space-around;
 }
 
-.header {
-  width: 100vw;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  @include radial-gradient(circle at 50% 100%, maroon, olive, cornflowerblue);
-  h2 {
-    @include text-glow(blue);
-    padding: 3vw;
-  }
-}
-
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  @include text-glow(gold);
-  padding: 3vw;
-  div img {
-    min-width: 10vw;
-  }
-}
 
 // fill the HTML divs
 @include dealfish;

@@ -28,30 +28,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.cards {
-  width: 100%;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  background-image: -webkit-linear-gradient( top , maroon, wheat, cornflowerblue, white);
-  background-image: linear-gradient(to bottom, maroon, wheat, cornflowerblue, white); }
-  .cards::after {
-    clear: both;
-    content: "";
-    display: block; }
-  .cards:last-child {
-    margin-right: 0; }
-
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -2460,29 +2436,33 @@ html {
     -webkit-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
-html {
-  box-sizing: border-box; }
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: -webkit-radial-gradient(50% 100%, circle, maroon, olive, cornflowerblue);
+  background-image: radial-gradient(  circle at 50% 100%, maroon, olive, cornflowerblue); }
+  .header h2 {
+    text-shadow: 2px 2px 3px blue, 2px -2px 3px blue, -2px 2px 3px blue, -2px -2px 3px blue;
+    padding: 2.5vw; }
 
-*, *::after, *::before {
-  box-sizing: inherit; }
-
-.cards {
-  width: 100%;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  background-image: -webkit-linear-gradient( top , maroon, wheat, cornflowerblue, white);
-  background-image: linear-gradient(to bottom, maroon, wheat, cornflowerblue, white); }
-  .cards::after {
-    clear: both;
-    content: "";
-    display: block; }
-  .cards:last-child {
-    margin-right: 0; }
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-shadow: 2px 2px 3px gold, 2px -2px 3px gold, -2px 2px 3px gold, -2px -2px 3px gold;
+  padding: 3vw; }
+  .buttons div img {
+    min-width: 10vw; }
+  .buttons div {
+    display: inline-block; }
+    .buttons div:hover {
+      -webkit-animation: pulsate 3 1.5s 0s none;
+      animation: pulsate 3 1.5s 0s none; }
+    .buttons div:active {
+      -webkit-animation: bounce 1 1s 0s none;
+      animation: bounce 1 1s 0s none; }
 
 *,
 *::before,
@@ -2495,7 +2475,7 @@ html {
 
 body {
   font-family: monospace, sans-serif;
-  font-size: 3em;
+  font-size: 1.7em;
   color: #000;
   text-shadow: 2px 2px 3px white, 2px -2px 3px white, -2px 2px 3px white, -2px -2px 3px white; }
 
@@ -2504,51 +2484,31 @@ body {
   flex-wrap: wrap;
   justify-content: space-around; }
 
-.header {
-  width: 100vw;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-image: -webkit-radial-gradient(50% 100%, circle, maroon, olive, cornflowerblue);
-  background-image: radial-gradient(  circle at 50% 100%, maroon, olive, cornflowerblue); }
-  .header h2 {
-    text-shadow: 2px 2px 3px blue, 2px -2px 3px blue, -2px 2px 3px blue, -2px -2px 3px blue;
-    padding: 3vw; }
-
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  text-shadow: 2px 2px 3px gold, 2px -2px 3px gold, -2px 2px 3px gold, -2px -2px 3px gold;
-  padding: 3vw; }
-  .buttons div img {
-    min-width: 10vw; }
-
 .card-salmon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 20em;
+  height: 10em;
   width: 97%;
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 20vh;
+  max-height: 40vh;
   border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/e0/Salmon.png); }
-  @media screen and (max-width: 425px) {
+  @media screen and (min-width: max-width) {
     .card-salmon {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 48.82117%; }
       .card-salmon:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 600px) {
     .card-salmon {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%; }
+      width: 31.76157%; }
       .card-salmon:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
@@ -2567,38 +2527,32 @@ body {
       width: 14.70196%; }
       .card-salmon:last-child {
         margin-right: 0; } }
-  .card-salmon:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
-  .card-salmon:active {
-    -webkit-animation: bounce 1 1s 0s none;
-    animation: bounce 1 1s 0s none; }
 
 .card-catfish {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 20em;
+  height: 10em;
   width: 97%;
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 20vh;
+  max-height: 40vh;
   border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png); }
-  @media screen and (max-width: 425px) {
+  @media screen and (min-width: max-width) {
     .card-catfish {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 48.82117%; }
       .card-catfish:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 600px) {
     .card-catfish {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%; }
+      width: 31.76157%; }
       .card-catfish:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
@@ -2617,38 +2571,32 @@ body {
       width: 14.70196%; }
       .card-catfish:last-child {
         margin-right: 0; } }
-  .card-catfish:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
-  .card-catfish:active {
-    -webkit-animation: bounce 1 1s 0s none;
-    animation: bounce 1 1s 0s none; }
 
 .card-redmullet {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 20em;
+  height: 10em;
   width: 97%;
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 20vh;
+  max-height: 40vh;
   border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/f/f2/Red_Mullet.png); }
-  @media screen and (max-width: 425px) {
+  @media screen and (min-width: max-width) {
     .card-redmullet {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 48.82117%; }
       .card-redmullet:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 600px) {
     .card-redmullet {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%; }
+      width: 31.76157%; }
       .card-redmullet:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
@@ -2667,38 +2615,32 @@ body {
       width: 14.70196%; }
       .card-redmullet:last-child {
         margin-right: 0; } }
-  .card-redmullet:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
-  .card-redmullet:active {
-    -webkit-animation: bounce 1 1s 0s none;
-    animation: bounce 1 1s 0s none; }
 
 .card-eel {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 20em;
+  height: 10em;
   width: 97%;
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 20vh;
+  max-height: 40vh;
   border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/9/91/Eel.png); }
-  @media screen and (max-width: 425px) {
+  @media screen and (min-width: max-width) {
     .card-eel {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 48.82117%; }
       .card-eel:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 600px) {
     .card-eel {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%; }
+      width: 31.76157%; }
       .card-eel:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
@@ -2717,38 +2659,32 @@ body {
       width: 14.70196%; }
       .card-eel:last-child {
         margin-right: 0; } }
-  .card-eel:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
-  .card-eel:active {
-    -webkit-animation: bounce 1 1s 0s none;
-    animation: bounce 1 1s 0s none; }
 
 .card-sturgeon {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 20em;
+  height: 10em;
   width: 97%;
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 20vh;
+  max-height: 40vh;
   border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/4/42/Sturgeon.png); }
-  @media screen and (max-width: 425px) {
+  @media screen and (min-width: max-width) {
     .card-sturgeon {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 48.82117%; }
       .card-sturgeon:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 600px) {
     .card-sturgeon {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%; }
+      width: 31.76157%; }
       .card-sturgeon:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
@@ -2767,38 +2703,32 @@ body {
       width: 14.70196%; }
       .card-sturgeon:last-child {
         margin-right: 0; } }
-  .card-sturgeon:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
-  .card-sturgeon:active {
-    -webkit-animation: bounce 1 1s 0s none;
-    animation: bounce 1 1s 0s none; }
 
 .card-tilapia {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 20em;
+  height: 10em;
   width: 97%;
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 20vh;
+  max-height: 40vh;
   border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/7/73/Tilapia.png); }
-  @media screen and (max-width: 425px) {
+  @media screen and (min-width: max-width) {
     .card-tilapia {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 48.82117%; }
       .card-tilapia:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 600px) {
     .card-tilapia {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%; }
+      width: 31.76157%; }
       .card-tilapia:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
@@ -2817,38 +2747,32 @@ body {
       width: 14.70196%; }
       .card-tilapia:last-child {
         margin-right: 0; } }
-  .card-tilapia:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
-  .card-tilapia:active {
-    -webkit-animation: bounce 1 1s 0s none;
-    animation: bounce 1 1s 0s none; }
 
 .card-albacore {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 20em;
+  height: 10em;
   width: 97%;
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 20vh;
+  max-height: 40vh;
   border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/e1/Albacore.png); }
-  @media screen and (max-width: 425px) {
+  @media screen and (min-width: max-width) {
     .card-albacore {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 48.82117%; }
       .card-albacore:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 600px) {
     .card-albacore {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%; }
+      width: 31.76157%; }
       .card-albacore:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
@@ -2867,38 +2791,32 @@ body {
       width: 14.70196%; }
       .card-albacore:last-child {
         margin-right: 0; } }
-  .card-albacore:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
-  .card-albacore:active {
-    -webkit-animation: bounce 1 1s 0s none;
-    animation: bounce 1 1s 0s none; }
 
 .card-shad {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 20em;
+  height: 10em;
   width: 97%;
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 20vh;
+  max-height: 40vh;
   border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/ef/Shad.png); }
-  @media screen and (max-width: 425px) {
+  @media screen and (min-width: max-width) {
     .card-shad {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 48.82117%; }
       .card-shad:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 600px) {
     .card-shad {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%; }
+      width: 31.76157%; }
       .card-shad:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
@@ -2917,38 +2835,32 @@ body {
       width: 14.70196%; }
       .card-shad:last-child {
         margin-right: 0; } }
-  .card-shad:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
-  .card-shad:active {
-    -webkit-animation: bounce 1 1s 0s none;
-    animation: bounce 1 1s 0s none; }
 
 .card-chub {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 20em;
+  height: 10em;
   width: 97%;
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 20vh;
+  max-height: 40vh;
   border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/b/bd/Chub.png); }
-  @media screen and (max-width: 425px) {
+  @media screen and (min-width: max-width) {
     .card-chub {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 48.82117%; }
       .card-chub:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 600px) {
     .card-chub {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%; }
+      width: 31.76157%; }
       .card-chub:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
@@ -2967,38 +2879,32 @@ body {
       width: 14.70196%; }
       .card-chub:last-child {
         margin-right: 0; } }
-  .card-chub:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
-  .card-chub:active {
-    -webkit-animation: bounce 1 1s 0s none;
-    animation: bounce 1 1s 0s none; }
 
 .card-octopus {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 20em;
+  height: 10em;
   width: 97%;
-  min-height: 50vh;
-  max-height: 60vh;
+  min-height: 20vh;
+  max-height: 40vh;
   border: 4px dotted #000;
   background-image: url(http://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png); }
-  @media screen and (max-width: 425px) {
+  @media screen and (min-width: max-width) {
     .card-octopus {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 48.82117%; }
       .card-octopus:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 600px) {
     .card-octopus {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%; }
+      width: 31.76157%; }
       .card-octopus:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
@@ -3017,11 +2923,5 @@ body {
       width: 14.70196%; }
       .card-octopus:last-child {
         margin-right: 0; } }
-  .card-octopus:hover {
-    -webkit-animation: pulsate 3 1.5s 0s none;
-    animation: pulsate 3 1.5s 0s none; }
-  .card-octopus:active {
-    -webkit-animation: bounce 1 1s 0s none;
-    animation: bounce 1 1s 0s none; }
 
 /*# sourceMappingURL=styles.css.map */
