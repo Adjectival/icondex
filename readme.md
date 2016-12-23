@@ -1,11 +1,11 @@
 
-# Icondex v0.5 :fish::ballot_box_with_check::ideograph_advantage:
+# Icondex v0.6 :fish::ballot_box_with_check::ideograph_advantage:
 ## _a project to navigate data without menus_
 ### by _Alexander Jacks_
 
-<!-- ![screenshot](/img/screenshot.png) -->
+![screenshot](/img/screenshot.png)
 ### Description
-The goal is to have a webapp that looks good on any screen and offers a way to sort through data using only icons. Much user config needs to happen at this point, yet with time it will approach a "drag in your data" situation and the app will handle most of the icon assignment intelligently.
+The goal is to have a webapp that looks good on any screen and offers a way to sort through data using only icons. Much dev config needs to happen at this point, yet with time it will approach a "drag in your data" situation and the app will handle most of the icon assignment intelligently.
 
 The demo sorts through fishing opportunities in a video game, based upon place, time of year, and time of day.
 
