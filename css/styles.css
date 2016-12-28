@@ -2439,7 +2439,7 @@ html {
   flex-wrap: wrap;
   justify-content: space-around;
   text-shadow: 2px 2px 3px gold, 2px -2px 3px gold, -2px 2px 3px gold, -2px -2px 3px gold;
-  padding: 3vw; }
+  padding: 1vw; }
   .buttons div img {
     min-width: 10vw; }
   .buttons div {

@@ -36,7 +36,7 @@ $(document).ready(function(){
     var btn = $("[id*='_fish']");
     btn.fadeOut("slow");
     var card = $("[class*='card-']");
-    btn.fadeOut("slow");
+    card.fadeOut("fast");
   });
 
   $("#sunny_fish").click(function(){
