@@ -1,5 +1,5 @@
 @import "bourbon/bourbon";
-@import "grid-settings";
+@import "layout";
 @import "mixins";
 @import "neat/neat";
 @import "saffron/saffron";
@@ -10,15 +10,6 @@
 @import "farm-cards";
 @import "forage-cards";
 
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding:0;
-}
 
 // base
 body {
@@ -26,19 +17,6 @@ body {
   font-size: 1.5em;
   color: #000;
   @include text-glow(white);
-}
-
-// layout
-.flexboxed {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-$blend: beige;
-.cards {
-  @extend .flexboxed;
-  width: 100%;
-  @include background-image(linear-gradient(to bottom, maroon, beige));
 }
 
 // fill the HTML divs

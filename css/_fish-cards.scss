@@ -1,28 +1,19 @@
-@mixin card() {
-@include card-sizing;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #cde;
-}
-
 $Fishes: ('Albacore', 'Anchovy', 'Bream', 'Bullhead', 'Carp', 'Catfish', 'Chub', 'Dorado', 'Eel', 'Ghostfish', 'Halibut', 'Herring', 'Ice_Pip', 'Largemouth_Bass', 'Lava_Eel', 'Lingcod', 'Octopus', 'Perch', 'Pike', 'Pufferfish', 'Rainbow_Trout', 'Red_Mullet', 'Red_Snapper', 'Salmon', 'Sandfish', 'Sardine', 'Scorpion_Carp', 'Sea_Cucumber', 'Shad', 'Slimejack', 'Smallmouth_Bass', 'Squid', 'Stonefish', 'Sturgeon', 'Sunfish', 'Super_Cucumber', 'Tiger_Trout', 'Tilapia', 'Tuna', 'Void_Salmon', 'Walleye', 'Woodskip');
+
+$FishPrice: ('Albacore':75, 'Anchovy':30, 'Bream':45, 'Bullhead':75, 'Carp':30, 'Catfish':200, 'Chub':50, 'Dorado':100, 'Eel':85, 'Ghostfish':45, 'Halibut':80, 'Herring':30, 'Ice_Pip':500, 'Largemouth_Bass':100, 'Lava_Eel':700, 'Lingcod':120, 'Octopus':150, 'Perch':55, 'Pike':100, 'Pufferfish':200, 'Rainbow_Trout':65, 'Red_Mullet':75, 'Red_Snapper':50, 'Salmon':75, 'Sandfish':75, 'Sardine':40, 'Scorpion_Carp':150, 'Sea_Cucumber':75, 'Shad':60, 'Slimejack':100, 'Smallmouth_Bass':50, 'Squid':80, 'Stonefish':300, 'Sturgeon':200, 'Sunfish':30, 'Super_Cucumber':250, 'Tiger_Trout':150, 'Tilapia':75, 'Tuna':100, 'Void_Salmon':150, 'Walleye':105, 'Woodskip':75);
+
 
 @mixin fish($fish) {
   .card-#{$fish} {
     @include card;
-    background-image: url(unquote('../img/#{$fish}.png'));
     display: flex;
+    background-image: url(unquote('../img/#{$fish}.png'));
     position: relative;
+    content: "#{$fish}";
   }
   .card-#{$fish}::after {
     position: absolute;
-    align-self: baseline;
+    opacity: 0.7;
     content: "#{$fish}";
   }
 }

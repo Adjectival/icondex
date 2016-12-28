@@ -9,7 +9,7 @@
     <title>Icon Dex, Sort 'StarDew Valley' data via Icons</title>
   </head>
   <body>
-    <section class="header"><h2>Icon Dex v0.95</h2><h4>all recipes and fish from Stardew Valley</h4></section>
+    <section class="header"><h2>Icon Dex v0.96</h2><h4>all learned crafting recipes and non-legendary fish from Stardew Valley</h4></section>
 
   <section class="buttons">
     <div class="big_button" id="farming_skill_btn">
@@ -30,23 +30,28 @@
   </section>
 
 
-  <section class="buttons">
-    <div class="btn" id="iron_farm"><img src="img/Quality_Sprinkler.png" alt="sunny weather only"><br>Iron</div>
-    <div class="btn" id="copper_farm"><img src="img/Keg.png" alt="rainy weather only"><br>Copper</div>
-    <!--  end Farm buttons-->
-  </section>
+
   <section class="buttons">
     <!-- Fish sort buttons -->
-    <div class="btn" id="sunny_fish_btn"><img src="img/Sunny.png" alt="sunny weather only"><br>Sunny</div>
-    <div class="btn" id="rainy_fish_btn"><img src="img/Rain.png" alt="rainy weather only"><br>Rainy</div>
+    <div class="flexboxed">
 
-    <div class="btn" id="spring_fish_btn"><img src="img/Spring.png" alt="spring only"><br>Spring</div>
-    <div class="btn" id="summer_fish_btn"><img src="img/Summer.png" alt="summer only"><br>Summer</div>
-    <div class="btn" id="fall_fish_btn"><img src="img/Fall.png" alt="fall only"><br>Fall</div>
-    <div class="btn" id="winter_fish_btn"><img src="img/Winter.png" alt="winter only"><br>Winter</div>
+      <div class="quad_btn" id="day_fish_btn"><img src="img/rivers.png" alt="rivers to include Town only"><br>Rivers</div>
+      <div class="quad_btn" id="night_fish_btn"><img src="img/mountain.png" alt="mountain lake only"><br>Mountain</div>
+      <div class="quad_btn" id="day_fish_btn"><img src="img/ocean.png" alt="ocean only"><br>Ocean</div>
+      <div class="quad_btn" id="night_fish_btn"><img src="img/elsewhere.png" alt="Secret Woods, Desert, Witches Swamp, Sewers"><br>Elsewhere</div>
 
-    <div class="btn" id="day_fish_btn"><img src="img/Day.png" alt="daytime only"><br>Morning</div>
-    <div class="btn" id="night_fish_btn"><img src="img/Moon.png" alt="night-time only"><br>Evening</div>
+    </div>
+    <div class="bar_btn" id="spring_fish_btn"><img src="img/Spring.png" alt="spring only"><br>Spring</div>
+    <div class="bar_btn" id="summer_fish_btn"><img src="img/Summer.png" alt="summer only"><br>Summer</div>
+    <div class="bar_btn" id="fall_fish_btn"><img src="img/Fall.png" alt="fall only"><br>Fall</div>
+    <div class="bar_btn" id="winter_fish_btn"><img src="img/Winter.png" alt="winter only"><br>Winter</div>
+
+    <div class="flexboxed">
+      <div class="quad_btn" id="sunny_fish_btn"><img src="img/Sunny.png" alt="sunny weather only"><br>Sunny</div>
+      <div class="quad_btn" id="rainy_fish_btn"><img src="img/Rain.png" alt="rainy weather only"><br>Rainy</div>
+      <div class="quad_btn" id="ocean_fish_btn"><img src="img/Day.png" alt="daytime only"><br>Morning</div>
+      <div class="quad_btn" id="elsewhere_fish_btn"><img src="img/Moon.png" alt="night-time only"><br>Evening</div>
+    </div>
 
   </section>
 
@@ -91,7 +96,7 @@
   <section class="cards" id="-mine">
     <div class="card-Cherry_Bomb" id="Cherry_Bomb-mine"></div>
     <div class="card-Staircase" id="Staircase-mine"></div>
-    <div class="card-Miners_Treat" id="Miner's_Treat-mine"></div>
+    <div class="card-Miners_Treat" id="Miners_Treat-mine"></div>
     <div class="card-Iron_Bar" id="Iron_Bar-mine"></div>
     <div class="card-Bomb" id="Bomb-mine"></div>
     <div class="card-Gold_Bar" id="Gold_Bar-mine"></div>
@@ -101,7 +106,7 @@
   <section class="cards" id="-fight">
     <div class="card-Sturdy_Ring" id="Sturdy_Ring-fight"></div>
     <div class="card-Life_Elixir" id="Life_Elixir-fight"></div>
-    <div class="card-Roots_Platter" id="Roots_Platter-fight"></div>
+    <!-- <div class="card-Roots_Platter" id="Roots_Platter-fight"></div> -->
     <div class="card-Warrior_Ring" id="Warrior_Ring-fight"></div>
     <div class="card-Slime_Egg-Press" id="Slime_Egg-Press-fight"></div>
     <div class="card-Oil_of_Garlic" id="Oil_of_Garlic-fight"></div>

@@ -3,13 +3,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  @include radial-gradient(circle at 50% 100%, maroon, olive, cornflowerblue);
+  @include radial-gradient(circle at 50% 100%, maroon, peachpuff, cornflowerblue);
   h2 {
-    @include text-glow(blue);
+    @include text-glow(tomato);
     padding: 2.5vw;
   }
 }
-
+// buttons
 .buttons {
   display: flex;
   flex-wrap: wrap;
@@ -24,4 +24,7 @@
     &:hover { @include pulsate(); }
     &:active { @include bounce(); }
   }
+}
+.quad_btn > img {
+  width: 2px;
 }

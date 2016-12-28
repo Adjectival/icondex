@@ -1,3 +1,34 @@
+// creation of items from img, from lists per module
+@mixin card() {
+@include card-sizing;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  margin: 1.5vw;
+  border-radius: 6px;
+}
+
+@mixin recipe($thing) {
+  .card-#{$thing} {
+    @include card;
+    background-image: url(unquote('../img/#{$thing}.png'));
+    display: flex;
+    position: relative;
+  }
+  // place item name over img
+  .card-#{$thing}::after {
+    position: absolute;
+    align-self: baseline;
+    content: "#{$thing}";
+  }
+}
+
 // font styling of card & h2 text
 @mixin text-glow($color) {
   text-shadow: 2px 2px 3px $color,

@@ -2,9 +2,24 @@
 @import "neat/neat-helpers";
 @import "neat/neat";
 
-// for dev
-// $visual-grid: true;
-
+// layout
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+.flexboxed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cards {
+  @extend .flexboxed;
+  width: 100%;
+  @include background-image(linear-gradient(to bottom, maroon, beige));
+}
 // responsive
 @mixin card-sizing {
   @include media($mobile) {

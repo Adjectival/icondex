@@ -1,32 +1,5 @@
-@mixin card() {
-@include card-sizing;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #cde;
-}
-
 $RecipesFarm: (
 'Scarecrow','Basic_Fertilizer','Mayonnaise_Machine','Stone_Fence','Sprinkler','Bee_House','Speed-Gro','Preserves_Jar','Basic_Retaining_Soil','Iron_Fence','Cheese_Press','Hardwood_Fence','Quality_Sprinkler','Loom','Quality_Retaining_Soil','Oil_Maker','Keg','Deluxe_Speed-Gro','Seed_Maker','Iridium_Sprinkler','Quality_Fertilizer');
-
-@mixin recipe($thing) {
-  .card-#{$thing} {
-    @include card;
-    background-image: url(unquote('../img/#{$thing}.png'));
-    display: flex;
-    position: relative;
-  }
-  .card-#{$thing}::after {
-    position: absolute;
-    align-self: baseline;
-    content: "#{$thing}";
-  }
-}
 
 @mixin dealfarm {
   @each $thing in $RecipesFarm {
