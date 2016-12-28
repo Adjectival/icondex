@@ -15,16 +15,20 @@
 // responsive
 @mixin card-sizing {
   @include media($mobile) {
-    @include span-columns(6 of 12);
+    width: 50vw;
+    // @include span-columns(6 of 12);
   }
   @include media($tablet) {
-    @include span-columns(4 of 12);
+    width: 33vw;
+    // @include span-columns(4 of 12);
   }
   @include media($laptop) {
-    @include span-columns(3 of 12);
+    width: 25vw;
+    // @include span-columns(3 of 12);
   }
   @include media($desktop) {
-    @include span-columns(2 of 12);
+    width: 20vw;
+    // @include span-columns(2 of 12);
   }
 }
 

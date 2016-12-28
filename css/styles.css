@@ -2486,36 +2486,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Albacore {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Albacore:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Albacore {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Albacore:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Albacore {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Albacore:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Albacore {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Albacore:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Albacore::after {
   position: absolute;
@@ -2537,36 +2517,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Anchovy {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Anchovy:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Anchovy {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Anchovy:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Anchovy {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Anchovy:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Anchovy {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Anchovy:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Anchovy::after {
   position: absolute;
@@ -2588,36 +2548,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Bream {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Bream:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Bream {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Bream:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Bream {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Bream:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Bream {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Bream:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Bream::after {
   position: absolute;
@@ -2639,36 +2579,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Bullhead {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Bullhead:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Bullhead {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Bullhead:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Bullhead {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Bullhead:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Bullhead {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Bullhead:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Bullhead::after {
   position: absolute;
@@ -2690,36 +2610,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Carp {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Carp:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Carp {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Carp:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Carp {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Carp:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Carp {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Carp:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Carp::after {
   position: absolute;
@@ -2741,36 +2641,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Catfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Catfish:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Catfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Catfish:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Catfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Catfish:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Catfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Catfish:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Catfish::after {
   position: absolute;
@@ -2792,36 +2672,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Chub {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Chub:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Chub {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Chub:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Chub {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Chub:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Chub {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Chub:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Chub::after {
   position: absolute;
@@ -2843,36 +2703,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Dorado {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Dorado:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Dorado {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Dorado:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Dorado {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Dorado:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Dorado {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Dorado:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Dorado::after {
   position: absolute;
@@ -2894,36 +2734,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Eel {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Eel:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Eel {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Eel:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Eel {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Eel:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Eel {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Eel:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Eel::after {
   position: absolute;
@@ -2945,36 +2765,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Ghostfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Ghostfish:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Ghostfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Ghostfish:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Ghostfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Ghostfish:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Ghostfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Ghostfish:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Ghostfish::after {
   position: absolute;
@@ -2996,36 +2796,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Halibut {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Halibut:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Halibut {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Halibut:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Halibut {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Halibut:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Halibut {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Halibut:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Halibut::after {
   position: absolute;
@@ -3047,36 +2827,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Herring {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Herring:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Herring {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Herring:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Herring {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Herring:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Herring {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Herring:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Herring::after {
   position: absolute;
@@ -3098,36 +2858,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Ice_Pip {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Ice_Pip:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Ice_Pip {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Ice_Pip:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Ice_Pip {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Ice_Pip:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Ice_Pip {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Ice_Pip:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Ice_Pip::after {
   position: absolute;
@@ -3149,36 +2889,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Largemouth_Bass {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Largemouth_Bass:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Largemouth_Bass {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Largemouth_Bass:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Largemouth_Bass {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Largemouth_Bass:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Largemouth_Bass {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Largemouth_Bass:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Largemouth_Bass::after {
   position: absolute;
@@ -3200,36 +2920,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Lava_Eel {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Lava_Eel:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Lava_Eel {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Lava_Eel:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Lava_Eel {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Lava_Eel:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Lava_Eel {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Lava_Eel:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Lava_Eel::after {
   position: absolute;
@@ -3251,36 +2951,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Lingcod {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Lingcod:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Lingcod {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Lingcod:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Lingcod {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Lingcod:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Lingcod {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Lingcod:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Lingcod::after {
   position: absolute;
@@ -3302,36 +2982,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Octopus {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Octopus:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Octopus {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Octopus:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Octopus {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Octopus:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Octopus {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Octopus:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Octopus::after {
   position: absolute;
@@ -3353,36 +3013,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Perch {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Perch:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Perch {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Perch:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Perch {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Perch:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Perch {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Perch:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Perch::after {
   position: absolute;
@@ -3404,36 +3044,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Pike {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Pike:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Pike {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Pike:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Pike {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Pike:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Pike {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Pike:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Pike::after {
   position: absolute;
@@ -3455,36 +3075,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Pufferfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Pufferfish:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Pufferfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Pufferfish:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Pufferfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Pufferfish:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Pufferfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Pufferfish:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Pufferfish::after {
   position: absolute;
@@ -3506,36 +3106,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Rainbow_Trout {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Rainbow_Trout:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Rainbow_Trout {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Rainbow_Trout:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Rainbow_Trout {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Rainbow_Trout:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Rainbow_Trout {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Rainbow_Trout:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Rainbow_Trout::after {
   position: absolute;
@@ -3557,36 +3137,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Red_Mullet {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Red_Mullet:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Red_Mullet {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Red_Mullet:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Red_Mullet {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Red_Mullet:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Red_Mullet {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Red_Mullet:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Red_Mullet::after {
   position: absolute;
@@ -3608,36 +3168,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Red_Snapper {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Red_Snapper:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Red_Snapper {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Red_Snapper:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Red_Snapper {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Red_Snapper:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Red_Snapper {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Red_Snapper:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Red_Snapper::after {
   position: absolute;
@@ -3659,36 +3199,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Salmon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Salmon:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Salmon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Salmon:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Salmon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Salmon:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Salmon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Salmon:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Salmon::after {
   position: absolute;
@@ -3710,36 +3230,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Sandfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Sandfish:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Sandfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Sandfish:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Sandfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Sandfish:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Sandfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Sandfish:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Sandfish::after {
   position: absolute;
@@ -3761,36 +3261,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Sardine {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Sardine:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Sardine {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Sardine:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Sardine {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Sardine:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Sardine {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Sardine:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Sardine::after {
   position: absolute;
@@ -3812,36 +3292,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Scorpion_Carp {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Scorpion_Carp:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Scorpion_Carp {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Scorpion_Carp:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Scorpion_Carp {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Scorpion_Carp:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Scorpion_Carp {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Scorpion_Carp:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Scorpion_Carp::after {
   position: absolute;
@@ -3863,36 +3323,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Sea_Cucumber {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Sea_Cucumber:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Sea_Cucumber {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Sea_Cucumber:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Sea_Cucumber {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Sea_Cucumber:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Sea_Cucumber {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Sea_Cucumber:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Sea_Cucumber::after {
   position: absolute;
@@ -3914,36 +3354,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Shad {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Shad:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Shad {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Shad:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Shad {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Shad:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Shad {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Shad:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Shad::after {
   position: absolute;
@@ -3965,36 +3385,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Slimejack {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Slimejack:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Slimejack {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Slimejack:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Slimejack {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Slimejack:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Slimejack {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Slimejack:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Slimejack::after {
   position: absolute;
@@ -4016,36 +3416,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Smallmouth_Bass {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Smallmouth_Bass:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Smallmouth_Bass {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Smallmouth_Bass:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Smallmouth_Bass {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Smallmouth_Bass:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Smallmouth_Bass {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Smallmouth_Bass:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Smallmouth_Bass::after {
   position: absolute;
@@ -4067,36 +3447,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Squid {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Squid:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Squid {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Squid:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Squid {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Squid:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Squid {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Squid:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Squid::after {
   position: absolute;
@@ -4118,36 +3478,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Stonefish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Stonefish:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Stonefish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Stonefish:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Stonefish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Stonefish:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Stonefish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Stonefish:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Stonefish::after {
   position: absolute;
@@ -4169,36 +3509,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Sturgeon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Sturgeon:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Sturgeon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Sturgeon:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Sturgeon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Sturgeon:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Sturgeon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Sturgeon:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Sturgeon::after {
   position: absolute;
@@ -4220,36 +3540,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Sunfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Sunfish:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Sunfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Sunfish:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Sunfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Sunfish:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Sunfish {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Sunfish:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Sunfish::after {
   position: absolute;
@@ -4271,36 +3571,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Super_Cucumber {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Super_Cucumber:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Super_Cucumber {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Super_Cucumber:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Super_Cucumber {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Super_Cucumber:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Super_Cucumber {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Super_Cucumber:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Super_Cucumber::after {
   position: absolute;
@@ -4322,36 +3602,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Tiger_Trout {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Tiger_Trout:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Tiger_Trout {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Tiger_Trout:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Tiger_Trout {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Tiger_Trout:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Tiger_Trout {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Tiger_Trout:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Tiger_Trout::after {
   position: absolute;
@@ -4373,36 +3633,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Tilapia {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Tilapia:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Tilapia {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Tilapia:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Tilapia {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Tilapia:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Tilapia {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Tilapia:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Tilapia::after {
   position: absolute;
@@ -4424,36 +3664,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Tuna {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Tuna:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Tuna {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Tuna:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Tuna {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Tuna:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Tuna {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Tuna:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Tuna::after {
   position: absolute;
@@ -4475,36 +3695,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Void_Salmon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Void_Salmon:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Void_Salmon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Void_Salmon:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Void_Salmon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Void_Salmon:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Void_Salmon {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Void_Salmon:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Void_Salmon::after {
   position: absolute;
@@ -4526,36 +3726,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Walleye {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Walleye:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Walleye {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Walleye:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Walleye {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Walleye:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Walleye {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Walleye:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Walleye::after {
   position: absolute;
@@ -4577,36 +3757,16 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Woodskip {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      .card-Woodskip:last-child {
-        margin-right: 0; } }
+      width: 50vw; } }
   @media screen and (min-width: 600px) {
     .card-Woodskip {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .card-Woodskip:last-child {
-        margin-right: 0; } }
+      width: 33vw; } }
   @media screen and (min-width: 1024px) {
     .card-Woodskip {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%; }
-      .card-Woodskip:last-child {
-        margin-right: 0; } }
+      width: 25vw; } }
   @media screen and (min-width: 1280px) {
     .card-Woodskip {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
-      .card-Woodskip:last-child {
-        margin-right: 0; } }
+      width: 20vw; } }
 
 .card-Woodskip::after {
   position: absolute;

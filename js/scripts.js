@@ -1,5 +1,33 @@
 $(document).ready(function(){
-  $("#sunny_tog").click(function(){
+
+// UI
+  // farming btns
+  // $("#sunny_fish").hide();
+  // $("#rainy_fish").hide();
+  // $("#spring_fish").hide();
+  // $("#summer_fish").hide();
+  // $("#fall_fish").hide();
+  // $("#winter_fish").hide();
+  // $("#day_fish").hide();
+  // $("#night_fish").hide();
+
+  // fish btns
+  $("#sunny_fish").hide();
+  $("#rainy_fish").hide();
+  $("#spring_fish").hide();
+  $("#summer_fish").hide();
+  $("#fall_fish").hide();
+  $("#winter_fish").hide();
+  $("#day_fish").hide();
+  $("#night_fish").hide();
+
+// fishing UX scripts
+  $("#fishing_skill_btn").click(function(){
+    var btn = $("[id*='_fish']");
+    btn.fadeIn("slow");
+  });
+
+  $("#sunny_fish").click(function(){
     $("[class*='card-']").show()
     $("#Catfish").hide();
     $("#Eel").hide();
@@ -7,7 +35,7 @@ $(document).ready(function(){
     $("#Shad").hide();
     $("#Walleye").hide();
   });
-  $("#rainy_tog").click(function(){
+  $("#rainy_fish").click(function(){
     $("[class*='card-']").hide()
     $("#Catfish").show();
     $("#Eel").show();
@@ -15,7 +43,7 @@ $(document).ready(function(){
     $("#Shad").show();
     $("#Walleye").show();
   });
-  $("#spring_tog").click(function(){
+  $("#spring_fish").click(function(){
     $("[class*='card-']").hide()
     $("#Smallmouth_Bass").show();
     $("#Anchovy").show();
@@ -42,7 +70,7 @@ $(document).ready(function(){
     $("#Void_Salmon").show();
     $("#Slimejack").show();
   });
-  $("#summer_tog").click(function(){
+  $("#summer_fish").click(function(){
     $("[class*='card-']").hide()
     $("#Tuna").show();
     $("#Pike").show();
@@ -73,7 +101,7 @@ $(document).ready(function(){
     $("#Void_Salmon").show();
     $("#Slimejack").show();
   });
-  $("#fall_tog").click(function(){
+  $("#fall_fish").click(function(){
     $("[class*='card-']").hide()
     $("#Red_Snapper").show();
     $("#Super_Cucumber").show();
@@ -105,7 +133,7 @@ $(document).ready(function(){
     $("#Void_Salmon").show();
     $("#Slimejack").show();
   });
-  $("#winter_tog").click(function(){
+  $("#winter_fish").click(function(){
     $("[class*='card-']").hide()
     $("#Perch").show();
     $("#Lingcod").show();
@@ -130,7 +158,7 @@ $(document).ready(function(){
     $("#Void_Salmon").show();
     $("#Slimejack").show()
   });
-  $("#day_tog").click(function(){
+  $("#day_fish").click(function(){
     $("[class*='card-']").hide();
     $("#Albacore").show();
     $("#Scorpion_Carp").show();
@@ -149,7 +177,7 @@ $(document).ready(function(){
     $("#Salmon").show();
     $("#Largemouth_Bass").show();
   });
-  $("#night_tog").click(function(){
+  $("#night_fish").click(function(){
     $("[class*='card-']").hide();
     $("#Bream").show();
     $("#Super_Cucumber").show();
@@ -171,9 +199,7 @@ $(document).ready(function(){
     $("#Salmon").show();
     $("#Largemouth_Bass").show();
   });
-  $("#names_tog").click(function(){
-    $("[class*='::after']").toggle();
-  });
+
 });
 
 // Albacore
