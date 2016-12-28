@@ -6,6 +6,7 @@ $(document).ready(function(){
     $("[class*='btn']").fadeOut("slow");
     $("[class*='card-']").fadeOut("fast");
     $("[id*='-fish']").fadeIn("slow");
+    $("[id*='fish_btn']").fadeIn("fast");
   });
   $("#fighting_skill_btn").click(function(){
     $("[class*='btn']").fadeOut("slow");
@@ -30,23 +31,17 @@ $(document).ready(function(){
 
 
   // fishing UX scripts
-  $("#sunny_fish").click(function(){
-    $("[class*='card-']").show()
-    $("#Catfish-fish").hide();
-    $("#Eel-fish").hide();
-    $("#Red_Snapper-fish").hide();
-    $("#Shad-fish").hide();
-    $("#Walleye-fish").hide();
-  });
-  $("#rainy_fish").click(function(){
+  $("#sunny_fish_btn").click(function(){
     $("[class*='card-']").hide()
-    $("#Catfish-fish").show();
-    $("#Eel-fish").show();
-    $("#Red_Snapper-fish").show();
-    $("#Shad-fish").show();
-    $("#Walleye-fish").show();
+    $("[id*='-fish']").show()
+    $("[class*='rainy']").hide();
   });
-  $("#spring_fish").click(function(){
+  $("#rainy_fish_btn").click(function(){
+    $("[class*='card-']").hide()
+    $("[class*='rainy']").show();
+    $("[class*='any']").show();
+  });
+  $("#spring_fish_btn").click(function(){
     $("[class*='card-']").hide()
     $("#Smallmouth_Bass-fish").show();
     $("#Anchovy-fish").show();
@@ -73,7 +68,7 @@ $(document).ready(function(){
     $("#Void_Salmon-fish").show();
     $("#Slimejack-fish").show();
   });
-  $("#summer_fish").click(function(){
+  $("#summer_fish_btn").click(function(){
     $("[class*='card-']").hide()
     $("#Tuna-fish").show();
     $("#Pike-fish").show();
@@ -104,7 +99,7 @@ $(document).ready(function(){
     $("#Void_Salmon-fish").show();
     $("#Slimejack-fish").show();
   });
-  $("#fall_fish").click(function(){
+  $("#fall_fish_btn").click(function(){
     $("[class*='card-']").hide()
     $("#Red_Snapper-fish").show();
     $("#Super_Cucumber-fish").show();
@@ -136,7 +131,7 @@ $(document).ready(function(){
     $("#Void_Salmon-fish").show();
     $("#Slimejack-fish").show();
   });
-  $("#winter_fish").click(function(){
+  $("#winter_fish_btn").click(function(){
     $("[class*='card-']").hide()
     $("#Perch-fish").show();
     $("#Lingcod-fish").show();
@@ -161,7 +156,7 @@ $(document).ready(function(){
     $("#Void_Salmon-fish").show();
     $("#Slimejack-fish").show();
   });
-  $("#day_fish").click(function(){
+  $("#day_fish_btn").click(function(){
     $("[class*='card-']").hide();
     $("#Albacore-fish").show();
     $("#Scorpion_Carp-fish").show();
@@ -180,7 +175,7 @@ $(document).ready(function(){
     $("#Salmon-fish").show();
     $("#Largemouth_Bass-fish").show();
   });
-  $("#night_fish").click(function(){
+  $("#night_fish_btn").click(function(){
     $("[class*='card-']").hide();
     $("#Bream-fish").show();
     $("#Super_Cucumber-fish").show();
