@@ -25,6 +25,18 @@ $(document).ready(function(){
   $("#fishing_skill_btn").click(function(){
     var btn = $("[id*='_fish']");
     btn.fadeIn("slow");
+    var btn = $("[id*='_farm']");
+    btn.fadeOut("slow");
+    var card = $("[class*='card-']");
+    btn.fadeOut("slow");
+  });
+  $("#farming_skill_btn").click(function(){
+    var btn = $("[id*='_farm']");
+    btn.fadeIn("slow");
+    var btn = $("[id*='_fish']");
+    btn.fadeOut("slow");
+    var card = $("[class*='card-']");
+    btn.fadeOut("slow");
   });
 
   $("#sunny_fish").click(function(){
