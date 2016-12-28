@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box; }
 
@@ -6,21 +7,8 @@ html {
 
 .cards {
   width: 100%;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
   background-image: -webkit-linear-gradient( top , maroon, wheat, cornflowerblue, white);
   background-image: linear-gradient(to bottom, maroon, wheat, cornflowerblue, white); }
-  .cards::after {
-    clear: both;
-    content: "";
-    display: block; }
-  .cards:last-child {
-    margin-right: 0; }
 
 html {
   box-sizing: border-box; }
@@ -2475,7 +2463,7 @@ html {
 
 body {
   font-family: monospace, sans-serif;
-  font-size: 1.7em;
+  font-size: 1.5em;
   color: #000;
   text-shadow: 2px 2px 3px white, 2px -2px 3px white, -2px 2px 3px white, -2px -2px 3px white; }
 
@@ -2484,444 +2472,2146 @@ body {
   flex-wrap: wrap;
   justify-content: space-around; }
 
-.card-salmon {
+.card-Albacore {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 10em;
+  height: 14em;
   width: 97%;
-  min-height: 20vh;
-  max-height: 40vh;
-  border: 4px dotted #000;
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/e0/Salmon.png); }
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Albacore.png);
+  display: flex;
+  position: relative; }
   @media screen and (min-width: max-width) {
-    .card-salmon {
+    .card-Albacore {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .card-salmon:last-child {
+      .card-Albacore:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 600px) {
-    .card-salmon {
+    .card-Albacore {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .card-salmon:last-child {
+      .card-Albacore:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-salmon {
+    .card-Albacore {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-salmon:last-child {
+      .card-Albacore:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-salmon {
+    .card-Albacore {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-salmon:last-child {
+      .card-Albacore:last-child {
         margin-right: 0; } }
 
-.card-catfish {
+.card-Albacore::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Albacore"; }
+
+.card-Anchovy {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 10em;
+  height: 14em;
   width: 97%;
-  min-height: 20vh;
-  max-height: 40vh;
-  border: 4px dotted #000;
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png); }
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Anchovy.png);
+  display: flex;
+  position: relative; }
   @media screen and (min-width: max-width) {
-    .card-catfish {
+    .card-Anchovy {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .card-catfish:last-child {
+      .card-Anchovy:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 600px) {
-    .card-catfish {
+    .card-Anchovy {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .card-catfish:last-child {
+      .card-Anchovy:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-catfish {
+    .card-Anchovy {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-catfish:last-child {
+      .card-Anchovy:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-catfish {
+    .card-Anchovy {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-catfish:last-child {
+      .card-Anchovy:last-child {
         margin-right: 0; } }
 
-.card-redmullet {
+.card-Anchovy::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Anchovy"; }
+
+.card-Bream {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 10em;
+  height: 14em;
   width: 97%;
-  min-height: 20vh;
-  max-height: 40vh;
-  border: 4px dotted #000;
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/f/f2/Red_Mullet.png); }
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Bream.png);
+  display: flex;
+  position: relative; }
   @media screen and (min-width: max-width) {
-    .card-redmullet {
+    .card-Bream {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .card-redmullet:last-child {
+      .card-Bream:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 600px) {
-    .card-redmullet {
+    .card-Bream {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .card-redmullet:last-child {
+      .card-Bream:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-redmullet {
+    .card-Bream {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-redmullet:last-child {
+      .card-Bream:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-redmullet {
+    .card-Bream {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-redmullet:last-child {
+      .card-Bream:last-child {
         margin-right: 0; } }
 
-.card-eel {
+.card-Bream::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Bream"; }
+
+.card-Bullhead {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 10em;
+  height: 14em;
   width: 97%;
-  min-height: 20vh;
-  max-height: 40vh;
-  border: 4px dotted #000;
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/9/91/Eel.png); }
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Bullhead.png);
+  display: flex;
+  position: relative; }
   @media screen and (min-width: max-width) {
-    .card-eel {
+    .card-Bullhead {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .card-eel:last-child {
+      .card-Bullhead:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 600px) {
-    .card-eel {
+    .card-Bullhead {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .card-eel:last-child {
+      .card-Bullhead:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-eel {
+    .card-Bullhead {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-eel:last-child {
+      .card-Bullhead:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-eel {
+    .card-Bullhead {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-eel:last-child {
+      .card-Bullhead:last-child {
         margin-right: 0; } }
 
-.card-sturgeon {
+.card-Bullhead::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Bullhead"; }
+
+.card-Carp {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 10em;
+  height: 14em;
   width: 97%;
-  min-height: 20vh;
-  max-height: 40vh;
-  border: 4px dotted #000;
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/4/42/Sturgeon.png); }
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Carp.png);
+  display: flex;
+  position: relative; }
   @media screen and (min-width: max-width) {
-    .card-sturgeon {
+    .card-Carp {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .card-sturgeon:last-child {
+      .card-Carp:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 600px) {
-    .card-sturgeon {
+    .card-Carp {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .card-sturgeon:last-child {
+      .card-Carp:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-sturgeon {
+    .card-Carp {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-sturgeon:last-child {
+      .card-Carp:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-sturgeon {
+    .card-Carp {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-sturgeon:last-child {
+      .card-Carp:last-child {
         margin-right: 0; } }
 
-.card-tilapia {
+.card-Carp::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Carp"; }
+
+.card-Catfish {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 10em;
+  height: 14em;
   width: 97%;
-  min-height: 20vh;
-  max-height: 40vh;
-  border: 4px dotted #000;
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/7/73/Tilapia.png); }
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Catfish.png);
+  display: flex;
+  position: relative; }
   @media screen and (min-width: max-width) {
-    .card-tilapia {
+    .card-Catfish {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .card-tilapia:last-child {
+      .card-Catfish:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 600px) {
-    .card-tilapia {
+    .card-Catfish {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .card-tilapia:last-child {
+      .card-Catfish:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-tilapia {
+    .card-Catfish {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-tilapia:last-child {
+      .card-Catfish:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-tilapia {
+    .card-Catfish {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-tilapia:last-child {
+      .card-Catfish:last-child {
         margin-right: 0; } }
 
-.card-albacore {
+.card-Catfish::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Catfish"; }
+
+.card-Chub {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 10em;
+  height: 14em;
   width: 97%;
-  min-height: 20vh;
-  max-height: 40vh;
-  border: 4px dotted #000;
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/e1/Albacore.png); }
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Chub.png);
+  display: flex;
+  position: relative; }
   @media screen and (min-width: max-width) {
-    .card-albacore {
+    .card-Chub {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .card-albacore:last-child {
+      .card-Chub:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 600px) {
-    .card-albacore {
+    .card-Chub {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .card-albacore:last-child {
+      .card-Chub:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-albacore {
+    .card-Chub {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-albacore:last-child {
+      .card-Chub:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-albacore {
+    .card-Chub {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-albacore:last-child {
+      .card-Chub:last-child {
         margin-right: 0; } }
 
-.card-shad {
+.card-Chub::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Chub"; }
+
+.card-Dorado {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 10em;
+  height: 14em;
   width: 97%;
-  min-height: 20vh;
-  max-height: 40vh;
-  border: 4px dotted #000;
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/e/ef/Shad.png); }
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Dorado.png);
+  display: flex;
+  position: relative; }
   @media screen and (min-width: max-width) {
-    .card-shad {
+    .card-Dorado {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .card-shad:last-child {
+      .card-Dorado:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 600px) {
-    .card-shad {
+    .card-Dorado {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .card-shad:last-child {
+      .card-Dorado:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-shad {
+    .card-Dorado {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-shad:last-child {
+      .card-Dorado:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-shad {
+    .card-Dorado {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-shad:last-child {
+      .card-Dorado:last-child {
         margin-right: 0; } }
 
-.card-chub {
+.card-Dorado::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Dorado"; }
+
+.card-Eel {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 10em;
+  height: 14em;
   width: 97%;
-  min-height: 20vh;
-  max-height: 40vh;
-  border: 4px dotted #000;
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/b/bd/Chub.png); }
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Eel.png);
+  display: flex;
+  position: relative; }
   @media screen and (min-width: max-width) {
-    .card-chub {
+    .card-Eel {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .card-chub:last-child {
+      .card-Eel:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 600px) {
-    .card-chub {
+    .card-Eel {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .card-chub:last-child {
+      .card-Eel:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-chub {
+    .card-Eel {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-chub:last-child {
+      .card-Eel:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-chub {
+    .card-Eel {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-chub:last-child {
+      .card-Eel:last-child {
         margin-right: 0; } }
 
-.card-octopus {
+.card-Eel::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Eel"; }
+
+.card-Ghostfish {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 10em;
+  height: 14em;
   width: 97%;
-  min-height: 20vh;
-  max-height: 40vh;
-  border: 4px dotted #000;
-  background-image: url(http://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png); }
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Ghostfish.png);
+  display: flex;
+  position: relative; }
   @media screen and (min-width: max-width) {
-    .card-octopus {
+    .card-Ghostfish {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .card-octopus:last-child {
+      .card-Ghostfish:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 600px) {
-    .card-octopus {
+    .card-Ghostfish {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .card-octopus:last-child {
+      .card-Ghostfish:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1024px) {
-    .card-octopus {
+    .card-Ghostfish {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 23.23176%; }
-      .card-octopus:last-child {
+      .card-Ghostfish:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 1280px) {
-    .card-octopus {
+    .card-Ghostfish {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 14.70196%; }
-      .card-octopus:last-child {
+      .card-Ghostfish:last-child {
         margin-right: 0; } }
+
+.card-Ghostfish::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Ghostfish"; }
+
+.card-Halibut {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Halibut.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Halibut {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Halibut:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Halibut {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Halibut:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Halibut {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Halibut:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Halibut {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Halibut:last-child {
+        margin-right: 0; } }
+
+.card-Halibut::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Halibut"; }
+
+.card-Herring {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Herring.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Herring {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Herring:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Herring {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Herring:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Herring {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Herring:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Herring {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Herring:last-child {
+        margin-right: 0; } }
+
+.card-Herring::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Herring"; }
+
+.card-Ice_Pip {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Ice_Pip.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Ice_Pip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Ice_Pip:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Ice_Pip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Ice_Pip:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Ice_Pip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Ice_Pip:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Ice_Pip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Ice_Pip:last-child {
+        margin-right: 0; } }
+
+.card-Ice_Pip::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Ice_Pip"; }
+
+.card-Largemouth_Bass {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Largemouth_Bass.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Largemouth_Bass {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Largemouth_Bass:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Largemouth_Bass {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Largemouth_Bass:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Largemouth_Bass {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Largemouth_Bass:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Largemouth_Bass {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Largemouth_Bass:last-child {
+        margin-right: 0; } }
+
+.card-Largemouth_Bass::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Largemouth_Bass"; }
+
+.card-Lava_Eel {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Lava_Eel.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Lava_Eel {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Lava_Eel:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Lava_Eel {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Lava_Eel:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Lava_Eel {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Lava_Eel:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Lava_Eel {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Lava_Eel:last-child {
+        margin-right: 0; } }
+
+.card-Lava_Eel::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Lava_Eel"; }
+
+.card-Lingcod {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Lingcod.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Lingcod {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Lingcod:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Lingcod {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Lingcod:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Lingcod {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Lingcod:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Lingcod {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Lingcod:last-child {
+        margin-right: 0; } }
+
+.card-Lingcod::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Lingcod"; }
+
+.card-Octopus {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Octopus.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Octopus {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Octopus:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Octopus {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Octopus:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Octopus {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Octopus:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Octopus {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Octopus:last-child {
+        margin-right: 0; } }
+
+.card-Octopus::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Octopus"; }
+
+.card-Perch {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Perch.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Perch {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Perch:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Perch {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Perch:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Perch {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Perch:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Perch {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Perch:last-child {
+        margin-right: 0; } }
+
+.card-Perch::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Perch"; }
+
+.card-Pike {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Pike.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Pike {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Pike:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Pike {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Pike:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Pike {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Pike:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Pike {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Pike:last-child {
+        margin-right: 0; } }
+
+.card-Pike::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Pike"; }
+
+.card-Pufferfish {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Pufferfish.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Pufferfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Pufferfish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Pufferfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Pufferfish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Pufferfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Pufferfish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Pufferfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Pufferfish:last-child {
+        margin-right: 0; } }
+
+.card-Pufferfish::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Pufferfish"; }
+
+.card-Rainbow_Trout {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Rainbow_Trout.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Rainbow_Trout {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Rainbow_Trout:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Rainbow_Trout {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Rainbow_Trout:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Rainbow_Trout {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Rainbow_Trout:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Rainbow_Trout {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Rainbow_Trout:last-child {
+        margin-right: 0; } }
+
+.card-Rainbow_Trout::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Rainbow_Trout"; }
+
+.card-Red_Mullet {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Red_Mullet.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Red_Mullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Red_Mullet:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Red_Mullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Red_Mullet:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Red_Mullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Red_Mullet:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Red_Mullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Red_Mullet:last-child {
+        margin-right: 0; } }
+
+.card-Red_Mullet::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Red_Mullet"; }
+
+.card-Red_Snapper {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Red_Snapper.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Red_Snapper {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Red_Snapper:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Red_Snapper {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Red_Snapper:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Red_Snapper {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Red_Snapper:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Red_Snapper {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Red_Snapper:last-child {
+        margin-right: 0; } }
+
+.card-Red_Snapper::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Red_Snapper"; }
+
+.card-Salmon {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Salmon.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Salmon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Salmon:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Salmon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Salmon:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Salmon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Salmon:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Salmon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Salmon:last-child {
+        margin-right: 0; } }
+
+.card-Salmon::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Salmon"; }
+
+.card-Sandfish {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Sandfish.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Sandfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Sandfish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Sandfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Sandfish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Sandfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Sandfish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Sandfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Sandfish:last-child {
+        margin-right: 0; } }
+
+.card-Sandfish::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Sandfish"; }
+
+.card-Sardine {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Sardine.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Sardine {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Sardine:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Sardine {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Sardine:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Sardine {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Sardine:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Sardine {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Sardine:last-child {
+        margin-right: 0; } }
+
+.card-Sardine::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Sardine"; }
+
+.card-Scorpion_Carp {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Scorpion_Carp.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Scorpion_Carp {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Scorpion_Carp:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Scorpion_Carp {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Scorpion_Carp:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Scorpion_Carp {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Scorpion_Carp:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Scorpion_Carp {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Scorpion_Carp:last-child {
+        margin-right: 0; } }
+
+.card-Scorpion_Carp::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Scorpion_Carp"; }
+
+.card-Sea_Cucumber {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Sea_Cucumber.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Sea_Cucumber {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Sea_Cucumber:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Sea_Cucumber {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Sea_Cucumber:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Sea_Cucumber {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Sea_Cucumber:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Sea_Cucumber {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Sea_Cucumber:last-child {
+        margin-right: 0; } }
+
+.card-Sea_Cucumber::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Sea_Cucumber"; }
+
+.card-Shad {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Shad.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Shad {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Shad:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Shad {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Shad:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Shad {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Shad:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Shad {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Shad:last-child {
+        margin-right: 0; } }
+
+.card-Shad::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Shad"; }
+
+.card-Slimejack {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Slimejack.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Slimejack {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Slimejack:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Slimejack {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Slimejack:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Slimejack {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Slimejack:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Slimejack {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Slimejack:last-child {
+        margin-right: 0; } }
+
+.card-Slimejack::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Slimejack"; }
+
+.card-Smallmouth_Bass {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Smallmouth_Bass.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Smallmouth_Bass {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Smallmouth_Bass:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Smallmouth_Bass {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Smallmouth_Bass:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Smallmouth_Bass {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Smallmouth_Bass:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Smallmouth_Bass {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Smallmouth_Bass:last-child {
+        margin-right: 0; } }
+
+.card-Smallmouth_Bass::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Smallmouth_Bass"; }
+
+.card-Squid {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Squid.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Squid {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Squid:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Squid {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Squid:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Squid {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Squid:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Squid {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Squid:last-child {
+        margin-right: 0; } }
+
+.card-Squid::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Squid"; }
+
+.card-Stonefish {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Stonefish.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Stonefish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Stonefish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Stonefish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Stonefish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Stonefish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Stonefish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Stonefish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Stonefish:last-child {
+        margin-right: 0; } }
+
+.card-Stonefish::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Stonefish"; }
+
+.card-Sturgeon {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Sturgeon.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Sturgeon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Sturgeon:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Sturgeon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Sturgeon:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Sturgeon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Sturgeon:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Sturgeon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Sturgeon:last-child {
+        margin-right: 0; } }
+
+.card-Sturgeon::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Sturgeon"; }
+
+.card-Sunfish {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Sunfish.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Sunfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Sunfish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Sunfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Sunfish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Sunfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Sunfish:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Sunfish {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Sunfish:last-child {
+        margin-right: 0; } }
+
+.card-Sunfish::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Sunfish"; }
+
+.card-Super_Cucumber {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Super_Cucumber.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Super_Cucumber {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Super_Cucumber:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Super_Cucumber {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Super_Cucumber:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Super_Cucumber {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Super_Cucumber:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Super_Cucumber {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Super_Cucumber:last-child {
+        margin-right: 0; } }
+
+.card-Super_Cucumber::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Super_Cucumber"; }
+
+.card-Tiger_Trout {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Tiger_Trout.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Tiger_Trout {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Tiger_Trout:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Tiger_Trout {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Tiger_Trout:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Tiger_Trout {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Tiger_Trout:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Tiger_Trout {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Tiger_Trout:last-child {
+        margin-right: 0; } }
+
+.card-Tiger_Trout::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Tiger_Trout"; }
+
+.card-Tilapia {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Tilapia.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Tilapia {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Tilapia:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Tilapia {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Tilapia:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Tilapia {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Tilapia:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Tilapia {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Tilapia:last-child {
+        margin-right: 0; } }
+
+.card-Tilapia::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Tilapia"; }
+
+.card-Tuna {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Tuna.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Tuna {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Tuna:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Tuna {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Tuna:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Tuna {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Tuna:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Tuna {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Tuna:last-child {
+        margin-right: 0; } }
+
+.card-Tuna::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Tuna"; }
+
+.card-Void_Salmon {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Void_Salmon.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Void_Salmon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Void_Salmon:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Void_Salmon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Void_Salmon:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Void_Salmon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Void_Salmon:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Void_Salmon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Void_Salmon:last-child {
+        margin-right: 0; } }
+
+.card-Void_Salmon::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Void_Salmon"; }
+
+.card-Walleye {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Walleye.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Walleye {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Walleye:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Walleye {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Walleye:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Walleye {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Walleye:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Walleye {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Walleye:last-child {
+        margin-right: 0; } }
+
+.card-Walleye::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Walleye"; }
+
+.card-Woodskip {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 97%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Woodskip.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Woodskip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .card-Woodskip:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 600px) {
+    .card-Woodskip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .card-Woodskip:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .card-Woodskip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .card-Woodskip:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .card-Woodskip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .card-Woodskip:last-child {
+        margin-right: 0; } }
+
+.card-Woodskip::after {
+  position: absolute;
+  align-self: baseline;
+  content: ">((}º>Woodskip"; }
 
 /*# sourceMappingURL=styles.css.map */
