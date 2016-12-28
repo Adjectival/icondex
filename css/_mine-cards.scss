@@ -1,0 +1,35 @@
+@mixin card() {
+@include card-sizing;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+}
+
+$Recipes: (
+"Cherry_Bomb","Staircase","Miner's_Treat","Iron_Bar","Bomb","Gold_Bar","Mega_Bomb","Crystalarium");
+
+@mixin recipe($thing) {
+  .card-#{$thing} {
+    @include card;
+    background-image: url(unquote('../img/#{$thing}.png'));
+    display: flex;
+    position: relative;
+  }
+  .card-#{$thing}::after {
+    position: absolute;
+    align-self: baseline;
+    content: "#{$thing}";
+  }
+}
+
+@mixin dealmine {
+  @each $thing in $Recipes {
+    @include recipe($thing);
+  }
+}

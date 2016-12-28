@@ -4,11 +4,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.cards {
-  width: 100%;
-  background-image: -webkit-linear-gradient( top , maroon, wheat, cornflowerblue, white);
-  background-image: linear-gradient(to bottom, maroon, wheat, cornflowerblue, white); }
-
 html {
   box-sizing: border-box; }
 
@@ -2439,7 +2434,7 @@ html {
   flex-wrap: wrap;
   justify-content: space-around;
   text-shadow: 2px 2px 3px gold, 2px -2px 3px gold, -2px 2px 3px gold, -2px -2px 3px gold;
-  padding: 1vw; }
+  padding: 1.5vw; }
   .buttons div img {
     min-width: 10vw; }
   .buttons div {
@@ -2470,6 +2465,848 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
+
+.cards {
+  width: 100%;
+  background-image: -webkit-linear-gradient( top , maroon, beige);
+  background-image: linear-gradient(to bottom, maroon, beige); }
+
+.card-Sturdy_Ring {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Sturdy_Ring.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Sturdy_Ring {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Sturdy_Ring {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Sturdy_Ring {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Sturdy_Ring {
+      width: 20vw; } }
+
+.card-Sturdy_Ring::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Sturdy_Ring"; }
+
+.card-Life_Elixir {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Life_Elixir.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Life_Elixir {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Life_Elixir {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Life_Elixir {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Life_Elixir {
+      width: 20vw; } }
+
+.card-Life_Elixir::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Life_Elixir"; }
+
+.card-Warrior_Ring {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Warrior_Ring.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Warrior_Ring {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Warrior_Ring {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Warrior_Ring {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Warrior_Ring {
+      width: 20vw; } }
+
+.card-Warrior_Ring::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Warrior_Ring"; }
+
+.card-Slime_Egg-Press {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Slime_Egg-Press.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Slime_Egg-Press {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Slime_Egg-Press {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Slime_Egg-Press {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Slime_Egg-Press {
+      width: 20vw; } }
+
+.card-Slime_Egg-Press::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Slime_Egg-Press"; }
+
+.card-Oil_of_Garlic {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Oil_of_Garlic.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Oil_of_Garlic {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Oil_of_Garlic {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Oil_of_Garlic {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Oil_of_Garlic {
+      width: 20vw; } }
+
+.card-Oil_of_Garlic::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Oil_of_Garlic"; }
+
+.card-Ring_of_Yoba {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Ring_of_Yoba.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Ring_of_Yoba {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Ring_of_Yoba {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Ring_of_Yoba {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Ring_of_Yoba {
+      width: 20vw; } }
+
+.card-Ring_of_Yoba::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Ring_of_Yoba"; }
+
+.card-Slime_Incubator {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Slime_Incubator.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Slime_Incubator {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Slime_Incubator {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Slime_Incubator {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Slime_Incubator {
+      width: 20vw; } }
+
+.card-Slime_Incubator::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Slime_Incubator"; }
+
+.card-Explosive_Ammo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Explosive_Ammo.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Explosive_Ammo {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Explosive_Ammo {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Explosive_Ammo {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Explosive_Ammo {
+      width: 20vw; } }
+
+.card-Explosive_Ammo::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Explosive_Ammo"; }
+
+.card-Iridium_Band {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Iridium_Band.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Iridium_Band {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Iridium_Band {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Iridium_Band {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Iridium_Band {
+      width: 20vw; } }
+
+.card-Iridium_Band::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Iridium_Band"; }
+
+.card-Sturdy_Ring {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Sturdy_Ring.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Sturdy_Ring {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Sturdy_Ring {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Sturdy_Ring {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Sturdy_Ring {
+      width: 20vw; } }
+
+.card-Sturdy_Ring::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Sturdy_Ring"; }
+
+.card-Life_Elixir {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Life_Elixir.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Life_Elixir {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Life_Elixir {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Life_Elixir {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Life_Elixir {
+      width: 20vw; } }
+
+.card-Life_Elixir::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Life_Elixir"; }
+
+.card-Warrior_Ring {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Warrior_Ring.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Warrior_Ring {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Warrior_Ring {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Warrior_Ring {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Warrior_Ring {
+      width: 20vw; } }
+
+.card-Warrior_Ring::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Warrior_Ring"; }
+
+.card-Slime_Egg-Press {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Slime_Egg-Press.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Slime_Egg-Press {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Slime_Egg-Press {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Slime_Egg-Press {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Slime_Egg-Press {
+      width: 20vw; } }
+
+.card-Slime_Egg-Press::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Slime_Egg-Press"; }
+
+.card-Oil_of_Garlic {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Oil_of_Garlic.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Oil_of_Garlic {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Oil_of_Garlic {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Oil_of_Garlic {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Oil_of_Garlic {
+      width: 20vw; } }
+
+.card-Oil_of_Garlic::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Oil_of_Garlic"; }
+
+.card-Ring_of_Yoba {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Ring_of_Yoba.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Ring_of_Yoba {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Ring_of_Yoba {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Ring_of_Yoba {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Ring_of_Yoba {
+      width: 20vw; } }
+
+.card-Ring_of_Yoba::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Ring_of_Yoba"; }
+
+.card-Slime_Incubator {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Slime_Incubator.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Slime_Incubator {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Slime_Incubator {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Slime_Incubator {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Slime_Incubator {
+      width: 20vw; } }
+
+.card-Slime_Incubator::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Slime_Incubator"; }
+
+.card-Explosive_Ammo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Explosive_Ammo.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Explosive_Ammo {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Explosive_Ammo {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Explosive_Ammo {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Explosive_Ammo {
+      width: 20vw; } }
+
+.card-Explosive_Ammo::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Explosive_Ammo"; }
+
+.card-Iridium_Band {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Iridium_Band.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Iridium_Band {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Iridium_Band {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Iridium_Band {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Iridium_Band {
+      width: 20vw; } }
+
+.card-Iridium_Band::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Iridium_Band"; }
+
+.card-Sturdy_Ring {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Sturdy_Ring.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Sturdy_Ring {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Sturdy_Ring {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Sturdy_Ring {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Sturdy_Ring {
+      width: 20vw; } }
+
+.card-Sturdy_Ring::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Sturdy_Ring"; }
+
+.card-Life_Elixir {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Life_Elixir.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Life_Elixir {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Life_Elixir {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Life_Elixir {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Life_Elixir {
+      width: 20vw; } }
+
+.card-Life_Elixir::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Life_Elixir"; }
+
+.card-Warrior_Ring {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Warrior_Ring.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Warrior_Ring {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Warrior_Ring {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Warrior_Ring {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Warrior_Ring {
+      width: 20vw; } }
+
+.card-Warrior_Ring::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Warrior_Ring"; }
+
+.card-Slime_Egg-Press {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Slime_Egg-Press.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Slime_Egg-Press {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Slime_Egg-Press {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Slime_Egg-Press {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Slime_Egg-Press {
+      width: 20vw; } }
+
+.card-Slime_Egg-Press::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Slime_Egg-Press"; }
+
+.card-Oil_of_Garlic {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Oil_of_Garlic.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Oil_of_Garlic {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Oil_of_Garlic {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Oil_of_Garlic {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Oil_of_Garlic {
+      width: 20vw; } }
+
+.card-Oil_of_Garlic::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Oil_of_Garlic"; }
+
+.card-Ring_of_Yoba {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Ring_of_Yoba.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Ring_of_Yoba {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Ring_of_Yoba {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Ring_of_Yoba {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Ring_of_Yoba {
+      width: 20vw; } }
+
+.card-Ring_of_Yoba::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Ring_of_Yoba"; }
+
+.card-Slime_Incubator {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Slime_Incubator.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Slime_Incubator {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Slime_Incubator {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Slime_Incubator {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Slime_Incubator {
+      width: 20vw; } }
+
+.card-Slime_Incubator::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Slime_Incubator"; }
+
+.card-Explosive_Ammo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Explosive_Ammo.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Explosive_Ammo {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Explosive_Ammo {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Explosive_Ammo {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Explosive_Ammo {
+      width: 20vw; } }
+
+.card-Explosive_Ammo::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Explosive_Ammo"; }
+
+.card-Iridium_Band {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Iridium_Band.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Iridium_Band {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Iridium_Band {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Iridium_Band {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Iridium_Band {
+      width: 20vw; } }
+
+.card-Iridium_Band::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Iridium_Band"; }
 
 .card-Albacore {
   background-size: cover;
@@ -3772,5 +4609,284 @@ body {
   position: absolute;
   align-self: baseline;
   content: "Woodskip"; }
+
+.card-Sturdy_Ring {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Sturdy_Ring.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Sturdy_Ring {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Sturdy_Ring {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Sturdy_Ring {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Sturdy_Ring {
+      width: 20vw; } }
+
+.card-Sturdy_Ring::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Sturdy_Ring"; }
+
+.card-Life_Elixir {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Life_Elixir.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Life_Elixir {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Life_Elixir {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Life_Elixir {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Life_Elixir {
+      width: 20vw; } }
+
+.card-Life_Elixir::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Life_Elixir"; }
+
+.card-Warrior_Ring {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Warrior_Ring.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Warrior_Ring {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Warrior_Ring {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Warrior_Ring {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Warrior_Ring {
+      width: 20vw; } }
+
+.card-Warrior_Ring::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Warrior_Ring"; }
+
+.card-Slime_Egg-Press {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Slime_Egg-Press.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Slime_Egg-Press {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Slime_Egg-Press {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Slime_Egg-Press {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Slime_Egg-Press {
+      width: 20vw; } }
+
+.card-Slime_Egg-Press::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Slime_Egg-Press"; }
+
+.card-Oil_of_Garlic {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Oil_of_Garlic.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Oil_of_Garlic {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Oil_of_Garlic {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Oil_of_Garlic {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Oil_of_Garlic {
+      width: 20vw; } }
+
+.card-Oil_of_Garlic::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Oil_of_Garlic"; }
+
+.card-Ring_of_Yoba {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Ring_of_Yoba.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Ring_of_Yoba {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Ring_of_Yoba {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Ring_of_Yoba {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Ring_of_Yoba {
+      width: 20vw; } }
+
+.card-Ring_of_Yoba::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Ring_of_Yoba"; }
+
+.card-Slime_Incubator {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Slime_Incubator.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Slime_Incubator {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Slime_Incubator {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Slime_Incubator {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Slime_Incubator {
+      width: 20vw; } }
+
+.card-Slime_Incubator::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Slime_Incubator"; }
+
+.card-Explosive_Ammo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Explosive_Ammo.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Explosive_Ammo {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Explosive_Ammo {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Explosive_Ammo {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Explosive_Ammo {
+      width: 20vw; } }
+
+.card-Explosive_Ammo::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Explosive_Ammo"; }
+
+.card-Iridium_Band {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Iridium_Band.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Iridium_Band {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Iridium_Band {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Iridium_Band {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Iridium_Band {
+      width: 20vw; } }
+
+.card-Iridium_Band::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Iridium_Band"; }
 
 /*# sourceMappingURL=styles.css.map */

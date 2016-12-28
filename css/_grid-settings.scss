@@ -5,13 +5,6 @@
 // for dev
 // $visual-grid: true;
 
-// container
-.cards {
-  @extend .flexboxed;
-  width: 100%;
-  @include background-image(linear-gradient(to bottom, maroon, wheat, cornflowerblue, lighten(#999, 40%)));
-}
-
 // responsive
 @mixin card-sizing {
   @include media($mobile) {

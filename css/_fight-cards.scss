@@ -1,0 +1,35 @@
+@mixin card() {
+@include card-sizing;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+}
+
+$Recipes: (
+'Sturdy_Ring','Life_Elixir','Warrior_Ring','Slime_Egg-Press','Oil_of_Garlic','Ring_of_Yoba','Slime_Incubator','Explosive_Ammo','Iridium_Band');
+
+@mixin recipe($thing) {
+  .card-#{$thing} {
+    @include card;
+    background-image: url(unquote('../img/#{$thing}.png'));
+    display: flex;
+    position: relative;
+  }
+  .card-#{$thing}::after {
+    position: absolute;
+    align-self: baseline;
+    content: "#{$thing}";
+  }
+}
+
+@mixin dealfight {
+  @each $thing in $Recipes {
+    @include recipe($thing);
+  }
+}

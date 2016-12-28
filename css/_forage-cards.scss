@@ -1,0 +1,35 @@
+@mixin card() {
+@include card-sizing;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+}
+
+$Recipes:(
+'Wild_Seeds_(Sp)','Field_Snack','Survival_Burger','Tapper','Charcoal_Kiln','Wild_Seeds_(Su)','Lightning_Rod','Wild_Seeds_(Fa)','Warp_Totem_Beach','Wild_Seeds_(Wi)','Warp_Totem_Mountains','Warp_Totem_Farm','Rain_Totem');
+
+@mixin recipe($thing) {
+  .card-#{$thing} {
+    @include card;
+    background-image: url(unquote('../img/#{$thing}.png'));
+    display: flex;
+    position: relative;
+  }
+  .card-#{$thing}::after {
+    position: absolute;
+    align-self: baseline;
+    content: "#{$thing}";
+  }
+}
+
+@mixin dealforage {
+  @each $thing in $Recipes {
+    @include recipe($thing);
+  }
+}

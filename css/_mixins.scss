@@ -1,6 +1,3 @@
-@import "variables";
-@import "fish-cards";
-
 // font styling of card & h2 text
 @mixin text-glow($color) {
   text-shadow: 2px 2px 3px $color,

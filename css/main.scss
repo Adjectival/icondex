@@ -1,11 +1,14 @@
 @import "bourbon/bourbon";
-@import "variables";
 @import "grid-settings";
 @import "mixins";
 @import "neat/neat";
 @import "saffron/saffron";
 @import "title-and-nav";
+@import "farm-cards";
+@import "forage-cards";
 @import "fish-cards";
+@import "mine-cards";
+@import "fight-cards";
 
 *,
 *::before,
@@ -31,7 +34,16 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
+$blend: beige;
+.cards {
+  @extend .flexboxed;
+  width: 100%;
+  @include background-image(linear-gradient(to bottom, maroon, beige));
+}
 
 // fill the HTML divs
+@include dealfarm;
+@include dealforage;
+@include dealmine;
 @include dealfish;
+@include dealfight;
