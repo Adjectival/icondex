@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   box-sizing: border-box; }
 
@@ -2478,7 +2477,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -2521,7 +2520,7 @@ body {
 .card-Albacore::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Albacore"; }
+  content: "Albacore"; }
 
 .card-Anchovy {
   background-size: cover;
@@ -2529,7 +2528,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -2572,7 +2571,7 @@ body {
 .card-Anchovy::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Anchovy"; }
+  content: "Anchovy"; }
 
 .card-Bream {
   background-size: cover;
@@ -2580,7 +2579,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -2623,7 +2622,7 @@ body {
 .card-Bream::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Bream"; }
+  content: "Bream"; }
 
 .card-Bullhead {
   background-size: cover;
@@ -2631,7 +2630,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -2674,7 +2673,7 @@ body {
 .card-Bullhead::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Bullhead"; }
+  content: "Bullhead"; }
 
 .card-Carp {
   background-size: cover;
@@ -2682,7 +2681,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -2725,7 +2724,7 @@ body {
 .card-Carp::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Carp"; }
+  content: "Carp"; }
 
 .card-Catfish {
   background-size: cover;
@@ -2733,7 +2732,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -2776,7 +2775,7 @@ body {
 .card-Catfish::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Catfish"; }
+  content: "Catfish"; }
 
 .card-Chub {
   background-size: cover;
@@ -2784,7 +2783,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -2827,7 +2826,7 @@ body {
 .card-Chub::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Chub"; }
+  content: "Chub"; }
 
 .card-Dorado {
   background-size: cover;
@@ -2835,7 +2834,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -2878,7 +2877,7 @@ body {
 .card-Dorado::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Dorado"; }
+  content: "Dorado"; }
 
 .card-Eel {
   background-size: cover;
@@ -2886,7 +2885,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -2929,7 +2928,7 @@ body {
 .card-Eel::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Eel"; }
+  content: "Eel"; }
 
 .card-Ghostfish {
   background-size: cover;
@@ -2937,7 +2936,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -2980,7 +2979,7 @@ body {
 .card-Ghostfish::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Ghostfish"; }
+  content: "Ghostfish"; }
 
 .card-Halibut {
   background-size: cover;
@@ -2988,7 +2987,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3031,7 +3030,7 @@ body {
 .card-Halibut::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Halibut"; }
+  content: "Halibut"; }
 
 .card-Herring {
   background-size: cover;
@@ -3039,7 +3038,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3082,7 +3081,7 @@ body {
 .card-Herring::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Herring"; }
+  content: "Herring"; }
 
 .card-Ice_Pip {
   background-size: cover;
@@ -3090,7 +3089,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3133,7 +3132,7 @@ body {
 .card-Ice_Pip::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Ice_Pip"; }
+  content: "Ice_Pip"; }
 
 .card-Largemouth_Bass {
   background-size: cover;
@@ -3141,7 +3140,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3184,7 +3183,7 @@ body {
 .card-Largemouth_Bass::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Largemouth_Bass"; }
+  content: "Largemouth_Bass"; }
 
 .card-Lava_Eel {
   background-size: cover;
@@ -3192,7 +3191,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3235,7 +3234,7 @@ body {
 .card-Lava_Eel::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Lava_Eel"; }
+  content: "Lava_Eel"; }
 
 .card-Lingcod {
   background-size: cover;
@@ -3243,7 +3242,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3286,7 +3285,7 @@ body {
 .card-Lingcod::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Lingcod"; }
+  content: "Lingcod"; }
 
 .card-Octopus {
   background-size: cover;
@@ -3294,7 +3293,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3337,7 +3336,7 @@ body {
 .card-Octopus::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Octopus"; }
+  content: "Octopus"; }
 
 .card-Perch {
   background-size: cover;
@@ -3345,7 +3344,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3388,7 +3387,7 @@ body {
 .card-Perch::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Perch"; }
+  content: "Perch"; }
 
 .card-Pike {
   background-size: cover;
@@ -3396,7 +3395,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3439,7 +3438,7 @@ body {
 .card-Pike::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Pike"; }
+  content: "Pike"; }
 
 .card-Pufferfish {
   background-size: cover;
@@ -3447,7 +3446,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3490,7 +3489,7 @@ body {
 .card-Pufferfish::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Pufferfish"; }
+  content: "Pufferfish"; }
 
 .card-Rainbow_Trout {
   background-size: cover;
@@ -3498,7 +3497,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3541,7 +3540,7 @@ body {
 .card-Rainbow_Trout::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Rainbow_Trout"; }
+  content: "Rainbow_Trout"; }
 
 .card-Red_Mullet {
   background-size: cover;
@@ -3549,7 +3548,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3592,7 +3591,7 @@ body {
 .card-Red_Mullet::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Red_Mullet"; }
+  content: "Red_Mullet"; }
 
 .card-Red_Snapper {
   background-size: cover;
@@ -3600,7 +3599,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3643,7 +3642,7 @@ body {
 .card-Red_Snapper::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Red_Snapper"; }
+  content: "Red_Snapper"; }
 
 .card-Salmon {
   background-size: cover;
@@ -3651,7 +3650,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3694,7 +3693,7 @@ body {
 .card-Salmon::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Salmon"; }
+  content: "Salmon"; }
 
 .card-Sandfish {
   background-size: cover;
@@ -3702,7 +3701,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3745,7 +3744,7 @@ body {
 .card-Sandfish::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Sandfish"; }
+  content: "Sandfish"; }
 
 .card-Sardine {
   background-size: cover;
@@ -3753,7 +3752,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3796,7 +3795,7 @@ body {
 .card-Sardine::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Sardine"; }
+  content: "Sardine"; }
 
 .card-Scorpion_Carp {
   background-size: cover;
@@ -3804,7 +3803,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3847,7 +3846,7 @@ body {
 .card-Scorpion_Carp::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Scorpion_Carp"; }
+  content: "Scorpion_Carp"; }
 
 .card-Sea_Cucumber {
   background-size: cover;
@@ -3855,7 +3854,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3898,7 +3897,7 @@ body {
 .card-Sea_Cucumber::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Sea_Cucumber"; }
+  content: "Sea_Cucumber"; }
 
 .card-Shad {
   background-size: cover;
@@ -3906,7 +3905,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -3949,7 +3948,7 @@ body {
 .card-Shad::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Shad"; }
+  content: "Shad"; }
 
 .card-Slimejack {
   background-size: cover;
@@ -3957,7 +3956,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4000,7 +3999,7 @@ body {
 .card-Slimejack::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Slimejack"; }
+  content: "Slimejack"; }
 
 .card-Smallmouth_Bass {
   background-size: cover;
@@ -4008,7 +4007,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4051,7 +4050,7 @@ body {
 .card-Smallmouth_Bass::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Smallmouth_Bass"; }
+  content: "Smallmouth_Bass"; }
 
 .card-Squid {
   background-size: cover;
@@ -4059,7 +4058,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4102,7 +4101,7 @@ body {
 .card-Squid::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Squid"; }
+  content: "Squid"; }
 
 .card-Stonefish {
   background-size: cover;
@@ -4110,7 +4109,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4153,7 +4152,7 @@ body {
 .card-Stonefish::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Stonefish"; }
+  content: "Stonefish"; }
 
 .card-Sturgeon {
   background-size: cover;
@@ -4161,7 +4160,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4204,7 +4203,7 @@ body {
 .card-Sturgeon::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Sturgeon"; }
+  content: "Sturgeon"; }
 
 .card-Sunfish {
   background-size: cover;
@@ -4212,7 +4211,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4255,7 +4254,7 @@ body {
 .card-Sunfish::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Sunfish"; }
+  content: "Sunfish"; }
 
 .card-Super_Cucumber {
   background-size: cover;
@@ -4263,7 +4262,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4306,7 +4305,7 @@ body {
 .card-Super_Cucumber::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Super_Cucumber"; }
+  content: "Super_Cucumber"; }
 
 .card-Tiger_Trout {
   background-size: cover;
@@ -4314,7 +4313,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4357,7 +4356,7 @@ body {
 .card-Tiger_Trout::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Tiger_Trout"; }
+  content: "Tiger_Trout"; }
 
 .card-Tilapia {
   background-size: cover;
@@ -4365,7 +4364,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4408,7 +4407,7 @@ body {
 .card-Tilapia::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Tilapia"; }
+  content: "Tilapia"; }
 
 .card-Tuna {
   background-size: cover;
@@ -4416,7 +4415,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4459,7 +4458,7 @@ body {
 .card-Tuna::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Tuna"; }
+  content: "Tuna"; }
 
 .card-Void_Salmon {
   background-size: cover;
@@ -4467,7 +4466,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4510,7 +4509,7 @@ body {
 .card-Void_Salmon::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Void_Salmon"; }
+  content: "Void_Salmon"; }
 
 .card-Walleye {
   background-size: cover;
@@ -4518,7 +4517,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4561,7 +4560,7 @@ body {
 .card-Walleye::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Walleye"; }
+  content: "Walleye"; }
 
 .card-Woodskip {
   background-size: cover;
@@ -4569,7 +4568,7 @@ body {
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -4612,6 +4611,6 @@ body {
 .card-Woodskip::after {
   position: absolute;
   align-self: baseline;
-  content: ">((}º>Woodskip"; }
+  content: "Woodskip"; }
 
 /*# sourceMappingURL=styles.css.map */

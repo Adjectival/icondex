@@ -9,13 +9,3 @@
   -2px -2px 3px $color
   ;
 }
-// 
-// @mixin white-caption {
-//   color: white;
-//   @include text-glow(black);
-// }
-// @mixin whitetext-rule($color) {
-//   @if ($color == "maroon" or $color == "mediumslateblue" or $color == "indigo") {
-//     @include white-caption;
-//   }
-// }

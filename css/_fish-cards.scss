@@ -5,7 +5,7 @@
   background-position: center;
   display: inline-block;
   height: 14em;
-  width: 97%;
+  width: 100%;
   min-height: 15vh;
   max-height: 35vh;
   border: 4px dotted #cde;
@@ -13,17 +13,17 @@
 
 $Fishes: ('Albacore', 'Anchovy', 'Bream', 'Bullhead', 'Carp', 'Catfish', 'Chub', 'Dorado', 'Eel', 'Ghostfish', 'Halibut', 'Herring', 'Ice_Pip', 'Largemouth_Bass', 'Lava_Eel', 'Lingcod', 'Octopus', 'Perch', 'Pike', 'Pufferfish', 'Rainbow_Trout', 'Red_Mullet', 'Red_Snapper', 'Salmon', 'Sandfish', 'Sardine', 'Scorpion_Carp', 'Sea_Cucumber', 'Shad', 'Slimejack', 'Smallmouth_Bass', 'Squid', 'Stonefish', 'Sturgeon', 'Sunfish', 'Super_Cucumber', 'Tiger_Trout', 'Tilapia', 'Tuna', 'Void_Salmon', 'Walleye', 'Woodskip');
 
-@mixin fish($Fishes) {
-  .card-#{$Fishes} {
+@mixin fish($fish) {
+  .card-#{$fish} {
     @include card;
-    background-image: url(unquote('../img/#{$Fishes}.png'));
+    background-image: url(unquote('../img/#{$fish}.png'));
     display: flex;
     position: relative;
   }
-  .card-#{$Fishes}::after {
+  .card-#{$fish}::after {
     position: absolute;
     align-self: baseline;
-    content: ">((}º>"+"#{$Fishes}";
+    content: "#{$fish}";
   }
 }
 

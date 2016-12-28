@@ -1,5 +1,5 @@
 
-# Icondex v0.7 :fish::ballot_box_with_check::ideograph_advantage:
+# Icondex v0.8 :fish::tractor::iphone:
 ## _a project to navigate data without menus_
 ### by _Alexander Jacks_
 
