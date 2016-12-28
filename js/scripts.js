@@ -1,21 +1,31 @@
 $(document).ready(function(){
   $("[class*='card-']").hide();
   $("[class*='btn']").hide();
-// UI
+// UI / UX
   $("#fishing_skill_btn").click(function(){
     $("[class*='btn']").fadeOut("slow");
     $("[class*='card-']").fadeOut("fast");
-    $("[id*=-fish]").fadeIn("slow");
+    $("[id*='-fish']").fadeIn("slow");
   });
   $("#fighting_skill_btn").click(function(){
     $("[class*='btn']").fadeOut("slow");
     $("[class*='card-']").fadeOut("fast");
-    $("[id*=-fight]").fadeIn("slow");
+    $("[id*='-fight']").fadeIn("slow");
   });
   $("#mining_skill_btn").click(function(){
     $("[class*='btn']").fadeOut("slow");
     $("[class*='card-']").fadeOut("fast");
-    $("[id*=-mine]").fadeIn("slow");
+    $("[id*='-mine']").fadeIn("slow");
+  });
+  $("#foraging_skill_btn").click(function(){
+    $("[class*='btn']").fadeOut("slow");
+    $("[class*='card-']").fadeOut("fast");
+    $("[id*='-forage']").fadeIn("slow");
+  });
+  $("#farming_skill_btn").click(function(){
+    $("[class*='btn']").fadeOut("slow");
+    $("[class*='card-']").fadeOut("fast");
+    $("[id*='-farm']").fadeIn("slow");
   });
 
 

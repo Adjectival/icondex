@@ -12,7 +12,7 @@
 }
 
 $Recipes: (
-'Scarecrow','Basic_Fertilizer','Mayonnaise_Machine','Stone_Fence','Sprinkler','Bee_House','Speed-Gro_','Preserves_Jar','Basic_Retaining_Soil','Iron_Fence','Cheese_Press','Hardwood_Fence','Quality_Sprinkler','Loom','Quality_Retaining_Soil','Oil_Maker','Keg','Deluxe_Speed-Gro','Seed_Maker','Iridium_Sprinkler','Quality_Fertilizer');
+'Scarecrow','Basic_Fertilizer','Mayonnaise_Machine','Stone_Fence','Sprinkler','Bee_House','Speed-Gro','Preserves_Jar','Basic_Retaining_Soil','Iron_Fence','Cheese_Press','Hardwood_Fence','Quality_Sprinkler','Loom','Quality_Retaining_Soil','Oil_Maker','Keg','Deluxe_Speed-Gro','Seed_Maker','Iridium_Sprinkler','Quality_Fertilizer');
 
 @mixin recipe($thing) {
   .card-#{$thing} {

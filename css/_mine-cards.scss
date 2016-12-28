@@ -8,11 +8,11 @@
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #cde;
+  border: 4px dotted #bcd;
 }
 
 $Recipes: (
-"Cherry_Bomb","Staircase","Miner's_Treat","Iron_Bar","Bomb","Gold_Bar","Mega_Bomb","Crystalarium");
+"Cherry_Bomb","Staircase","Miners_Treat","Iron_Bar","Bomb","Gold_Bar","Mega_Bomb","Crystalarium");
 
 @mixin recipe($thing) {
   .card-#{$thing} {
