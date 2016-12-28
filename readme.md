@@ -5,19 +5,17 @@
 
 ![screenshot](/img/screenshot.png)
 ### Description
-The goal is to have a webapp that looks good on any screen and offers a way to sort through data using only icons. Much dev config needs to happen at this point, yet with time it will approach a "drag in your data" situation and the app will handle most of the icon assignment intelligently.
+Navigate a database of items using only icons.  Icons represent item categories, shared properties, and other icons can sort ascending or descending.  Built to explore the possibility of a minimal UI able to slice a complex dataset efficiently without text input.
+Showcases visual design and full-stack development skills learned at Epicodus.
 
-The demo sorts through fishing opportunities in a video game, based upon place, time of year, and time of day.
-
-## Setup
-1. Visit [here](https://adjectival.github.io/icondex/) to view the site.
+## Visit [here](https://adjectival.github.io/icondex/) to view the site.
 
 ## Known Issues
-None at this time.
+Search is under development.
 
 ## Technologies Used
-- Development: CSS3 compiled with Sass, Bourbon served Neat with a pinch of Saffron
-- Design: Sketch
+- Development: CSS3 compiled with Sass, Bourbon on the JQuery with a pinch of Saffron
+- Design: Sketch, JQuery
 - Testing: Atom, Chrome
 
 ### Support and contact details
