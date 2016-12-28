@@ -2471,6 +2471,1060 @@ body {
   background-image: -webkit-linear-gradient( top , maroon, beige);
   background-image: linear-gradient(to bottom, maroon, beige); }
 
+.card-Scarecrow {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Scarecrow.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Scarecrow {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Scarecrow {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Scarecrow {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Scarecrow {
+      width: 20vw; } }
+
+.card-Scarecrow::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Scarecrow"; }
+
+.card-Basic_Fertilizer {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Basic_Fertilizer.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Basic_Fertilizer {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Basic_Fertilizer {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Basic_Fertilizer {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Basic_Fertilizer {
+      width: 20vw; } }
+
+.card-Basic_Fertilizer::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Basic_Fertilizer"; }
+
+.card-Mayonnaise_Machine {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Mayonnaise_Machine.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Mayonnaise_Machine {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Mayonnaise_Machine {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Mayonnaise_Machine {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Mayonnaise_Machine {
+      width: 20vw; } }
+
+.card-Mayonnaise_Machine::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Mayonnaise_Machine"; }
+
+.card-Stone_Fence {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Stone_Fence.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Stone_Fence {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Stone_Fence {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Stone_Fence {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Stone_Fence {
+      width: 20vw; } }
+
+.card-Stone_Fence::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Stone_Fence"; }
+
+.card-Sprinkler {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Sprinkler.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Sprinkler {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Sprinkler {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Sprinkler {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Sprinkler {
+      width: 20vw; } }
+
+.card-Sprinkler::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Sprinkler"; }
+
+.card-Bee_House {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Bee_House.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Bee_House {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Bee_House {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Bee_House {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Bee_House {
+      width: 20vw; } }
+
+.card-Bee_House::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Bee_House"; }
+
+.card-Speed-Gro {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Speed-Gro.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Speed-Gro {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Speed-Gro {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Speed-Gro {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Speed-Gro {
+      width: 20vw; } }
+
+.card-Speed-Gro::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Speed-Gro"; }
+
+.card-Preserves_Jar {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Preserves_Jar.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Preserves_Jar {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Preserves_Jar {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Preserves_Jar {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Preserves_Jar {
+      width: 20vw; } }
+
+.card-Preserves_Jar::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Preserves_Jar"; }
+
+.card-Basic_Retaining_Soil {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Basic_Retaining_Soil.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Basic_Retaining_Soil {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Basic_Retaining_Soil {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Basic_Retaining_Soil {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Basic_Retaining_Soil {
+      width: 20vw; } }
+
+.card-Basic_Retaining_Soil::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Basic_Retaining_Soil"; }
+
+.card-Iron_Fence {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Iron_Fence.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Iron_Fence {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Iron_Fence {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Iron_Fence {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Iron_Fence {
+      width: 20vw; } }
+
+.card-Iron_Fence::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Iron_Fence"; }
+
+.card-Cheese_Press {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Cheese_Press.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Cheese_Press {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Cheese_Press {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Cheese_Press {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Cheese_Press {
+      width: 20vw; } }
+
+.card-Cheese_Press::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Cheese_Press"; }
+
+.card-Hardwood_Fence {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Hardwood_Fence.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Hardwood_Fence {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Hardwood_Fence {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Hardwood_Fence {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Hardwood_Fence {
+      width: 20vw; } }
+
+.card-Hardwood_Fence::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Hardwood_Fence"; }
+
+.card-Quality_Sprinkler {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Quality_Sprinkler.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Quality_Sprinkler {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Quality_Sprinkler {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Quality_Sprinkler {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Quality_Sprinkler {
+      width: 20vw; } }
+
+.card-Quality_Sprinkler::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Quality_Sprinkler"; }
+
+.card-Loom {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Loom.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Loom {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Loom {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Loom {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Loom {
+      width: 20vw; } }
+
+.card-Loom::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Loom"; }
+
+.card-Quality_Retaining_Soil {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Quality_Retaining_Soil.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Quality_Retaining_Soil {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Quality_Retaining_Soil {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Quality_Retaining_Soil {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Quality_Retaining_Soil {
+      width: 20vw; } }
+
+.card-Quality_Retaining_Soil::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Quality_Retaining_Soil"; }
+
+.card-Oil_Maker {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Oil_Maker.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Oil_Maker {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Oil_Maker {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Oil_Maker {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Oil_Maker {
+      width: 20vw; } }
+
+.card-Oil_Maker::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Oil_Maker"; }
+
+.card-Keg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Keg.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Keg {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Keg {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Keg {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Keg {
+      width: 20vw; } }
+
+.card-Keg::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Keg"; }
+
+.card-Deluxe_Speed-Gro {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Deluxe_Speed-Gro.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Deluxe_Speed-Gro {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Deluxe_Speed-Gro {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Deluxe_Speed-Gro {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Deluxe_Speed-Gro {
+      width: 20vw; } }
+
+.card-Deluxe_Speed-Gro::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Deluxe_Speed-Gro"; }
+
+.card-Seed_Maker {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Seed_Maker.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Seed_Maker {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Seed_Maker {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Seed_Maker {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Seed_Maker {
+      width: 20vw; } }
+
+.card-Seed_Maker::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Seed_Maker"; }
+
+.card-Iridium_Sprinkler {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Iridium_Sprinkler.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Iridium_Sprinkler {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Iridium_Sprinkler {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Iridium_Sprinkler {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Iridium_Sprinkler {
+      width: 20vw; } }
+
+.card-Iridium_Sprinkler::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Iridium_Sprinkler"; }
+
+.card-Quality_Fertilizer {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Quality_Fertilizer.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Quality_Fertilizer {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Quality_Fertilizer {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Quality_Fertilizer {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Quality_Fertilizer {
+      width: 20vw; } }
+
+.card-Quality_Fertilizer::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Quality_Fertilizer"; }
+
+.card-Wild_Seeds_Sp {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Wild_Seeds_Sp.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Wild_Seeds_Sp {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Wild_Seeds_Sp {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Wild_Seeds_Sp {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Wild_Seeds_Sp {
+      width: 20vw; } }
+
+.card-Wild_Seeds_Sp::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Wild_Seeds_Sp"; }
+
+.card-Field_Snack {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Field_Snack.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Field_Snack {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Field_Snack {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Field_Snack {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Field_Snack {
+      width: 20vw; } }
+
+.card-Field_Snack::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Field_Snack"; }
+
+.card-Survival_Burger {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Survival_Burger.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Survival_Burger {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Survival_Burger {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Survival_Burger {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Survival_Burger {
+      width: 20vw; } }
+
+.card-Survival_Burger::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Survival_Burger"; }
+
+.card-Tapper {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Tapper.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Tapper {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Tapper {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Tapper {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Tapper {
+      width: 20vw; } }
+
+.card-Tapper::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Tapper"; }
+
+.card-Charcoal_Kiln {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Charcoal_Kiln.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Charcoal_Kiln {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Charcoal_Kiln {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Charcoal_Kiln {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Charcoal_Kiln {
+      width: 20vw; } }
+
+.card-Charcoal_Kiln::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Charcoal_Kiln"; }
+
+.card-Wild_Seeds_Su {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Wild_Seeds_Su.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Wild_Seeds_Su {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Wild_Seeds_Su {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Wild_Seeds_Su {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Wild_Seeds_Su {
+      width: 20vw; } }
+
+.card-Wild_Seeds_Su::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Wild_Seeds_Su"; }
+
+.card-Lightning_Rod {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Lightning_Rod.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Lightning_Rod {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Lightning_Rod {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Lightning_Rod {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Lightning_Rod {
+      width: 20vw; } }
+
+.card-Lightning_Rod::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Lightning_Rod"; }
+
+.card-Wild_Seeds_Fa {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Wild_Seeds_Fa.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Wild_Seeds_Fa {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Wild_Seeds_Fa {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Wild_Seeds_Fa {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Wild_Seeds_Fa {
+      width: 20vw; } }
+
+.card-Wild_Seeds_Fa::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Wild_Seeds_Fa"; }
+
+.card-Warp_Totem_Beach {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Warp_Totem_Beach.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Warp_Totem_Beach {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Warp_Totem_Beach {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Warp_Totem_Beach {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Warp_Totem_Beach {
+      width: 20vw; } }
+
+.card-Warp_Totem_Beach::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Warp_Totem_Beach"; }
+
+.card-Wild_Seeds_Wi {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Wild_Seeds_Wi.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Wild_Seeds_Wi {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Wild_Seeds_Wi {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Wild_Seeds_Wi {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Wild_Seeds_Wi {
+      width: 20vw; } }
+
+.card-Wild_Seeds_Wi::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Wild_Seeds_Wi"; }
+
+.card-Warp_Totem_Mountains {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Warp_Totem_Mountains.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Warp_Totem_Mountains {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Warp_Totem_Mountains {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Warp_Totem_Mountains {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Warp_Totem_Mountains {
+      width: 20vw; } }
+
+.card-Warp_Totem_Mountains::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Warp_Totem_Mountains"; }
+
+.card-Warp_Totem_Farm {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Warp_Totem_Farm.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Warp_Totem_Farm {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Warp_Totem_Farm {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Warp_Totem_Farm {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Warp_Totem_Farm {
+      width: 20vw; } }
+
+.card-Warp_Totem_Farm::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Warp_Totem_Farm"; }
+
+.card-Rain_Totem {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Rain_Totem.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Rain_Totem {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Rain_Totem {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Rain_Totem {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Rain_Totem {
+      width: 20vw; } }
+
+.card-Rain_Totem::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Rain_Totem"; }
+
 .card-Cherry_Bomb {
   background-size: cover;
   background-repeat: no-repeat;
@@ -2480,7 +3534,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Cherry_Bomb.png);
   display: flex;
   position: relative; }
@@ -2511,7 +3565,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Staircase.png);
   display: flex;
   position: relative; }
@@ -2542,7 +3596,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Miners_Treat.png);
   display: flex;
   position: relative; }
@@ -2573,7 +3627,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Iron_Bar.png);
   display: flex;
   position: relative; }
@@ -2604,7 +3658,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Bomb.png);
   display: flex;
   position: relative; }
@@ -2635,7 +3689,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Gold_Bar.png);
   display: flex;
   position: relative; }
@@ -2666,7 +3720,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Mega_Bomb.png);
   display: flex;
   position: relative; }
@@ -2697,503 +3751,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Crystalarium.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Crystalarium {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Crystalarium {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Crystalarium {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Crystalarium {
-      width: 20vw; } }
-
-.card-Crystalarium::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Crystalarium"; }
-
-.card-Cherry_Bomb {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Cherry_Bomb.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Cherry_Bomb {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Cherry_Bomb {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Cherry_Bomb {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Cherry_Bomb {
-      width: 20vw; } }
-
-.card-Cherry_Bomb::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Cherry_Bomb"; }
-
-.card-Staircase {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Staircase.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Staircase {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Staircase {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Staircase {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Staircase {
-      width: 20vw; } }
-
-.card-Staircase::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Staircase"; }
-
-.card-Miners_Treat {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Miners_Treat.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Miners_Treat {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Miners_Treat {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Miners_Treat {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Miners_Treat {
-      width: 20vw; } }
-
-.card-Miners_Treat::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Miners_Treat"; }
-
-.card-Iron_Bar {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Iron_Bar.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Iron_Bar {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Iron_Bar {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Iron_Bar {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Iron_Bar {
-      width: 20vw; } }
-
-.card-Iron_Bar::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Iron_Bar"; }
-
-.card-Bomb {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Bomb.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Bomb {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Bomb {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Bomb {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Bomb {
-      width: 20vw; } }
-
-.card-Bomb::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Bomb"; }
-
-.card-Gold_Bar {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Gold_Bar.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Gold_Bar {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Gold_Bar {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Gold_Bar {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Gold_Bar {
-      width: 20vw; } }
-
-.card-Gold_Bar::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Gold_Bar"; }
-
-.card-Mega_Bomb {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Mega_Bomb.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Mega_Bomb {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Mega_Bomb {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Mega_Bomb {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Mega_Bomb {
-      width: 20vw; } }
-
-.card-Mega_Bomb::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Mega_Bomb"; }
-
-.card-Crystalarium {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Crystalarium.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Crystalarium {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Crystalarium {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Crystalarium {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Crystalarium {
-      width: 20vw; } }
-
-.card-Crystalarium::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Crystalarium"; }
-
-.card-Cherry_Bomb {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Cherry_Bomb.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Cherry_Bomb {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Cherry_Bomb {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Cherry_Bomb {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Cherry_Bomb {
-      width: 20vw; } }
-
-.card-Cherry_Bomb::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Cherry_Bomb"; }
-
-.card-Staircase {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Staircase.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Staircase {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Staircase {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Staircase {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Staircase {
-      width: 20vw; } }
-
-.card-Staircase::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Staircase"; }
-
-.card-Miners_Treat {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Miners_Treat.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Miners_Treat {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Miners_Treat {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Miners_Treat {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Miners_Treat {
-      width: 20vw; } }
-
-.card-Miners_Treat::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Miners_Treat"; }
-
-.card-Iron_Bar {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Iron_Bar.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Iron_Bar {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Iron_Bar {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Iron_Bar {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Iron_Bar {
-      width: 20vw; } }
-
-.card-Iron_Bar::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Iron_Bar"; }
-
-.card-Bomb {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Bomb.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Bomb {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Bomb {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Bomb {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Bomb {
-      width: 20vw; } }
-
-.card-Bomb::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Bomb"; }
-
-.card-Gold_Bar {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Gold_Bar.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Gold_Bar {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Gold_Bar {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Gold_Bar {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Gold_Bar {
-      width: 20vw; } }
-
-.card-Gold_Bar::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Gold_Bar"; }
-
-.card-Mega_Bomb {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Mega_Bomb.png);
-  display: flex;
-  position: relative; }
-  @media screen and (min-width: max-width) {
-    .card-Mega_Bomb {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
-    .card-Mega_Bomb {
-      width: 33vw; } }
-  @media screen and (min-width: 1024px) {
-    .card-Mega_Bomb {
-      width: 25vw; } }
-  @media screen and (min-width: 1280px) {
-    .card-Mega_Bomb {
-      width: 20vw; } }
-
-.card-Mega_Bomb::after {
-  position: absolute;
-  align-self: baseline;
-  content: "Mega_Bomb"; }
-
-.card-Crystalarium {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  height: 14em;
-  width: 100%;
-  min-height: 15vh;
-  max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Crystalarium.png);
   display: flex;
   position: relative; }
@@ -3224,7 +3782,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Albacore.png);
   display: flex;
   position: relative; }
@@ -3255,7 +3813,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Anchovy.png);
   display: flex;
   position: relative; }
@@ -3286,7 +3844,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Bream.png);
   display: flex;
   position: relative; }
@@ -3317,7 +3875,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Bullhead.png);
   display: flex;
   position: relative; }
@@ -3348,7 +3906,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Carp.png);
   display: flex;
   position: relative; }
@@ -3379,7 +3937,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Catfish.png);
   display: flex;
   position: relative; }
@@ -3410,7 +3968,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Chub.png);
   display: flex;
   position: relative; }
@@ -3441,7 +3999,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Dorado.png);
   display: flex;
   position: relative; }
@@ -3472,7 +4030,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Eel.png);
   display: flex;
   position: relative; }
@@ -3503,7 +4061,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Ghostfish.png);
   display: flex;
   position: relative; }
@@ -3534,7 +4092,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Halibut.png);
   display: flex;
   position: relative; }
@@ -3565,7 +4123,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Herring.png);
   display: flex;
   position: relative; }
@@ -3596,7 +4154,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Ice_Pip.png);
   display: flex;
   position: relative; }
@@ -3627,7 +4185,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Largemouth_Bass.png);
   display: flex;
   position: relative; }
@@ -3658,7 +4216,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Lava_Eel.png);
   display: flex;
   position: relative; }
@@ -3689,7 +4247,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Lingcod.png);
   display: flex;
   position: relative; }
@@ -3720,7 +4278,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Octopus.png);
   display: flex;
   position: relative; }
@@ -3751,7 +4309,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Perch.png);
   display: flex;
   position: relative; }
@@ -3782,7 +4340,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Pike.png);
   display: flex;
   position: relative; }
@@ -3813,7 +4371,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Pufferfish.png);
   display: flex;
   position: relative; }
@@ -3844,7 +4402,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Rainbow_Trout.png);
   display: flex;
   position: relative; }
@@ -3875,7 +4433,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Red_Mullet.png);
   display: flex;
   position: relative; }
@@ -3906,7 +4464,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Red_Snapper.png);
   display: flex;
   position: relative; }
@@ -3937,7 +4495,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Salmon.png);
   display: flex;
   position: relative; }
@@ -3968,7 +4526,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Sandfish.png);
   display: flex;
   position: relative; }
@@ -3999,7 +4557,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Sardine.png);
   display: flex;
   position: relative; }
@@ -4030,7 +4588,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Scorpion_Carp.png);
   display: flex;
   position: relative; }
@@ -4061,7 +4619,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Sea_Cucumber.png);
   display: flex;
   position: relative; }
@@ -4092,7 +4650,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Shad.png);
   display: flex;
   position: relative; }
@@ -4123,7 +4681,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Slimejack.png);
   display: flex;
   position: relative; }
@@ -4154,7 +4712,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Smallmouth_Bass.png);
   display: flex;
   position: relative; }
@@ -4185,7 +4743,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Squid.png);
   display: flex;
   position: relative; }
@@ -4216,7 +4774,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Stonefish.png);
   display: flex;
   position: relative; }
@@ -4247,7 +4805,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Sturgeon.png);
   display: flex;
   position: relative; }
@@ -4278,7 +4836,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Sunfish.png);
   display: flex;
   position: relative; }
@@ -4309,7 +4867,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Super_Cucumber.png);
   display: flex;
   position: relative; }
@@ -4340,7 +4898,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Tiger_Trout.png);
   display: flex;
   position: relative; }
@@ -4371,7 +4929,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Tilapia.png);
   display: flex;
   position: relative; }
@@ -4402,7 +4960,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Tuna.png);
   display: flex;
   position: relative; }
@@ -4433,7 +4991,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Void_Salmon.png);
   display: flex;
   position: relative; }
@@ -4464,7 +5022,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Walleye.png);
   display: flex;
   position: relative; }
@@ -4495,7 +5053,7 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
+  border: 4px dotted #cde;
   background-image: url(../img/Woodskip.png);
   display: flex;
   position: relative; }
@@ -4517,7 +5075,7 @@ body {
   align-self: baseline;
   content: "Woodskip"; }
 
-.card-Cherry_Bomb {
+.card-Sturdy_Ring {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4526,29 +5084,29 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Cherry_Bomb.png);
+  border: 4px dotted #cde;
+  background-image: url(../img/Sturdy_Ring.png);
   display: flex;
   position: relative; }
   @media screen and (min-width: max-width) {
-    .card-Cherry_Bomb {
+    .card-Sturdy_Ring {
       width: 50vw; } }
   @media screen and (min-width: 600px) {
-    .card-Cherry_Bomb {
+    .card-Sturdy_Ring {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
-    .card-Cherry_Bomb {
+    .card-Sturdy_Ring {
       width: 25vw; } }
   @media screen and (min-width: 1280px) {
-    .card-Cherry_Bomb {
+    .card-Sturdy_Ring {
       width: 20vw; } }
 
-.card-Cherry_Bomb::after {
+.card-Sturdy_Ring::after {
   position: absolute;
   align-self: baseline;
-  content: "Cherry_Bomb"; }
+  content: "Sturdy_Ring"; }
 
-.card-Staircase {
+.card-Life_Elixir {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4557,29 +5115,29 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Staircase.png);
+  border: 4px dotted #cde;
+  background-image: url(../img/Life_Elixir.png);
   display: flex;
   position: relative; }
   @media screen and (min-width: max-width) {
-    .card-Staircase {
+    .card-Life_Elixir {
       width: 50vw; } }
   @media screen and (min-width: 600px) {
-    .card-Staircase {
+    .card-Life_Elixir {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
-    .card-Staircase {
+    .card-Life_Elixir {
       width: 25vw; } }
   @media screen and (min-width: 1280px) {
-    .card-Staircase {
+    .card-Life_Elixir {
       width: 20vw; } }
 
-.card-Staircase::after {
+.card-Life_Elixir::after {
   position: absolute;
   align-self: baseline;
-  content: "Staircase"; }
+  content: "Life_Elixir"; }
 
-.card-Miners_Treat {
+.card-Warrior_Ring {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4588,29 +5146,29 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Miners_Treat.png);
+  border: 4px dotted #cde;
+  background-image: url(../img/Warrior_Ring.png);
   display: flex;
   position: relative; }
   @media screen and (min-width: max-width) {
-    .card-Miners_Treat {
+    .card-Warrior_Ring {
       width: 50vw; } }
   @media screen and (min-width: 600px) {
-    .card-Miners_Treat {
+    .card-Warrior_Ring {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
-    .card-Miners_Treat {
+    .card-Warrior_Ring {
       width: 25vw; } }
   @media screen and (min-width: 1280px) {
-    .card-Miners_Treat {
+    .card-Warrior_Ring {
       width: 20vw; } }
 
-.card-Miners_Treat::after {
+.card-Warrior_Ring::after {
   position: absolute;
   align-self: baseline;
-  content: "Miners_Treat"; }
+  content: "Warrior_Ring"; }
 
-.card-Iron_Bar {
+.card-Slime_Egg-Press {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4619,29 +5177,29 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Iron_Bar.png);
+  border: 4px dotted #cde;
+  background-image: url(../img/Slime_Egg-Press.png);
   display: flex;
   position: relative; }
   @media screen and (min-width: max-width) {
-    .card-Iron_Bar {
+    .card-Slime_Egg-Press {
       width: 50vw; } }
   @media screen and (min-width: 600px) {
-    .card-Iron_Bar {
+    .card-Slime_Egg-Press {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
-    .card-Iron_Bar {
+    .card-Slime_Egg-Press {
       width: 25vw; } }
   @media screen and (min-width: 1280px) {
-    .card-Iron_Bar {
+    .card-Slime_Egg-Press {
       width: 20vw; } }
 
-.card-Iron_Bar::after {
+.card-Slime_Egg-Press::after {
   position: absolute;
   align-self: baseline;
-  content: "Iron_Bar"; }
+  content: "Slime_Egg-Press"; }
 
-.card-Bomb {
+.card-Oil_of_Garlic {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4650,29 +5208,29 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Bomb.png);
+  border: 4px dotted #cde;
+  background-image: url(../img/Oil_of_Garlic.png);
   display: flex;
   position: relative; }
   @media screen and (min-width: max-width) {
-    .card-Bomb {
+    .card-Oil_of_Garlic {
       width: 50vw; } }
   @media screen and (min-width: 600px) {
-    .card-Bomb {
+    .card-Oil_of_Garlic {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
-    .card-Bomb {
+    .card-Oil_of_Garlic {
       width: 25vw; } }
   @media screen and (min-width: 1280px) {
-    .card-Bomb {
+    .card-Oil_of_Garlic {
       width: 20vw; } }
 
-.card-Bomb::after {
+.card-Oil_of_Garlic::after {
   position: absolute;
   align-self: baseline;
-  content: "Bomb"; }
+  content: "Oil_of_Garlic"; }
 
-.card-Gold_Bar {
+.card-Ring_of_Yoba {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4681,29 +5239,29 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Gold_Bar.png);
+  border: 4px dotted #cde;
+  background-image: url(../img/Ring_of_Yoba.png);
   display: flex;
   position: relative; }
   @media screen and (min-width: max-width) {
-    .card-Gold_Bar {
+    .card-Ring_of_Yoba {
       width: 50vw; } }
   @media screen and (min-width: 600px) {
-    .card-Gold_Bar {
+    .card-Ring_of_Yoba {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
-    .card-Gold_Bar {
+    .card-Ring_of_Yoba {
       width: 25vw; } }
   @media screen and (min-width: 1280px) {
-    .card-Gold_Bar {
+    .card-Ring_of_Yoba {
       width: 20vw; } }
 
-.card-Gold_Bar::after {
+.card-Ring_of_Yoba::after {
   position: absolute;
   align-self: baseline;
-  content: "Gold_Bar"; }
+  content: "Ring_of_Yoba"; }
 
-.card-Mega_Bomb {
+.card-Slime_Incubator {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4712,29 +5270,29 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Mega_Bomb.png);
+  border: 4px dotted #cde;
+  background-image: url(../img/Slime_Incubator.png);
   display: flex;
   position: relative; }
   @media screen and (min-width: max-width) {
-    .card-Mega_Bomb {
+    .card-Slime_Incubator {
       width: 50vw; } }
   @media screen and (min-width: 600px) {
-    .card-Mega_Bomb {
+    .card-Slime_Incubator {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
-    .card-Mega_Bomb {
+    .card-Slime_Incubator {
       width: 25vw; } }
   @media screen and (min-width: 1280px) {
-    .card-Mega_Bomb {
+    .card-Slime_Incubator {
       width: 20vw; } }
 
-.card-Mega_Bomb::after {
+.card-Slime_Incubator::after {
   position: absolute;
   align-self: baseline;
-  content: "Mega_Bomb"; }
+  content: "Slime_Incubator"; }
 
-.card-Crystalarium {
+.card-Explosive_Ammo {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4743,26 +5301,57 @@ body {
   width: 100%;
   min-height: 15vh;
   max-height: 35vh;
-  border: 4px dotted #bcd;
-  background-image: url(../img/Crystalarium.png);
+  border: 4px dotted #cde;
+  background-image: url(../img/Explosive_Ammo.png);
   display: flex;
   position: relative; }
   @media screen and (min-width: max-width) {
-    .card-Crystalarium {
+    .card-Explosive_Ammo {
       width: 50vw; } }
   @media screen and (min-width: 600px) {
-    .card-Crystalarium {
+    .card-Explosive_Ammo {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
-    .card-Crystalarium {
+    .card-Explosive_Ammo {
       width: 25vw; } }
   @media screen and (min-width: 1280px) {
-    .card-Crystalarium {
+    .card-Explosive_Ammo {
       width: 20vw; } }
 
-.card-Crystalarium::after {
+.card-Explosive_Ammo::after {
   position: absolute;
   align-self: baseline;
-  content: "Crystalarium"; }
+  content: "Explosive_Ammo"; }
+
+.card-Iridium_Band {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 14em;
+  width: 100%;
+  min-height: 15vh;
+  max-height: 35vh;
+  border: 4px dotted #cde;
+  background-image: url(../img/Iridium_Band.png);
+  display: flex;
+  position: relative; }
+  @media screen and (min-width: max-width) {
+    .card-Iridium_Band {
+      width: 50vw; } }
+  @media screen and (min-width: 600px) {
+    .card-Iridium_Band {
+      width: 33vw; } }
+  @media screen and (min-width: 1024px) {
+    .card-Iridium_Band {
+      width: 25vw; } }
+  @media screen and (min-width: 1280px) {
+    .card-Iridium_Band {
+      width: 20vw; } }
+
+.card-Iridium_Band::after {
+  position: absolute;
+  align-self: baseline;
+  content: "Iridium_Band"; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -11,7 +11,7 @@
   border: 4px dotted #cde;
 }
 
-$Recipes: (
+$RecipesFarm: (
 'Scarecrow','Basic_Fertilizer','Mayonnaise_Machine','Stone_Fence','Sprinkler','Bee_House','Speed-Gro','Preserves_Jar','Basic_Retaining_Soil','Iron_Fence','Cheese_Press','Hardwood_Fence','Quality_Sprinkler','Loom','Quality_Retaining_Soil','Oil_Maker','Keg','Deluxe_Speed-Gro','Seed_Maker','Iridium_Sprinkler','Quality_Fertilizer');
 
 @mixin recipe($thing) {
@@ -29,7 +29,7 @@ $Recipes: (
 }
 
 @mixin dealfarm {
-  @each $thing in $Recipes {
+  @each $thing in $RecipesFarm {
     @include recipe($thing);
   }
 }

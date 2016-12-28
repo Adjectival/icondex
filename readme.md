@@ -1,5 +1,5 @@
 
-# Icondex v0.91 :fish::tractor::iphone:
+# Icondex v0.95 :fish::tractor::iphone:
 ## _a project to navigate data without menus_
 ### by _Alexander Jacks_
 
@@ -13,9 +13,10 @@ Showcases visual design and full-stack development skills learned at Epicodus.
 ## Known Issues
 Search feature is under development.
 App interface is under development.
+Needs more raw data and a bit more variety to search feature.
 
 ## Technologies Used
-- Development: CSS3 compiled with Sass, Bourbon on the JQuery with a pinch of Saffron
+- Development: CSS3/JQuery via Sass, plus Bourbon with a pinch of Saffron
 - Design: Sketch, HTML5
 - Testing: Atom, Chrome
 

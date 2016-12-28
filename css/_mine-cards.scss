@@ -11,7 +11,7 @@
   border: 4px dotted #bcd;
 }
 
-$Recipes: (
+$RecipesMine: (
 "Cherry_Bomb","Staircase","Miners_Treat","Iron_Bar","Bomb","Gold_Bar","Mega_Bomb","Crystalarium");
 
 @mixin recipe($thing) {
@@ -29,7 +29,7 @@ $Recipes: (
 }
 
 @mixin dealmine {
-  @each $thing in $Recipes {
+  @each $thing in $RecipesMine {
     @include recipe($thing);
   }
 }

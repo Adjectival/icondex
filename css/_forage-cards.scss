@@ -11,8 +11,8 @@
   border: 4px dotted #cde;
 }
 
-$Recipes:(
-'Wild_Seeds_(Sp)','Field_Snack','Survival_Burger','Tapper','Charcoal_Kiln','Wild_Seeds_(Su)','Lightning_Rod','Wild_Seeds_(Fa)','Warp_Totem_Beach','Wild_Seeds_(Wi)','Warp_Totem_Mountains','Warp_Totem_Farm','Rain_Totem');
+$RecipesForage:(
+'Wild_Seeds_Sp','Field_Snack','Survival_Burger','Tapper','Charcoal_Kiln','Wild_Seeds_Su','Lightning_Rod','Wild_Seeds_Fa','Warp_Totem_Beach','Wild_Seeds_Wi','Warp_Totem_Mountains','Warp_Totem_Farm','Rain_Totem');
 
 @mixin recipe($thing) {
   .card-#{$thing} {
@@ -29,7 +29,7 @@ $Recipes:(
 }
 
 @mixin dealforage {
-  @each $thing in $Recipes {
+  @each $thing in $RecipesForage {
     @include recipe($thing);
   }
 }
