@@ -2452,14 +2452,14 @@ html {
   justify-content: space-around;
   text-shadow: 2px 2px 3px gold, 2px -2px 3px gold, -2px 2px 3px gold, -2px -2px 3px gold;
   padding: 1.5vw; }
-  .buttons div img {
-    min-width: 10vw; }
   .buttons div {
     display: inline-block; }
-    .buttons div:hover {
+  .buttons div img {
+    min-width: 10vw; }
+    .buttons div img:hover {
       -webkit-animation: pulsate 3 1.5s 0s none;
       animation: pulsate 3 1.5s 0s none; }
-    .buttons div:active {
+    .buttons div img:active {
       -webkit-animation: bounce 1 1s 0s none;
       animation: bounce 1 1s 0s none; }
 

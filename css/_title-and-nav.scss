@@ -16,11 +16,11 @@
   justify-content: space-around;
   @include text-glow(gold);
   padding: 1.5vw;
-  div img {
-    min-width: 10vw;
-  }
   div {
     display: inline-block;
+  }
+  div img {
+    min-width: 10vw;
     &:hover { @include pulsate(); }
     &:active { @include bounce(); }
   }

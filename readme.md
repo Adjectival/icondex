@@ -1,3 +1,7 @@
+<!-- rivers lake ocean else every
+spring summer fall winter allyr
+rainy sunny daily -->
+
 
 # Icondex v0.96 :fish::tractor::iphone:
 ## _a project to navigate data without menus_
