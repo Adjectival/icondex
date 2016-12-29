@@ -2466,6 +2466,9 @@ html {
 .quad_btn > img {
   width: 2px; }
 
+.row2 {
+  justify-content: space-between; }
+
 body {
   font-family: monospace, sans-serif;
   font-size: 1.5em;

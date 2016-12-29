@@ -54,33 +54,34 @@ $(document).ready(function(){
 
   $("#spring_fish_btn").click(function(){
     $("[class*='card-']").hide()
-    $("#[class*='spring']").show();
-    $("#[class*='allyr']").show();
+    $("[class*='spring']").show()
+    $("[class*='every']").show()
   });
   $("#summer_fish_btn").click(function(){
     $("[class*='card-']").hide()
-    $("#[class*='summer']").show();
-    $("#[class*='allyr']").show();
+    $("[class*='summer']").show();
+    $("[class*='allyr']").show();
   });
   $("#fall_fish_btn").click(function(){
     $("[class*='card-']").hide()
-    $("#[class*='fall']").show();
-    $("#[class*='allyr']").show();
+    $("[class*='fall']").show();
+    $("[class*='allyr']").show();
   });
   $("#winter_fish_btn").click(function(){
     $("[class*='card-']").hide()
-    $("#[class*='winter']").show();
-    $("#[class*='allyr']").show();
+    $("[class*='winter']").show();
+    $("[class*='allyr']").show();
   });
 
   $("#sunny_fish_btn").click(function(){
     $("[class*='card-']").hide()
     $("[class*='sunny']").show()
+    $("[class*='daily']").show()
   });
   $("#rainy_fish_btn").click(function(){
     $("[class*='card-']").hide()
     $("[class*='rainy']").show();
-    $("[class*='any']").show();
+    $("[class*='daily']").show();
   });
   $("#morn_fish_btn").click(function(){
     $("[class*='card-']").hide()
@@ -90,6 +91,11 @@ $(document).ready(function(){
   $("#even_fish_btn").click(function(){
     $("[class*='card-']").hide()
     $("[class*='even']").show();
+    $("[class*='any']").show();
+  });
+  $("#night_fish_btn").click(function(){
+    $("[class*='card-']").hide()
+    $("[class*='night']").show();
     $("[class*='any']").show();
   });
 
