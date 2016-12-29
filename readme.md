@@ -3,7 +3,7 @@ spring summer fall winter allyr
 rainy sunny daily -->
 
 
-# Icondex v0.96 :fish::tractor::iphone:
+# Icondex v0.98 :fish::tractor::iphone:
 ## _a project to navigate data without menus_
 ### by _Alexander Jacks_
 
