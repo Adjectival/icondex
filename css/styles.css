@@ -2436,7 +2436,6 @@ html {
     -ms-transform: rotate(180deg) translate(-15em) rotate(-180deg);
     transform: rotate(180deg) translate(-15em) rotate(-180deg); } }
 .header {
-  width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;

@@ -2,168 +2,182 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="Icon Dex" charset="utf-8">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
 
-    <title>Icon Dex, Sort 'StarDew Valley' data via Icons</title>
+
+    <title>Icondex, Sort 'Stardew Valley' data via Icons</title>
   </head>
   <body>
-    <section class="header">
-      <h2>Icon Dex v1.0.0</h2>
-      <h4>sort by conditions to catch all non-legendary fish from Stardew Valley</h4>
+
+
+
+    <div class="container-fluid">
+    <!-- begin app -->
+      <section class="header row">
+        <h2>Icondex v1.0.0</h2>
+        <div class="mx-5">
+          <h4>Current database is all nonlegendary fish from the farming game <a href="http://stardewvalleywiki.com/Fish">'Stardew Valley'</a></h4>
+        </div>
+        <h3>Sort by fishing conditions by pressing icons below.</h3>
+      </section>
+
+    <section class="buttons row">
+      <div class="big_button" id="farming_skill_btn">
+        <img src="img/Farming_Skill_Icon.png" alt=""><h3>Farming</h3>
+      </div>
+      <div class="big_button" id="foraging_skill_btn">
+        <img src="img/Foraging_Skill_Icon.png" alt=""><h3>Foraging</h3>
+      </div>
+      <div class="big_button" id="fishing_skill_btn">
+        <img src="img/Fishing_Skill_Icon.png" alt=""><h3>Fishing</h3>
+      </div>
+      <div class="big_button" id="mining_skill_btn">
+        <img src="img/Mining_Skill_Icon.png" alt=""><h3>Mining</h3>
+      </div>
+      <div class="big_button" id="fighting_skill_btn">
+        <img src="img/Combat_Skill_Icon.png" alt=""><h3>Fighting</h3>
+      </div>
     </section>
-    
-  <section class="buttons">
-    <div class="big_button" id="farming_skill_btn">
-      <img src="img/Farming_Skill_Icon.png" alt=""><h3>Farming</h3>
+
+
+
+    <section class="buttons row">
+      <!-- Fish sort buttons -->
+    <div class="flexboxed">
+
+      <div class="quad_btn" id="rivers_fish_btn"><img src="img/rivers.png" alt="rivers to include Town only"><br>Rivers</div>
+      <div class="quad_btn" id="lake_fish_btn"><img src="img/mountain.png" alt="mountain lake only"><br>Mt. Lake</div>
+      <div class="quad_btn" id="ocean_fish_btn"><img src="img/ocean.png" alt="ocean only"><br>Ocean</div>
+      <div class="quad_btn" id="else_fish_btn"><img src="img/elsewhere.png" alt="Secret Woods, Desert, Witches Swamp, Sewers"><br>Elsewhere</div>
+
+      <div class="bar_btn" id="spring_fish_btn"><img src="img/Spring.png" alt="spring only"><br>Spring</div>
+      <div class="bar_btn" id="summer_fish_btn"><img src="img/Summer.png" alt="summer only"><br>Summer</div>
+      <div class="bar_btn" id="fall_fish_btn"><img src="img/Fall.png" alt="fall only"><br>Fall</div>
+      <div class="bar_btn" id="winter_fish_btn"><img src="img/Winter.png" alt="winter only"><br>Winter</div>
+
     </div>
-    <div class="big_button" id="foraging_skill_btn">
-      <img src="img/Foraging_Skill_Icon.png" alt=""><h3>Foraging</h3>
+    <div class="flexboxed row2">
+
+      <div class="quad_btn" id="sunny_fish_btn"><img src="img/Sunny.png" alt="sunny weather only"><br>Sunny</div>
+      <div class="quad_btn" id="rainy_fish_btn"><img src="img/Rain.png" alt="rainy weather only"><br>Rainy</div>
+      <div class="quad_btn" id="morn_fish_btn"><img src="img/Day.png" alt="daytime only"><br>Morning</div>
+      <div class="quad_btn" id="even_fish_btn"><img src="img/Moon.png" alt="night-time only"><br>Evening</div>
+      <div class="quad_btn" id="night_fish_btn"><img src="img/chicken.png" alt="night-time only"><br>Night</div>
     </div>
-    <div class="big_button" id="fishing_skill_btn">
-      <img src="img/Fishing_Skill_Icon.png" alt=""><h3>Fishing</h3>
+    </section>
+
+    <section class="cards" id="-farm">
+      <div class="card-Scarecrow" id="Scarecrow-farm"></div>
+      <div class="card-Basic_Fertilizer" id="Basic_Fertilizer-farm"></div>
+      <div class="card-Mayonnaise_Machine" id="Mayonnaise_Machine-farm"></div>
+      <div class="card-Stone_Fence" id="Stone_Fence-farm"></div>
+      <div class="card-Sprinkler" id="Sprinkler-farm"></div>
+      <div class="card-Bee_House" id="Bee_House-farm"></div>
+      <div class="card-Speed-Gro" id="Speed-Gro-farm"></div>
+      <div class="card-Preserves_Jar" id="Preserves_Jar-farm"></div>
+      <div class="card-Basic_Retaining_Soil" id="Basic_Retaining_Soil-farm"></div>
+      <div class="card-Iron_Fence" id="Iron_Fence-farm"></div>
+      <div class="card-Cheese_Press" id="Cheese_Press-farm"></div>
+      <div class="card-Hardwood_Fence" id="Hardwood_Fence-farm"></div>
+      <div class="card-Quality_Sprinkler" id="Quality_Sprinkler-farm"></div>
+      <div class="card-Loom" id="Loom-farm"></div>
+      <div class="card-Quality_Retaining_Soil" id="Quality_Retaining_Soil-farm"></div>
+      <div class="card-Oil_Maker" id="Oil_Maker-farm"></div>
+      <div class="card-Keg" id="Keg-farm"></div>
+      <div class="card-Deluxe_Speed_Gro" id="Deluxe_Speed_Gro-farm"></div>
+      <div class="card-Seed_Maker" id="Seed_Maker-farm"></div>
+      <div class="card-Iridium_Sprinkler" id="Iridium_Sprinkler-farm"></div>
+      <div class="card-Quality_Fertilizer" id="Quality_Fertilizer-farm"></div>
+    </section>
+    <section class="cards" id="-forage">
+      <div class="card-Wild_Seeds_(Sp)" id="Wild_Seeds_(Sp)-forage"></div>
+      <div class="card-Field_Snack" id="Field_Snack-forage"></div>
+      <div class="card-Survival_Burger" id="Survival_Burger-forage"></div>
+      <div class="card-Tapper" id="Tapper-forage"></div>
+      <div class="card-Charcoal_Kiln" id="Charcoal_Kiln-forage"></div>
+      <div class="card-Wild_Seeds_(Su)" id="Wild_Seeds_(Su)-forage"></div>
+      <div class="card-Lightning_Rod" id="Lightning_Rod-forage"></div>
+      <div class="card-Wild_Seeds_(Fa)" id="Wild_Seeds_(Fa)-forage"></div>
+      <div class="card-Warp_Totem_Beach" id="Warp_Totem_Beach-forage"></div>
+      <div class="card-Wild_Seeds_(Wi)" id="Wild_Seeds_(Wi)-forage"></div>
+      <div class="card-Warp_Totem_Mountains" id="Warp_Totem_Mountains-forage"></div>
+      <div class="card-Warp_Totem_Farm" id="Warp_Totem_Farm-forage"></div>
+      <div class="card-Rain_Totem" id="Rain_Totem-forage"></div>
+    </section>
+    <section class="cards" id="-mine">
+      <div class="card-Cherry_Bomb" id="Cherry_Bomb-mine"></div>
+      <div class="card-Staircase" id="Staircase-mine"></div>
+      <div class="card-Miners_Treat" id="Miners_Treat-mine"></div>
+      <div class="card-Iron_Bar" id="Iron_Bar-mine"></div>
+      <div class="card-Bomb" id="Bomb-mine"></div>
+      <div class="card-Gold_Bar" id="Gold_Bar-mine"></div>
+      <div class="card-Mega_Bomb" id="Mega_Bomb-mine"></div>
+      <div class="card-Crystalarium" id="Crystalarium-mine"></div>
+    </section>
+    <section class="cards" id="-fight">
+      <div class="card-Sturdy_Ring" id="Sturdy_Ring-fight"></div>
+      <div class="card-Life_Elixir" id="Life_Elixir-fight"></div>
+      <!-- <div class="card-Roots_Platter" id="Roots_Platter-fight"></div> -->
+      <div class="card-Warrior_Ring" id="Warrior_Ring-fight"></div>
+      <div class="card-Slime_Egg-Press" id="Slime_Egg-Press-fight"></div>
+      <div class="card-Oil_of_Garlic" id="Oil_of_Garlic-fight"></div>
+      <div class="card-Ring_of_Yoba" id="Ring_of_Yoba-fight"></div>
+      <div class="card-Slime_Incubator" id="Slime_Incubator-fight"></div>
+      <div class="card-Explosive_Ammo" id="Explosive_Ammo-fight"></div>
+      <div class="card-Iridium_Band" id="Iridium_Band-fight"></div>
+    </section>
+    <section class="cards">
+      <div class="card-Albacore ocean fall winter daily even" id="Albacore-fish"></div>
+      <div class="card-Anchovy ocean spring fall daily any" id="Anchovy-fish"></div>
+      <div class="card-Bream rivers allyr even daily even night" id="Bream-fish"></div>
+      <div class="card-Bullhead every allyr daily any" id="Bullhead-fish"></div>
+      <div class="card-Carp lake else allyr daily any" id="Carp-fish"></div>
+      <div class="card-Catfish rivers else spring summer fall rainy any" id="Catfish-fish"></div>
+      <div class="card-Chub rivers allyr daily any" id="Chub-fish"></div>
+      <div class="card-Dorado rivers summer daily morn even" id="Dorado-fish"></div>
+      <div class="card-Eel ocean spring fall rainy even" id="Eel-fish"></div>
+      <div class="card-Ghostfish else allyr daily any" id="Ghostfish-fish"></div>
+      <div class="card-Halibut ocean spring summer winter daily even" id="Halibut-fish"></div>
+      <div class="card-Herring ocean spring winter daily any" id="Herring-fish"></div>
+      <div class="card-Ice_Pip else allyr daily any" id="Ice_Pip-fish"></div>
+      <div class="card-Largemouth_Bass lake allyr daily morn even" id="Largemouth_Bass-fish"></div>
+      <div class="card-Lava_Eel else allyr daily any" id="Lava_Eel-fish"></div>
+      <div class="card-Lingcod rivers winter daily any" id="Lingcod-fish"></div>
+      <div class="card-Octopus ocean summer daily morn" id="Octopus-fish"></div>
+      <div class="card-Perch rivers winter daily any" id="Perch-fish"></div>
+      <div class="card-Pike rivers summer winter daily any" id="Pike-fish"></div>
+      <div class="card-Pufferfish ocean summer sunny even" id="Pufferfish-fish"></div>
+      <div class="card-Rainbow_Trout rivers summer sunny morn even" id="Rainbow_Trout-fish"></div>
+      <div class="card-Red_Mullet ocean summer winter daily morn even" id="Red_Mullet-fish"></div>
+      <div class="card-Red_Snapper ocean summer fall rainy morn even" id="Red_Snapper-fish"></div>
+      <div class="card-Salmon rivers fall daily morn even" id="Salmon-fish"></div>
+      <div class="card-Sandfish else allyr daily any" id="Sandfish-fish"></div>
+      <div class="card-Sardine ocean spring fall winter daily morn even" id="Sardine-fish"></div>
+      <div class="card-Scorpion_Carp else allyr daily" id="Scorpion_Carp-fish"></div>
+      <div class="card-Sea_Cucumber ocean fall winter daily morn even" id="Sea_Cucumber-fish"></div>
+      <div class="card-Shad rivers spring summer fall rainy any" id="Shad-fish"></div>
+      <div class="card-Slimejack else allyr daily any" id="Slimejack-fish"></div>
+      <div class="card-Smallmouth_Bass rivers spring fall daily any" id="Smallmouth_Bass-fish"></div>
+      <div class="card-Sturgeon lake allyr daily any" id="Sturgeon-fish"></div>
+      <div class="card-Squid ocean winter daily even night" id="Squid-fish"></div>
+      <div class="card-Stonefish else allyr daily any" id='Stonefish-fish'></div>
+      <div class="card-Sturgeon lake summer winter daily morn even" id='Sturgeon-fish'></div>
+      <div class="card-Sunfish rivers spring summer sunny morn even" id='Sunfish-fish'></div>
+      <div class="card-Super_Cucumber ocean summer fall daily even night" id='Super_Cucumber-fish'></div>
+      <div class="card-Tiger_Trout rivers fall winter daily morn even" id='Tiger_Trout-fish'></div>
+      <div class="card-Tilapia ocean summer fall daily morn" id='Tilapia-fish'></div>
+      <div class="card-Tuna ocean summer winter daily morn even" id='Tuna-fish'></div>
+      <div class="card-Void_Salmon else allyr daily any" id='Void_Salmon-fish'></div>
+      <div class="card-Walleye rivers fall rainy even night" id='Walleye-fish'></div>
+      <div class="card-Woodskip else allyr daily any" id='Woodskip-fish'></div>
+    </section>
+
+    <!-- end app -->
     </div>
-    <div class="big_button" id="mining_skill_btn">
-      <img src="img/Mining_Skill_Icon.png" alt=""><h3>Mining</h3>
-    </div>
-    <div class="big_button" id="fighting_skill_btn">
-      <img src="img/Combat_Skill_Icon.png" alt=""><h3>Fighting</h3>
-    </div>
-  </section>
 
-
-
-  <section class="buttons">
-    <!-- Fish sort buttons -->
-  <div class="flexboxed">
-
-    <div class="quad_btn" id="rivers_fish_btn"><img src="img/rivers.png" alt="rivers to include Town only"><br>Rivers</div>
-    <div class="quad_btn" id="lake_fish_btn"><img src="img/mountain.png" alt="mountain lake only"><br>Mt. Lake</div>
-    <div class="quad_btn" id="ocean_fish_btn"><img src="img/ocean.png" alt="ocean only"><br>Ocean</div>
-    <div class="quad_btn" id="else_fish_btn"><img src="img/elsewhere.png" alt="Secret Woods, Desert, Witches Swamp, Sewers"><br>Elsewhere</div>
-
-    <div class="bar_btn" id="spring_fish_btn"><img src="img/Spring.png" alt="spring only"><br>Spring</div>
-    <div class="bar_btn" id="summer_fish_btn"><img src="img/Summer.png" alt="summer only"><br>Summer</div>
-    <div class="bar_btn" id="fall_fish_btn"><img src="img/Fall.png" alt="fall only"><br>Fall</div>
-    <div class="bar_btn" id="winter_fish_btn"><img src="img/Winter.png" alt="winter only"><br>Winter</div>
-
-  </div>
-  <div class="flexboxed row2">
-
-    <div class="quad_btn" id="sunny_fish_btn"><img src="img/Sunny.png" alt="sunny weather only"><br>Sunny</div>
-    <div class="quad_btn" id="rainy_fish_btn"><img src="img/Rain.png" alt="rainy weather only"><br>Rainy</div>
-    <div class="quad_btn" id="morn_fish_btn"><img src="img/Day.png" alt="daytime only"><br>Morning</div>
-    <div class="quad_btn" id="even_fish_btn"><img src="img/Moon.png" alt="night-time only"><br>Evening</div>
-    <div class="quad_btn" id="night_fish_btn"><img src="img/chicken.png" alt="night-time only"><br>Night</div>
-  </div>
-  </section>
-
-  <section class="cards" id="-farm">
-    <div class="card-Scarecrow" id="Scarecrow-farm"></div>
-    <div class="card-Basic_Fertilizer" id="Basic_Fertilizer-farm"></div>
-    <div class="card-Mayonnaise_Machine" id="Mayonnaise_Machine-farm"></div>
-    <div class="card-Stone_Fence" id="Stone_Fence-farm"></div>
-    <div class="card-Sprinkler" id="Sprinkler-farm"></div>
-    <div class="card-Bee_House" id="Bee_House-farm"></div>
-    <div class="card-Speed-Gro" id="Speed-Gro-farm"></div>
-    <div class="card-Preserves_Jar" id="Preserves_Jar-farm"></div>
-    <div class="card-Basic_Retaining_Soil" id="Basic_Retaining_Soil-farm"></div>
-    <div class="card-Iron_Fence" id="Iron_Fence-farm"></div>
-    <div class="card-Cheese_Press" id="Cheese_Press-farm"></div>
-    <div class="card-Hardwood_Fence" id="Hardwood_Fence-farm"></div>
-    <div class="card-Quality_Sprinkler" id="Quality_Sprinkler-farm"></div>
-    <div class="card-Loom" id="Loom-farm"></div>
-    <div class="card-Quality_Retaining_Soil" id="Quality_Retaining_Soil-farm"></div>
-    <div class="card-Oil_Maker" id="Oil_Maker-farm"></div>
-    <div class="card-Keg" id="Keg-farm"></div>
-    <div class="card-Deluxe_Speed_Gro" id="Deluxe_Speed_Gro-farm"></div>
-    <div class="card-Seed_Maker" id="Seed_Maker-farm"></div>
-    <div class="card-Iridium_Sprinkler" id="Iridium_Sprinkler-farm"></div>
-    <div class="card-Quality_Fertilizer" id="Quality_Fertilizer-farm"></div>
-  </section>
-  <section class="cards" id="-forage">
-    <div class="card-Wild_Seeds_(Sp)" id="Wild_Seeds_(Sp)-forage"></div>
-    <div class="card-Field_Snack" id="Field_Snack-forage"></div>
-    <div class="card-Survival_Burger" id="Survival_Burger-forage"></div>
-    <div class="card-Tapper" id="Tapper-forage"></div>
-    <div class="card-Charcoal_Kiln" id="Charcoal_Kiln-forage"></div>
-    <div class="card-Wild_Seeds_(Su)" id="Wild_Seeds_(Su)-forage"></div>
-    <div class="card-Lightning_Rod" id="Lightning_Rod-forage"></div>
-    <div class="card-Wild_Seeds_(Fa)" id="Wild_Seeds_(Fa)-forage"></div>
-    <div class="card-Warp_Totem_Beach" id="Warp_Totem_Beach-forage"></div>
-    <div class="card-Wild_Seeds_(Wi)" id="Wild_Seeds_(Wi)-forage"></div>
-    <div class="card-Warp_Totem_Mountains" id="Warp_Totem_Mountains-forage"></div>
-    <div class="card-Warp_Totem_Farm" id="Warp_Totem_Farm-forage"></div>
-    <div class="card-Rain_Totem" id="Rain_Totem-forage"></div>
-  </section>
-  <section class="cards" id="-mine">
-    <div class="card-Cherry_Bomb" id="Cherry_Bomb-mine"></div>
-    <div class="card-Staircase" id="Staircase-mine"></div>
-    <div class="card-Miners_Treat" id="Miners_Treat-mine"></div>
-    <div class="card-Iron_Bar" id="Iron_Bar-mine"></div>
-    <div class="card-Bomb" id="Bomb-mine"></div>
-    <div class="card-Gold_Bar" id="Gold_Bar-mine"></div>
-    <div class="card-Mega_Bomb" id="Mega_Bomb-mine"></div>
-    <div class="card-Crystalarium" id="Crystalarium-mine"></div>
-  </section>
-  <section class="cards" id="-fight">
-    <div class="card-Sturdy_Ring" id="Sturdy_Ring-fight"></div>
-    <div class="card-Life_Elixir" id="Life_Elixir-fight"></div>
-    <!-- <div class="card-Roots_Platter" id="Roots_Platter-fight"></div> -->
-    <div class="card-Warrior_Ring" id="Warrior_Ring-fight"></div>
-    <div class="card-Slime_Egg-Press" id="Slime_Egg-Press-fight"></div>
-    <div class="card-Oil_of_Garlic" id="Oil_of_Garlic-fight"></div>
-    <div class="card-Ring_of_Yoba" id="Ring_of_Yoba-fight"></div>
-    <div class="card-Slime_Incubator" id="Slime_Incubator-fight"></div>
-    <div class="card-Explosive_Ammo" id="Explosive_Ammo-fight"></div>
-    <div class="card-Iridium_Band" id="Iridium_Band-fight"></div>
-  </section>
-  <section class="cards">
-    <div class="card-Albacore ocean fall winter daily even" id="Albacore-fish"></div>
-    <div class="card-Anchovy ocean spring fall daily any" id="Anchovy-fish"></div>
-    <div class="card-Bream rivers allyr even daily even night" id="Bream-fish"></div>
-    <div class="card-Bullhead every allyr daily any" id="Bullhead-fish"></div>
-    <div class="card-Carp lake else allyr daily any" id="Carp-fish"></div>
-    <div class="card-Catfish rivers else spring summer fall rainy any" id="Catfish-fish"></div>
-    <div class="card-Chub rivers allyr daily any" id="Chub-fish"></div>
-    <div class="card-Dorado rivers summer daily morn even" id="Dorado-fish"></div>
-    <div class="card-Eel ocean spring fall rainy even" id="Eel-fish"></div>
-    <div class="card-Ghostfish else allyr daily any" id="Ghostfish-fish"></div>
-    <div class="card-Halibut ocean spring summer winter daily even" id="Halibut-fish"></div>
-    <div class="card-Herring ocean spring winter daily any" id="Herring-fish"></div>
-    <div class="card-Ice_Pip else allyr daily any" id="Ice_Pip-fish"></div>
-    <div class="card-Largemouth_Bass lake allyr daily morn even" id="Largemouth_Bass-fish"></div>
-    <div class="card-Lava_Eel else allyr daily any" id="Lava_Eel-fish"></div>
-    <div class="card-Lingcod rivers winter daily any" id="Lingcod-fish"></div>
-    <div class="card-Octopus ocean summer daily morn" id="Octopus-fish"></div>
-    <div class="card-Perch rivers winter daily any" id="Perch-fish"></div>
-    <div class="card-Pike rivers summer winter daily any" id="Pike-fish"></div>
-    <div class="card-Pufferfish ocean summer sunny even" id="Pufferfish-fish"></div>
-    <div class="card-Rainbow_Trout rivers summer sunny morn even" id="Rainbow_Trout-fish"></div>
-    <div class="card-Red_Mullet ocean summer winter daily morn even" id="Red_Mullet-fish"></div>
-    <div class="card-Red_Snapper ocean summer fall rainy morn even" id="Red_Snapper-fish"></div>
-    <div class="card-Salmon rivers fall daily morn even" id="Salmon-fish"></div>
-    <div class="card-Sandfish else allyr daily any" id="Sandfish-fish"></div>
-    <div class="card-Sardine ocean spring fall winter daily morn even" id="Sardine-fish"></div>
-    <div class="card-Scorpion_Carp else allyr daily" id="Scorpion_Carp-fish"></div>
-    <div class="card-Sea_Cucumber ocean fall winter daily morn even" id="Sea_Cucumber-fish"></div>
-    <div class="card-Shad rivers spring summer fall rainy any" id="Shad-fish"></div>
-    <div class="card-Slimejack else allyr daily any" id="Slimejack-fish"></div>
-    <div class="card-Smallmouth_Bass rivers spring fall daily any" id="Smallmouth_Bass-fish"></div>
-    <div class="card-Sturgeon lake allyr daily any" id="Sturgeon-fish"></div>
-    <div class="card-Squid ocean winter daily even night" id="Squid-fish"></div>
-    <div class="card-Stonefish else allyr daily any" id='Stonefish-fish'></div>
-    <div class="card-Sturgeon lake summer winter daily morn even" id='Sturgeon-fish'></div>
-    <div class="card-Sunfish rivers spring summer sunny morn even" id='Sunfish-fish'></div>
-    <div class="card-Super_Cucumber ocean summer fall daily even night" id='Super_Cucumber-fish'></div>
-    <div class="card-Tiger_Trout rivers fall winter daily morn even" id='Tiger_Trout-fish'></div>
-    <div class="card-Tilapia ocean summer fall daily morn" id='Tilapia-fish'></div>
-    <div class="card-Tuna ocean summer winter daily morn even" id='Tuna-fish'></div>
-    <div class="card-Void_Salmon else allyr daily any" id='Void_Salmon-fish'></div>
-    <div class="card-Walleye rivers fall rainy even night" id='Walleye-fish'></div>
-    <div class="card-Woodskip else allyr daily any" id='Woodskip-fish'></div>
-  </section>
-
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

@@ -1,8 +1,6 @@
 .header {
-  width: 100vw;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   @include radial-gradient(circle at 50% 100%, maroon, peachpuff, cornflowerblue);
   h2 {
     @include text-glow(tomato);
