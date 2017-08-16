@@ -1,3 +1,4 @@
-/bourbon
-/saffron
-/.sass-cache
+css/bourbon/
+css/saffron/
+css/neat/
+css/.sass-cache/
