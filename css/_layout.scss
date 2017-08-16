@@ -23,7 +23,7 @@
 // responsive
 @mixin card-sizing {
   @include media($mobile) {
-    width: 50vw;
+    width: 10vw;
     // @include span-columns(6 of 12);
   }
   @include media($tablet) {
@@ -41,7 +41,7 @@
 }
 
 // @include media(queries)
-$mobile: new-breakpoint(min-width 1px and max-width 600px);
-$tablet: new-breakpoint(min-width 600px);
+$mobile: new-breakpoint(min-width 1px and max-width 500px);
+$tablet: new-breakpoint(min-width 500px);
 $laptop: new-breakpoint(min-width 1024px);
 $desktop: new-breakpoint(min-width 1280px);

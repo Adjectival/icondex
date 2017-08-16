@@ -1649,9 +1649,9 @@ html {
     -ms-transform: translateX(-0.275em);
     transform: translateX(-0.275em); }
   85% {
-    -webkit-transform: translateX(0.18333em);
-    -ms-transform: translateX(0.18333em);
-    transform: translateX(0.18333em); } }
+    -webkit-transform: translateX(0.1833333333em);
+    -ms-transform: translateX(0.1833333333em);
+    transform: translateX(0.1833333333em); } }
 @-moz-keyframes shake {
   0%, 100% {
     -webkit-transform: translateX(0) translateZ(0);
@@ -1674,9 +1674,9 @@ html {
     -ms-transform: translateX(-0.275em);
     transform: translateX(-0.275em); }
   85% {
-    -webkit-transform: translateX(0.18333em);
-    -ms-transform: translateX(0.18333em);
-    transform: translateX(0.18333em); } }
+    -webkit-transform: translateX(0.1833333333em);
+    -ms-transform: translateX(0.1833333333em);
+    transform: translateX(0.1833333333em); } }
 @-o-keyframes shake {
   0%, 100% {
     -webkit-transform: translateX(0) translateZ(0);
@@ -1699,9 +1699,9 @@ html {
     -ms-transform: translateX(-0.275em);
     transform: translateX(-0.275em); }
   85% {
-    -webkit-transform: translateX(0.18333em);
-    -ms-transform: translateX(0.18333em);
-    transform: translateX(0.18333em); } }
+    -webkit-transform: translateX(0.1833333333em);
+    -ms-transform: translateX(0.1833333333em);
+    transform: translateX(0.1833333333em); } }
 @keyframes shake {
   0%, 100% {
     -webkit-transform: translateX(0) translateZ(0);
@@ -1724,9 +1724,9 @@ html {
     -ms-transform: translateX(-0.275em);
     transform: translateX(-0.275em); }
   85% {
-    -webkit-transform: translateX(0.18333em);
-    -ms-transform: translateX(0.18333em);
-    transform: translateX(0.18333em); } }
+    -webkit-transform: translateX(0.1833333333em);
+    -ms-transform: translateX(0.1833333333em);
+    transform: translateX(0.1833333333em); } }
 @-webkit-keyframes teeter {
   0%, 100% {
     -webkit-transform: rotate(0deg) translateZ(0);
@@ -1749,13 +1749,13 @@ html {
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg); }
   73% {
-    -webkit-transform: rotate(3.33333deg);
-    -ms-transform: rotate(3.33333deg);
-    transform: rotate(3.33333deg); }
+    -webkit-transform: rotate(3.3333333333deg);
+    -ms-transform: rotate(3.3333333333deg);
+    transform: rotate(3.3333333333deg); }
   86% {
-    -webkit-transform: rotate(-3.33333deg);
-    -ms-transform: rotate(-3.33333deg);
-    transform: rotate(-3.33333deg); } }
+    -webkit-transform: rotate(-3.3333333333deg);
+    -ms-transform: rotate(-3.3333333333deg);
+    transform: rotate(-3.3333333333deg); } }
 @-moz-keyframes teeter {
   0%, 100% {
     -webkit-transform: rotate(0deg) translateZ(0);
@@ -1778,13 +1778,13 @@ html {
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg); }
   73% {
-    -webkit-transform: rotate(3.33333deg);
-    -ms-transform: rotate(3.33333deg);
-    transform: rotate(3.33333deg); }
+    -webkit-transform: rotate(3.3333333333deg);
+    -ms-transform: rotate(3.3333333333deg);
+    transform: rotate(3.3333333333deg); }
   86% {
-    -webkit-transform: rotate(-3.33333deg);
-    -ms-transform: rotate(-3.33333deg);
-    transform: rotate(-3.33333deg); } }
+    -webkit-transform: rotate(-3.3333333333deg);
+    -ms-transform: rotate(-3.3333333333deg);
+    transform: rotate(-3.3333333333deg); } }
 @-o-keyframes teeter {
   0%, 100% {
     -webkit-transform: rotate(0deg) translateZ(0);
@@ -1807,13 +1807,13 @@ html {
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg); }
   73% {
-    -webkit-transform: rotate(3.33333deg);
-    -ms-transform: rotate(3.33333deg);
-    transform: rotate(3.33333deg); }
+    -webkit-transform: rotate(3.3333333333deg);
+    -ms-transform: rotate(3.3333333333deg);
+    transform: rotate(3.3333333333deg); }
   86% {
-    -webkit-transform: rotate(-3.33333deg);
-    -ms-transform: rotate(-3.33333deg);
-    transform: rotate(-3.33333deg); } }
+    -webkit-transform: rotate(-3.3333333333deg);
+    -ms-transform: rotate(-3.3333333333deg);
+    transform: rotate(-3.3333333333deg); } }
 @keyframes teeter {
   0%, 100% {
     -webkit-transform: rotate(0deg) translateZ(0);
@@ -1836,13 +1836,13 @@ html {
     -ms-transform: rotate(-5deg);
     transform: rotate(-5deg); }
   73% {
-    -webkit-transform: rotate(3.33333deg);
-    -ms-transform: rotate(3.33333deg);
-    transform: rotate(3.33333deg); }
+    -webkit-transform: rotate(3.3333333333deg);
+    -ms-transform: rotate(3.3333333333deg);
+    transform: rotate(3.3333333333deg); }
   86% {
-    -webkit-transform: rotate(-3.33333deg);
-    -ms-transform: rotate(-3.33333deg);
-    transform: rotate(-3.33333deg); } }
+    -webkit-transform: rotate(-3.3333333333deg);
+    -ms-transform: rotate(-3.3333333333deg);
+    transform: rotate(-3.3333333333deg); } }
 @-webkit-keyframes quiver {
   0% {
     -webkit-transform: translate3d(2px, 1px, 0) rotate(0deg);
@@ -2438,7 +2438,6 @@ html {
 .header {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   background-image: -webkit-radial-gradient(50% 100%, circle, maroon, peachpuff, cornflowerblue);
   background-image: radial-gradient(  circle at 50% 100%, maroon, peachpuff, cornflowerblue); }
   .header h2 {
@@ -2491,8 +2490,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Scarecrow {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Scarecrow {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2524,8 +2523,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Basic_Fertilizer {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Basic_Fertilizer {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2557,8 +2556,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Mayonnaise_Machine {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Mayonnaise_Machine {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2590,8 +2589,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Stone_Fence {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Stone_Fence {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2623,8 +2622,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Sprinkler {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Sprinkler {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2656,8 +2655,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Bee_House {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Bee_House {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2689,8 +2688,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Speed-Gro {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Speed-Gro {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2722,8 +2721,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Preserves_Jar {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Preserves_Jar {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2755,8 +2754,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Basic_Retaining_Soil {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Basic_Retaining_Soil {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2788,8 +2787,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Iron_Fence {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Iron_Fence {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2821,8 +2820,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Cheese_Press {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Cheese_Press {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2854,8 +2853,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Hardwood_Fence {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Hardwood_Fence {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2887,8 +2886,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Quality_Sprinkler {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Quality_Sprinkler {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2920,8 +2919,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Loom {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Loom {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2953,8 +2952,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Quality_Retaining_Soil {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Quality_Retaining_Soil {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -2986,8 +2985,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Oil_Maker {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Oil_Maker {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3019,8 +3018,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Keg {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Keg {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3052,8 +3051,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Deluxe_Speed-Gro {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Deluxe_Speed-Gro {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3085,8 +3084,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Seed_Maker {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Seed_Maker {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3118,8 +3117,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Iridium_Sprinkler {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Iridium_Sprinkler {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3151,8 +3150,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Quality_Fertilizer {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Quality_Fertilizer {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3184,8 +3183,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Wild_Seeds_Sp {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Wild_Seeds_Sp {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3217,8 +3216,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Field_Snack {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Field_Snack {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3250,8 +3249,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Survival_Burger {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Survival_Burger {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3283,8 +3282,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Tapper {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Tapper {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3316,8 +3315,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Charcoal_Kiln {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Charcoal_Kiln {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3349,8 +3348,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Wild_Seeds_Su {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Wild_Seeds_Su {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3382,8 +3381,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Lightning_Rod {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Lightning_Rod {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3415,8 +3414,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Wild_Seeds_Fa {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Wild_Seeds_Fa {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3448,8 +3447,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Warp_Totem_Beach {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Warp_Totem_Beach {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3481,8 +3480,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Wild_Seeds_Wi {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Wild_Seeds_Wi {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3514,8 +3513,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Warp_Totem_Mountains {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Warp_Totem_Mountains {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3547,8 +3546,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Warp_Totem_Farm {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Warp_Totem_Farm {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3580,8 +3579,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Rain_Totem {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Rain_Totem {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3613,8 +3612,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Cherry_Bomb {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Cherry_Bomb {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3646,8 +3645,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Staircase {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Staircase {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3679,8 +3678,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Miners_Treat {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Miners_Treat {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3712,8 +3711,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Iron_Bar {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Iron_Bar {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3745,8 +3744,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Bomb {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Bomb {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3778,8 +3777,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Gold_Bar {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Gold_Bar {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3811,8 +3810,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Mega_Bomb {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Mega_Bomb {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3844,8 +3843,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Crystalarium {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Crystalarium {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3878,8 +3877,8 @@ body {
   content: "Albacore"; }
   @media screen and (min-width: max-width) {
     .card-Albacore {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Albacore {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3912,8 +3911,8 @@ body {
   content: "Anchovy"; }
   @media screen and (min-width: max-width) {
     .card-Anchovy {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Anchovy {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3946,8 +3945,8 @@ body {
   content: "Bream"; }
   @media screen and (min-width: max-width) {
     .card-Bream {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Bream {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -3980,8 +3979,8 @@ body {
   content: "Bullhead"; }
   @media screen and (min-width: max-width) {
     .card-Bullhead {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Bullhead {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4014,8 +4013,8 @@ body {
   content: "Carp"; }
   @media screen and (min-width: max-width) {
     .card-Carp {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Carp {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4048,8 +4047,8 @@ body {
   content: "Catfish"; }
   @media screen and (min-width: max-width) {
     .card-Catfish {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Catfish {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4082,8 +4081,8 @@ body {
   content: "Chub"; }
   @media screen and (min-width: max-width) {
     .card-Chub {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Chub {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4116,8 +4115,8 @@ body {
   content: "Dorado"; }
   @media screen and (min-width: max-width) {
     .card-Dorado {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Dorado {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4150,8 +4149,8 @@ body {
   content: "Eel"; }
   @media screen and (min-width: max-width) {
     .card-Eel {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Eel {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4184,8 +4183,8 @@ body {
   content: "Ghostfish"; }
   @media screen and (min-width: max-width) {
     .card-Ghostfish {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Ghostfish {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4218,8 +4217,8 @@ body {
   content: "Halibut"; }
   @media screen and (min-width: max-width) {
     .card-Halibut {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Halibut {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4252,8 +4251,8 @@ body {
   content: "Herring"; }
   @media screen and (min-width: max-width) {
     .card-Herring {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Herring {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4286,8 +4285,8 @@ body {
   content: "Ice_Pip"; }
   @media screen and (min-width: max-width) {
     .card-Ice_Pip {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Ice_Pip {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4320,8 +4319,8 @@ body {
   content: "Largemouth_Bass"; }
   @media screen and (min-width: max-width) {
     .card-Largemouth_Bass {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Largemouth_Bass {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4354,8 +4353,8 @@ body {
   content: "Lava_Eel"; }
   @media screen and (min-width: max-width) {
     .card-Lava_Eel {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Lava_Eel {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4388,8 +4387,8 @@ body {
   content: "Lingcod"; }
   @media screen and (min-width: max-width) {
     .card-Lingcod {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Lingcod {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4422,8 +4421,8 @@ body {
   content: "Octopus"; }
   @media screen and (min-width: max-width) {
     .card-Octopus {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Octopus {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4456,8 +4455,8 @@ body {
   content: "Perch"; }
   @media screen and (min-width: max-width) {
     .card-Perch {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Perch {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4490,8 +4489,8 @@ body {
   content: "Pike"; }
   @media screen and (min-width: max-width) {
     .card-Pike {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Pike {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4524,8 +4523,8 @@ body {
   content: "Pufferfish"; }
   @media screen and (min-width: max-width) {
     .card-Pufferfish {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Pufferfish {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4558,8 +4557,8 @@ body {
   content: "Rainbow_Trout"; }
   @media screen and (min-width: max-width) {
     .card-Rainbow_Trout {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Rainbow_Trout {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4592,8 +4591,8 @@ body {
   content: "Red_Mullet"; }
   @media screen and (min-width: max-width) {
     .card-Red_Mullet {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Red_Mullet {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4626,8 +4625,8 @@ body {
   content: "Red_Snapper"; }
   @media screen and (min-width: max-width) {
     .card-Red_Snapper {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Red_Snapper {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4660,8 +4659,8 @@ body {
   content: "Salmon"; }
   @media screen and (min-width: max-width) {
     .card-Salmon {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Salmon {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4694,8 +4693,8 @@ body {
   content: "Sandfish"; }
   @media screen and (min-width: max-width) {
     .card-Sandfish {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Sandfish {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4728,8 +4727,8 @@ body {
   content: "Sardine"; }
   @media screen and (min-width: max-width) {
     .card-Sardine {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Sardine {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4762,8 +4761,8 @@ body {
   content: "Scorpion_Carp"; }
   @media screen and (min-width: max-width) {
     .card-Scorpion_Carp {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Scorpion_Carp {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4796,8 +4795,8 @@ body {
   content: "Sea_Cucumber"; }
   @media screen and (min-width: max-width) {
     .card-Sea_Cucumber {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Sea_Cucumber {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4830,8 +4829,8 @@ body {
   content: "Shad"; }
   @media screen and (min-width: max-width) {
     .card-Shad {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Shad {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4864,8 +4863,8 @@ body {
   content: "Slimejack"; }
   @media screen and (min-width: max-width) {
     .card-Slimejack {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Slimejack {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4898,8 +4897,8 @@ body {
   content: "Smallmouth_Bass"; }
   @media screen and (min-width: max-width) {
     .card-Smallmouth_Bass {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Smallmouth_Bass {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4932,8 +4931,8 @@ body {
   content: "Squid"; }
   @media screen and (min-width: max-width) {
     .card-Squid {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Squid {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -4966,8 +4965,8 @@ body {
   content: "Stonefish"; }
   @media screen and (min-width: max-width) {
     .card-Stonefish {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Stonefish {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5000,8 +4999,8 @@ body {
   content: "Sturgeon"; }
   @media screen and (min-width: max-width) {
     .card-Sturgeon {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Sturgeon {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5034,8 +5033,8 @@ body {
   content: "Sunfish"; }
   @media screen and (min-width: max-width) {
     .card-Sunfish {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Sunfish {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5068,8 +5067,8 @@ body {
   content: "Super_Cucumber"; }
   @media screen and (min-width: max-width) {
     .card-Super_Cucumber {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Super_Cucumber {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5102,8 +5101,8 @@ body {
   content: "Tiger_Trout"; }
   @media screen and (min-width: max-width) {
     .card-Tiger_Trout {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Tiger_Trout {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5136,8 +5135,8 @@ body {
   content: "Tilapia"; }
   @media screen and (min-width: max-width) {
     .card-Tilapia {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Tilapia {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5170,8 +5169,8 @@ body {
   content: "Tuna"; }
   @media screen and (min-width: max-width) {
     .card-Tuna {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Tuna {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5204,8 +5203,8 @@ body {
   content: "Void_Salmon"; }
   @media screen and (min-width: max-width) {
     .card-Void_Salmon {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Void_Salmon {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5238,8 +5237,8 @@ body {
   content: "Walleye"; }
   @media screen and (min-width: max-width) {
     .card-Walleye {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Walleye {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5272,8 +5271,8 @@ body {
   content: "Woodskip"; }
   @media screen and (min-width: max-width) {
     .card-Woodskip {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Woodskip {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5305,8 +5304,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Sturdy_Ring {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Sturdy_Ring {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5338,8 +5337,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Life_Elixir {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Life_Elixir {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5371,8 +5370,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Warrior_Ring {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Warrior_Ring {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5404,8 +5403,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Slime_Egg-Press {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Slime_Egg-Press {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5437,8 +5436,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Oil_of_Garlic {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Oil_of_Garlic {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5470,8 +5469,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Ring_of_Yoba {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Ring_of_Yoba {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5503,8 +5502,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Slime_Incubator {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Slime_Incubator {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5536,8 +5535,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Explosive_Ammo {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Explosive_Ammo {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
@@ -5569,8 +5568,8 @@ body {
   position: relative; }
   @media screen and (min-width: max-width) {
     .card-Iridium_Band {
-      width: 50vw; } }
-  @media screen and (min-width: 600px) {
+      width: 10vw; } }
+  @media screen and (min-width: 500px) {
     .card-Iridium_Band {
       width: 33vw; } }
   @media screen and (min-width: 1024px) {
